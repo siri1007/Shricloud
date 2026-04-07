@@ -627,16 +627,25 @@ Basic Hosting
                                 <Link href="about">Company</Link>
                               </li>
 
+<li>
+                                <Link href="contact">Contact Us</Link>
+                              </li>
 
-                              <li>
+
+ <li>
+    <Link href="/terms-of-service">Terms of Service</Link>
+  </li>
+
+
+                              {/* <li>
                                 <Link href="faq">Faq</Link>
-                              </li>
+                              </li> */}
 
 
 
-                              <li>
+                              {/* <li>
                                 <Link href="error">Error 404</Link>
-                              </li>
+                              </li> */}
 
 
 
@@ -646,20 +655,22 @@ Basic Hosting
 
 
   <li>
-    <Link href="/terms-of-service">Terms of Service</Link>
-  </li>
-
-
-  <li>
-    <Link href="/privacy-policy">Privacy Policy</Link>
-  </li>
+                             <Link href="/afi">Affiliate Policy</Link>
 
 
 
-
-                              <li>
-                                <Link href="support">Support</Link>
                               </li>
+
+ 
+
+ 
+
+
+
+
+                              {/* <li>
+                                <Link href="support">Support</Link>
+                              </li> */}
 
 
 
@@ -668,18 +679,12 @@ Basic Hosting
                                <Link href="/refund-policy">Refund Policy</Link>
                               </li>
 
-                              <li>
-                                <Link href="contact">Contact Us</Link>
-                              </li>
+                              
+ <li>
+    <Link href="/privacy-policy">Privacy Policy</Link>
+  </li>
 
-
-                                <li>
-                             <Link href="/afi">Affiliate Policy</Link>
-
-
-
-                              </li>
-
+                              
 
                             </ul>
                           </li>
@@ -746,3 +751,6 @@ Basic Hosting
 };
 
 export default Header;
+
+
+

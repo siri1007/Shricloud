@@ -7,7 +7,7 @@ const BannerCommon = ({ title }: any) => {
     <div
       className="breadcrumb-wrapper bg-cover"
       style={{
-        backgroundImage: "url(/img/breadcrumb-1.jpg)",
+        backgroundImage: "url(/img/hero/hero-bg-1.jpg)",
       }}
     >
       <div className="container">
@@ -31,14 +31,14 @@ const BannerCommon = ({ title }: any) => {
               <li>{title}</li>
             </ul>
           </div>
-          <div
+          {/* <div
             className="breadcrumb-image "
             data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="400"
           >
             <Image src={bread} alt="img" priority />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
