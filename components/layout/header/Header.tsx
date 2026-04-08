@@ -597,7 +597,7 @@ Basic Hosting
                           <li>
                             <Link href="domain">Domain</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="news">
                               News
                               <i className="fas fa-angle-down"></i>
@@ -613,7 +613,7 @@ Basic Hosting
                                 <Link href="news-details">News Details</Link>
                               </li>
                             </ul>
-                          </li>
+                          </li> */}
                           <li>
                             <Link href="#">
                               About

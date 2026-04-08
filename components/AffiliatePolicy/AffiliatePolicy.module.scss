@@ -1,12 +1,12 @@
 .container {
-  display: flex;
-  justify-content: center;
+  max-width: 1200px;
+  // margin: 0 0px 90px  80px;
+margin: 0 auto;
   padding: 40px 20px;
 }
 
 .content {
-  max-width: 900px;
-  width: 100%;
+  
   line-height: 1.8;
   color: #333;
 

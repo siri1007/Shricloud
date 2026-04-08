@@ -1,0 +1,45 @@
+.partnerMarquee {
+  width: 100%;
+  overflow: hidden;
+  background: #000000;
+  padding: 20px 0;
+  position: relative;
+
+  .marqueeTrack {
+    display: flex;
+    width: max-content;
+    animation: marqueeScroll 25s linear infinite;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+
+  .marqueeContent {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    img {
+      height: 65px;
+      width: auto;
+      object-fit: contain;
+      // opacity: 0.8;
+      transition: 0.3s;
+
+      &:hover {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

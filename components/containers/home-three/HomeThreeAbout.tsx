@@ -4,7 +4,7 @@ import Image from "next/image";
 import ModalVideo from "react-modal-video";
 import Counter from "../Counter";
 import one from "@/public/img/about/shape.png";
-import two from "@/public/img/about/01.jpg";
+import two from "@/public/img/about/01.png";
 import three from "@/public/img/about/02.png";
 import four from "@/public/img/about/video-img.jpg";
 
@@ -52,7 +52,7 @@ const HomeThreeAbout = () => {
                       data-aos-duration="800"
                       data-aos-delay="300"
                     >
-                      Choose a Website Hosting Partner Right Now.
+                    Your Trusted Cloud Hosting Partner
                     </h2>
                   </div>
                   <p
@@ -61,10 +61,8 @@ const HomeThreeAbout = () => {
                     data-aos-duration="800"
                     data-aos-delay="500"
                   >
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form, by injected humour, or randomised words which
-                    don&apos;t look even slightly believable.
+                    
+                    ShriCloud delivers fast, secure, and scalable hosting solutions tailored for modern websites and applications. With reliable uptime, expert support, and affordable plans, we help businesses and creators succeed online.
                   </p>
                   <div className="about-counter-items">
                     <div
@@ -93,7 +91,7 @@ const HomeThreeAbout = () => {
                         </span>
                         %
                       </h2>
-                      <h6>Success Case</h6>
+                      <h6>Uptime Guarantee</h6>
                     </div>
                     <div
                       className="video-thumb "

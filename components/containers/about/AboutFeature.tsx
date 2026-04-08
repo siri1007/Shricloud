@@ -4,6 +4,7 @@ import one from "@/public/img/hosting/icon-1.png";
 import two from "@/public/img/hosting/icon-3.png";
 import three from "@/public/img/gym-man.png";
 
+
 const AboutFeature = () => {
   return (
     <section className="feature-hosting-section fix section-padding section-bg">
@@ -21,7 +22,7 @@ const AboutFeature = () => {
                     data-aos-duration="800"
                     data-aos-delay="300"
                   >
-                    Advance features for the <br /> advanced user
+                    Advance features for the  advanced user
                   </h2>
                 </div>
                 <p
@@ -30,9 +31,7 @@ const AboutFeature = () => {
                   data-aos-duration="800"
                   data-aos-delay="500"
                 >
-                  Pellentesque varius mauris sit amet nisi tincidunt finibus
-                  Donec faucibus diam quis feugiat accumsan Integer molestie
-                  sapien ut ipsum fermentum feugiat Curabitur.
+                  ShriCloud delivers high-performance cloud hosting built for developers, businesses, and advanced users who need speed, flexibility, and full control. Our platform is optimized for scalability, security, and seamless deployment, ensuring your applications run smoothly at all times.
                 </p>
                 <div className="list-items">
                   <ul
@@ -46,7 +45,7 @@ const AboutFeature = () => {
                     </li>
                     <li>
                       <i className="far fa-check"></i>
-                      Web site Marketing Solutions
+                      One-Click App Installations
                     </li>
                   </ul>
                   <ul
