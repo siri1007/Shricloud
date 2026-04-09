@@ -20,7 +20,7 @@ import cloudlinux from "@/public/img/partners/cloudlinux.png";
 import DirectAdminLogo from "@/public/img/partners/DirectAdminLogo.png";
 const AboutTeam = () => {
   return (
-    <section className="team-section fix section-padding">
+   <section className={`team-section fix section-padding ${styles.blackBg}`}>
       <div className="container">
         <div className="section-title text-center">
           <span

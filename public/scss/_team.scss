@@ -304,11 +304,14 @@
   }
 }
 
+
+
 .team-section-details {
   .section-title-area {
     border-bottom: 1px solid $border-color;
     margin-bottom: 30px;
     padding-bottom: 30px;
+   
 
     @include breakpoint(max-md) {
       margin-bottom: 0;

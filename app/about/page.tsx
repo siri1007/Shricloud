@@ -19,6 +19,8 @@ const page = () => {
       <HomeThreeAbout />
       <AboutFeature />
       <AboutTeam />
+
+       <DataCenter />
       <HomeFourChooseTwo />
       
       <HomeFourTestimonial />
@@ -27,7 +29,7 @@ const page = () => {
 
       
 
-  <DataCenter />
+ 
 
       <Footer />
       <CustomCursor />
