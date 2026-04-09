@@ -30,7 +30,9 @@ import OffCanvas from "./OffCanvas";
 
 // import Link from "next/link";
 
-{/* <Link href="/affiliate">Affiliate Policy</Link> */}
+{
+  /* <Link href="/affiliate">Affiliate Policy</Link> */
+}
 
 const Header = () => {
   // search toggle
@@ -85,6 +87,8 @@ const Header = () => {
       window.removeEventListener("resize", handleResizeHeader);
     };
   }, []);
+  
+  
 
   return (
     <>
@@ -194,6 +198,205 @@ const Header = () => {
                               </li>
                             </ul>
                           </li>
+
+
+                         <li className="has-dropdown menu-thumb">
+                            <Link href="/">
+                              Hosting
+                              <i className="fas fa-angle-down"></i>
+                            </Link>
+                            <ul className="submenu has-homemenu has-menu-hosting">
+                              <li className="border-none">
+                                <div className="homemenu-items">
+                                  <div className="row">
+                                    <div className="col-lg-6">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={thirteen}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="share-hosting">
+                                              Premium Cloud
+                                            </Link>
+                                          </h6>
+                                          <p>Highest Selling Service</p>
+                                        </div>
+
+
+
+
+                                        
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="premium-cloud-hosting">
+                                              Premium-cloud- Cloud
+                                            </Link>
+                                          </h6>
+                                          <p>Highest Selling Service</p>
+                                        </div>
+
+
+
+                                      </div>
+                                    </div>
+                                    <div className="col-lg-6">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={fourteen}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="reseller-hosting">
+                                              Reseller Hosting
+                                            </Link>
+                                          </h6>
+                                          <p>Excellent Offer</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="col-lg-6">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={fifteen}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="dedicated-hosting">
+                                              Dedicated Hosting
+                                            </Link>
+                                          </h6>
+                                          <p>Flexible Plans</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="col-lg-6">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={sixteen}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="vps-hosting">
+                                              Basic Hosting
+                                            </Link>
+                                          </h6>
+                                          <p>Flexible Plans</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="col-lg-6">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={seventeen}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="wordpress-hosting">
+                                              Elie Cloud
+                                            </Link>
+                                          </h6>
+                                          <p>Best Provider</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="col-lg-6">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={eightteen}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="cloud-hosting">
+                                              Cloud vps
+                                            </Link>
+                                          </h6>
+                                          <p>Worldwide Data Center</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </li>
+
+
+
+ {/* Hosting Mobile menu */}
+  <li className="has-dropdown active d-xl-none">
+                            <Link href="team" className="border-none">
+                              Hosting
+                              <i className="fas fa-angle-down"></i>
+                            </Link>
+                            <ul className="submenu">
+                              <li>
+                                <Link href="share-hosting">Share Hosting</Link>
+                              </li>
+
+
+                               <li>
+                                <Link href="premium-cloud-hosting">premium-cloud-hosting</Link>
+                              </li>
+                              
+                              <li>
+                                <Link href="reseller-hosting">
+                                  Reseller Hosting
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="dedicated-hosting">
+                                  Dedicated Hosting
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="vps-hosting">Basic Hosting</Link>
+                              </li>
+                              <li>
+                                <Link href="wordpress-hosting">
+                                  WordPress Hosting
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="cloud-hosting">Cloud Hosting</Link>
+                              </li>
+                            </ul>
+                          </li>
+
+                          {/* Hosting Mobile menu */}
+
+
+  <li>
+                            <Link href="domain">Domain</Link>
+                          </li>
+
+
+
                           <li className="has-dropdown menu-thumb">
                             <Link href="news">
                               All Services
@@ -214,9 +417,9 @@ const Header = () => {
                                         </div>
                                         <div className="content">
                                           <h6>
-                                            <Link href="about">Premium Cloud
-
-</Link>
+                                            <Link href="about">
+                                              Premium Cloud
+                                            </Link>
                                           </h6>
                                           <p>Our Best Selling Service</p>
                                         </div>
@@ -230,12 +433,10 @@ const Header = () => {
                                         <div className="content">
                                           <h6>
                                             <Link href="black-friday">
-                                         
-Elite Cloud
+                                              Elite Cloud
                                             </Link>
                                           </h6>
-                                          <p>
-For High Traffic Websites</p>
+                                          <p>For High Traffic Websites</p>
                                         </div>
                                       </div>
                                     </div>
@@ -251,10 +452,7 @@ For High Traffic Websites</p>
                                         <div className="content">
                                           <h6>
                                             <Link href="affiliate">
-                                            
-Cloud VPS
-
-
+                                              Cloud VPS
                                             </Link>
                                           </h6>
                                           <p>Private VPS Server</p>
@@ -272,12 +470,11 @@ Cloud VPS
                                         </div>
                                         <div className="content">
                                           <h6>
-                                            <Link href="pricing">Reseller Cloud</Link>
+                                            <Link href="pricing">
+                                              Reseller Cloud
+                                            </Link>
                                           </h6>
-                                          <p>
-
-
-Start hosting business</p>
+                                          <p>Start hosting business</p>
                                         </div>
                                       </div>
                                     </div>
@@ -293,10 +490,7 @@ Start hosting business</p>
                                         <div className="content">
                                           <h6>
                                             <Link href="pricing-2">
-                                              
-Dedicated Servers
-
-
+                                              Dedicated Servers
                                             </Link>
                                           </h6>
                                           <p>Bare Metal Servers</p>
@@ -315,10 +509,7 @@ Dedicated Servers
                                         <div className="content">
                                           <h6>
                                             <Link href="data-center">
-                                             
-Basic Hosting
-
-
+                                              Basic Hosting
                                             </Link>
                                           </h6>
                                           <p>Beginners Hosting</p>
@@ -385,7 +576,9 @@ Basic Hosting
                                         </div>
                                         <div className="content">
                                           <h6>
-                                            <Link href="error">Error Pages</Link>
+                                            <Link href="error">
+                                              Error Pages
+                                            </Link>
                                           </h6>
                                           <p>Back to Home</p>
                                         </div>
@@ -396,6 +589,13 @@ Basic Hosting
                               </li>
                             </ul>
                           </li>
+
+
+
+{/*   All Services Mobile menu */}
+
+
+
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
                               Pages
@@ -434,7 +634,12 @@ Basic Hosting
                               </li>
                             </ul>
                           </li>
-                          <li className="has-dropdown menu-thumb">
+                          
+
+{/*   All Services Mobile menu  End*/}
+
+
+                          {/* <li className="has-dropdown menu-thumb">
                             <Link href="/">
                               Hosting
                               <i className="fas fa-angle-down"></i>
@@ -455,7 +660,7 @@ Basic Hosting
                                         <div className="content">
                                           <h6>
                                             <Link href="share-hosting">
-                                             Premium Cloud
+                                              Premium Cloud
                                             </Link>
                                           </h6>
                                           <p>Highest Selling Service</p>
@@ -493,7 +698,7 @@ Basic Hosting
                                         <div className="content">
                                           <h6>
                                             <Link href="dedicated-hosting">
-                                            Dedicated  Hosting
+                                              Dedicated Hosting
                                             </Link>
                                           </h6>
                                           <p>Flexible Plans</p>
@@ -531,7 +736,7 @@ Basic Hosting
                                         <div className="content">
                                           <h6>
                                             <Link href="wordpress-hosting">
-                                              Elie Cloud 
+                                              Elie Cloud
                                             </Link>
                                           </h6>
                                           <p>Best Provider</p>
@@ -561,8 +766,9 @@ Basic Hosting
                                 </div>
                               </li>
                             </ul>
-                          </li>
-                          <li className="has-dropdown active d-xl-none">
+                          </li> */}
+
+                          {/* <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
                               Hosting
                               <i className="fas fa-angle-down"></i>
@@ -593,10 +799,12 @@ Basic Hosting
                                 <Link href="cloud-hosting">Cloud Hosting</Link>
                               </li>
                             </ul>
-                          </li>
-                          <li>
+                          </li> */}
+
+
+                          {/* <li>
                             <Link href="domain">Domain</Link>
-                          </li>
+                          </li> */}
                           {/* <li>
                             <Link href="news">
                               News
@@ -614,6 +822,70 @@ Basic Hosting
                               </li>
                             </ul>
                           </li> */}
+
+
+
+<li className="has-dropdown menu-thumb support-menu">
+  <Link href="#">
+    Support
+    <i className="fas fa-angle-down"></i>
+  </Link>
+
+  <ul className="submenu support-submenu">
+    <li>
+      <a href="https://shricloud.com/kb/"
+      style={{ display: "flex", alignItems: "center", gap: "12px" }} >
+
+        <i className="fas fa-book"></i>
+        <span>Knowledge Base</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=1"
+       style={{ display: "flex", alignItems: "center", gap: "12px" }} >
+        <i className="fas fa-tools"></i>
+        <span>Technical</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://my.shricloud.com/index.php?/tickets/new/"  style={{ display: "flex", alignItems: "center", gap: "12px" }} >
+        <i className="fas fa-shopping-cart"></i>
+        <span>Sales</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=2" style={{ display: "flex", alignItems: "center", gap: "12px" }} >
+        <i className="fas fa-exchange-alt"></i>
+        <span>Migration</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=3 " style={{ display: "flex", alignItems: "center", gap: "12px" }} >
+        <i className="fas fa-file-invoice-dollar"></i>
+        <span>Billing</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=5" style={{ display: "flex", alignItems: "center", gap: "12px" }} >
+        <i className="fas fa-users"></i>
+        <span>Affiliate</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.shricloud.com/blog/" style={{ display: "flex", alignItems: "center", gap: "12px" }} >
+        <i className="fas fa-blog"></i>
+        <span>Blog</span>
+      </a>
+    </li>
+  </ul>
+</li>
+
                           <li>
                             <Link href="#">
                               About
@@ -621,71 +893,49 @@ Basic Hosting
                             </Link>
 
                             <ul className="submenu">
-
-
                               <li>
                                 <Link href="about">Company</Link>
                               </li>
 
-<li>
+                              <li>
                                 <Link href="contact">Contact Us</Link>
                               </li>
 
-
- <li>
-    <Link href="/terms-of-service">Terms of Service</Link>
-  </li>
-
+                              <li>
+                                <Link href="/terms-of-service">
+                                  Terms of Service
+                                </Link>
+                              </li>
 
                               {/* <li>
                                 <Link href="faq">Faq</Link>
                               </li> */}
 
-
-
                               {/* <li>
                                 <Link href="error">Error 404</Link>
                               </li> */}
 
-
-
-  <li>
-<Link href="/cookie-policy">Cookie Policy</Link>
-  </li>
-
-
-  <li>
-                             <Link href="/afi">Affiliate Policy</Link>
-
-
-
+                              <li>
+                                <Link href="/cookie-policy">Cookie Policy</Link>
                               </li>
 
- 
-
- 
-
-
-
+                              <li>
+                                <Link href="/afi">Affiliate Policy</Link>
+                              </li>
 
                               {/* <li>
                                 <Link href="support">Support</Link>
                               </li> */}
 
-
-
-
- <li>
-                               <Link href="/refund-policy">Refund Policy</Link>
+                              <li>
+                                <Link href="/refund-policy">Refund Policy</Link>
                               </li>
 
-                              
- <li>
-    <Link href="/privacy-policy">Privacy Policy</Link>
-  </li>
-
-                              
-
+                              <li>
+                                <Link href="/privacy-policy">
+                                  Privacy Policy
+                                </Link>
+                              </li>
                             </ul>
                           </li>
                         </ul>
@@ -708,7 +958,7 @@ Basic Hosting
                   </div>
                   <div className="header-button">
                     <Link href="contact" className="theme-btn">
-                      Client Area 
+                      Client Area
                       <i className="fa-solid fa-arrow-right-long"></i>
                     </Link>
                   </div>
@@ -751,6 +1001,3 @@ Basic Hosting
 };
 
 export default Header;
-
-
-
