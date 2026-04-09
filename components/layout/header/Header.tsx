@@ -221,7 +221,7 @@ const Header = () => {
 
                                         <div className="content">
                                           <h6>
-                                            <Link href="share-hosting">
+                                            <Link href="premium-cloud-hosting">
                                               Premium Cloud
                                             </Link>
                                           </h6>
@@ -232,14 +232,14 @@ const Header = () => {
 
 
                                         
-                                        <div className="content">
+                                        {/* <div className="content">
                                           <h6>
                                             <Link href="premium-cloud-hosting">
                                               Premium-cloud- Cloud
                                             </Link>
                                           </h6>
                                           <p>Highest Selling Service</p>
-                                        </div>
+                                        </div> */}
 
 
 

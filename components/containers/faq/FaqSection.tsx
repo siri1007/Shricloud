@@ -56,7 +56,7 @@ const FaqSection = () => {
                           aria-expanded="true"
                           aria-controls="faq1"
                         >
-                          How to Install WordPress theme on cPanel?
+                          What Makes Premium Cloud Hosting Different from Shared Hosting?
                         </button>
                       </h5>
                       <div
@@ -67,10 +67,7 @@ const FaqSection = () => {
                         data-bs-parent="#accordion"
                       >
                         <div className="accordion-body">
-                          Nullam faucibus eleifend mi eu varius. Integer vel
-                          tincidunt massa, quis semper odio. Mauris et mollis
-                          quam. Nullam fringilla erat id ante commodo sodales.
-                          In maximus ultrices euismod. Vivamus porta justo ex.
+                          Premium Cloud Hosting offers superior performance and security compared to regular shared hosting. It’s built on cloud infrastructure, incorporates advanced security standards, and performs up to 30 times faster than shared hosting.
                         </div>
                       </div>
                     </div>
@@ -93,7 +90,7 @@ const FaqSection = () => {
                           aria-expanded="false"
                           aria-controls="faq2"
                         >
-                          Do you have Custom Hosting Service?
+                        Why Was Premium Cloud Introduced When Shared Hosting Is Cheaper?
                         </button>
                       </h5>
                       <div
@@ -104,10 +101,7 @@ const FaqSection = () => {
                         data-bs-parent="#accordion"
                       >
                         <div className="accordion-body">
-                          Nullam faucibus eleifend mi eu varius. Integer vel
-                          tincidunt massa, quis semper odio. Mauris et mollis
-                          quam. Nullam fringilla erat id ante commodo sodales.
-                          In maximus ultrices euismod. Vivamus porta justo ex.
+                         While shared hosting can be cheaper, it no longer meets the demands of performance and security. Premium Cloud was developed to provide a faster, more secure, and robust service, bridging the gap between cost-efficiency and high-quality hosting.
                         </div>
                       </div>
                     </div>
@@ -130,7 +124,7 @@ const FaqSection = () => {
                           aria-expanded="false"
                           aria-controls="faq3"
                         >
-                          Better Security And Faster Server?
+                         What Benefits Does Premium Cloud Hosting Offer?
                         </button>
                       </h5>
                       <div
@@ -141,18 +135,16 @@ const FaqSection = () => {
                         data-bs-parent="#accordion"
                       >
                         <div className="accordion-body">
-                          There are many variations of passages Lorem Ipsum but
-                          the majority have suffered alteration in some form, by
-                          injected humor.
+                         Premium Cloud Hosting is powered by advanced technologies like CloudLinux, CageFileSystem, LiteSpeed webserver, PHP Imunify, and more, which are rarely found at such affordable pricing. It offers numerous benefits, including enhanced speed, performance, and security, making it a superior choice over regular shared hosting.
                         </div>
                       </div>
                     </div>
-                    <div
+                    {/* <div
                       className="accordion-item "
                       data-aos="fade-up"
                       data-aos-duration="800"
                       data-aos-delay="700"
-                    >
+                      >
                       <h5 className="accordion-header">
                         <button
                           className={
@@ -183,7 +175,9 @@ const FaqSection = () => {
                           In maximus ultrices euismod. Vivamus porta justo ex.
                         </div>
                       </div>
-                    </div>
+                    </div> */}
+
+
                   </div>
                 </div>
               </div>

@@ -37,14 +37,15 @@ const BannerShared = () => {
                 data-aos-duration="800"
               >
                 <Image src={five} alt="img" priority className="me-2" />
-                Shared Hosing Plan - 12 months for $99/month
+               
+Premium Web Hosting in India.
               </span>
               <h1
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                We Provide Best Shared Web Hosting
+              Energize your website with limitless and high-speed hosting.
               </h1>
               <div
                 className="hero-list-items "
@@ -55,7 +56,7 @@ const BannerShared = () => {
                 <ul className="hero-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    Lifetime Free Wildcard SLL certificate
+                    Scalable Plans for Growing Websites
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
@@ -65,11 +66,11 @@ const BannerShared = () => {
                 <ul className="hero-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    Free Domain 2 Years Billing
+                   Automated Daily Backups
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    30-day money back guarantee
+                   99.99% Uptime Guarantee
                   </li>
                 </ul>
               </div>

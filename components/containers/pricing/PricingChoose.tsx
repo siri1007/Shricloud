@@ -17,7 +17,7 @@ const PricingChoose = () => {
             Why Choose Us
           </span>
           <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            Why Choose Hostech
+            Why Choose Shricloud
           </h2>
         </div>
         <div className="choose-us-top-inner">
@@ -48,10 +48,9 @@ const PricingChoose = () => {
                 <Image src={one} alt="img" priority />
               </div>
               <div className="content">
-                <h3>Safe and Secured</h3>
+                <h3>Affordability</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                 We provide premium web hosting that’s easy on your budget without compromising on quality, ensuring you get the best value.
                 </p>
               </div>
             </div>
@@ -67,10 +66,9 @@ const PricingChoose = () => {
                 <Image src={two} alt="img" priority />
               </div>
               <div className="content">
-                <h3>Money-Back Guarantee</h3>
+                <h3>Speed</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                 Expect top-notch speed & unwavering reliability with our premium web hosting, keeping your website always accessible.
                 </p>
               </div>
             </div>
@@ -86,10 +84,9 @@ const PricingChoose = () => {
                 <Image src={three} alt="img" priority />
               </div>
               <div className="content">
-                <h3>Safe and Secured</h3>
+                <h3>Free Backups</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                 We take a full backup of your account every 24 hours, stored offsite for 30 days, counting to total 30 backups a month.
                 </p>
               </div>
             </div>
@@ -105,10 +102,9 @@ const PricingChoose = () => {
                 <Image src={four} alt="img" priority />
               </div>
               <div className="content">
-                <h3>Dedicated Support</h3>
+                <h3>Safe & Secure</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+               Your website’s safety is our priority. We employ advanced security to protect your data and provide peace of mind.
                 </p>
               </div>
             </div>
