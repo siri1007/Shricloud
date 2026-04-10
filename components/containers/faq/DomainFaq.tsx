@@ -62,7 +62,7 @@ const DomainFaq = () => {
                         data-bs-parent="#accordion"
                       >
                         <div className="accordion-body">
-                         A domain name is like your house address. It is how visitors will be able to locate your website on the internet. Sitecountry.com, like Google.com and Facebook.com, is a domain name. Some popular domain extensions (TLDs) are ".com,", ".in", ".net," or ".org.", etc.
+                         A domain name is like your house address. It is how visitors will be able to locate your website on the internet. Sitecountry.com, like Google.com and Facebook.com, is a domain name. {"Some popular domain extensions (TLDs) are \".com,\", \".in\", \".net,\" or \".org.\", etc."}
                         </div>
                       </div>
                     </div>
