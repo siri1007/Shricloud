@@ -405,8 +405,10 @@ const Header = () => {
                             <ul className="submenu has-homemenu">
                               <li className="border-none">
                                 <div className="homemenu-items">
-                                  <div className="row">
-                                    <div className="col-lg-4">
+                                  <div  className="row">
+                                    
+                                    
+<div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
@@ -529,6 +531,10 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
+                                    
+
+
+
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -546,6 +552,9 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
+                                    
+                                    
+{/*                                     
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -555,6 +564,8 @@ const Header = () => {
                                             priority
                                           />
                                         </div>
+
+
                                         <div className="content">
                                           <h6>
                                             <Link href="team-details">
@@ -564,7 +575,10 @@ const Header = () => {
                                           <p>Experts Member</p>
                                         </div>
                                       </div>
-                                    </div>
+                                    </div> */}
+
+
+
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">

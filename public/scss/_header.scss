@@ -112,9 +112,14 @@
             color: $theme-color-2 !important;
           }
         }
+
+        
         .submenu {
           position: absolute;
+          // border: 2px solid #d22121;
           top: 100%;
+        // right: 60%;
+        margin-left: -100px;
           inset-inline-start: 0;
           min-width: 240px;
           background: $white;

@@ -7,6 +7,8 @@ import four from "@/public/img/support/account.png";
 
 import Link from "next/link";
 
+
+
 const features = [
   {
     img: one,
@@ -58,15 +60,14 @@ const ChooseUs = () => {
         <div className="section-title text-center">
           <span
             className="style-border "
-            data-aos="fade-up"
-            data-aos-duration="800"
-          >
+            // data-aos-duration="800"
+             >
             our Support
           </span>
-          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <h2 >
             our Premium Support
           </h2>
-          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+          <p >
             We’re here for you—reach out anytime! 👍
           </p>
         </div>
@@ -208,9 +209,9 @@ const ChooseUs = () => {
     <div
       key={index}
       className="col-lg-4 col-md-6"
-      data-aos="fade-up"
-      data-aos-duration="800"
-      data-aos-delay={200 + index * 200}
+      // data-aos="fade-up"
+      // data-aos-duration="800"
+      // data-aos-delay={200 + index * 200}
     >
       <Link href={item.link} style={{ textDecoration: "none" }}>
         <div className="choose-us-card-items" style={{ cursor: "pointer" }}>
