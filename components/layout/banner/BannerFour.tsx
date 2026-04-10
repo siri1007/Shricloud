@@ -22,26 +22,18 @@ const BannerFour = () => {
             <div className="hero-domain-wrapper">
               <h1
                 className="text-white "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
               >
-                Get Fastest Domain Up to 60% Discount
+                Search and Buy a Domain
+
               </h1>
               <h6
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="500"
               >
-                Unlimited storage, unmetered bandwidth, unbeatable hosting. This
-                gator&apos;s got ya covered.
+               
+Find the right domain name.
               </h6>
               <form
                 action="#"
                 className="domain-input-form "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="700"
               >
                 <div className="domain-input">
                   <input type="text" placeholder="domain.com" />
@@ -51,9 +43,18 @@ const BannerFour = () => {
                   <div className="select-area">
                     <select name="cate" className="category">
                       <option value="1">.com</option>
+                      <option value="1">.in</option>
+                      <option value="1">.co</option>
                       <option value="1">.net</option>
+                      <option value="1">.org</option>
+                      <option value="1">.club</option>
                       <option value="1">.info</option>
-                      <option value="1">.store</option>
+                      <option value="1">.xyz</option>
+                      <option value="1">.io</option>
+                      <option value="1">.us</option>
+                        <option value="1">.uk</option>
+                       <option value="1">.foundation</option>
+                        <option value="1">.academy</option>
                     </select>
                   </div>
                 </div>

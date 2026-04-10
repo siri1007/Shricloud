@@ -8,39 +8,42 @@ import six from "@/public/img/domain/pro.png";
 import seven from "@/public/img/domain/xyz.png";
 import eight from "@/public/img/domain/top.png";
 
+         const domains = [
+  ".com", ".in", ".co", ".net", ".org",
+  ".club", ".info", ".xyz", ".io",
+  ".us", ".uk", ".foundation", ".academy"
+];
+
+
+
 const DomainList = () => {
   return (
     <section className="domain-list-section fix section-padding pt-0">
       <div className="container">
         <div className="section-title text-center pb-md-3">
-          <span
+          {/* <span
             className="style-border "
             data-aos="fade-up"
             data-aos-duration="800"
           >
             Domains list
-          </span>
-          <h2
-            className="mb-3 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="300"
-          >
-            Top Domains Price List
-          </h2>
-          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+          </span> */}
+         <h2 className="mb-3 mt-5">
+  Top Domains Price List
+</h2>
+          
+          {/* <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
             Aliquam viverra accumsan lectus in dignissim ante interdum eu Sed
             odio massa
-          </p>
+          </p> */}
+
         </div>
         <div className="row g-0">
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
+           
           >
-            <div className="domain-list-items">
+            {/* <div className="domain-list-items">
               <h6 className="top-text">Name</h6>
               <ul>
                 <li className="border-none">
@@ -71,13 +74,28 @@ const DomainList = () => {
                   <Image src={eight} alt="img" priority />
                 </li>
               </ul>
-            </div>
+            </div> */}
+
+
+   
+
+<div className="domain-list-items">
+  <h6 className="top-text">Name</h6>
+  <ul>
+    <li className="border-none">
+      <span></span>
+    </li>
+    {domains.map((domain, index) => (
+      <li key={index}>{domain}</li>
+    ))}
+  </ul>
+</div>
+
+
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
+            
           >
             <div className="domain-list-items">
               <h6 className="top-text">Register</h6>
@@ -86,31 +104,37 @@ const DomainList = () => {
                   <span></span>
                 </li>
                 <li className="text-center style-2">
-                  $19.95 <del>$23.90</del>
+                ₹1,099.00 INR
                 </li>
                 <li className="text-center style-2">
-                  $10.95 <del>$18.90</del>
+                  ₹699.00 INR
                 </li>
                 <li className="text-center style-2">
-                  $15.95 <del>$23.90</del>
+                ₹999.00 INR
                 </li>
-                <li className="text-center style-2">$19.95</li>
+                <li className="text-center style-2">₹999.00 INR</li>
                 <li className="text-center style-2">
-                  $18.95 <del>$23.90</del>
+                 ₹899.00 INR
                 </li>
-                <li className="text-center style-2">$19.95</li>
+                <li className="text-center style-2">₹499.00 INR</li>
                 <li className="text-center style-2">
-                  $12.95 <del>$23.90</del>
+                 ₹499.00 INR
                 </li>
-                <li className="text-center style-2">$9.95</li>
+                <li className="text-center style-2">₹299.00 INR</li>
+                <li className="text-center style-2">₹3,899.00 INR</li>
+                <li className="text-center style-2">₹499.00  INR</li>
+                <li className="text-center style-2">₹699.00 INR</li>
+ <li className="text-center style-2"> ₹1,399.00 INR</li>
+  <li className="text-center style-2"> ₹1,499.00 INR</li>
+
+
+               
               </ul>
             </div>
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="600"
+           
           >
             <div className="domain-list-items">
               <h6 className="top-text">Transfer</h6>
@@ -118,22 +142,34 @@ const DomainList = () => {
                 <li className="border-none">
                   <span></span>
                 </li>
-                <li className="text-center style-2">$18.99</li>
-                <li className="text-center style-2">$18.99</li>
-                <li className="text-center style-2">$18.99</li>
-                <li className="text-center style-2">$18.99</li>
-                <li className="text-center style-2">$18.99</li>
-                <li className="text-center style-2">$18.99</li>
-                <li className="text-center style-2">$18.99</li>
-                <li className="text-center style-2">$18.99</li>
+                <li className="text-center style-2">₹999.00 INR</li>
+                <li className="text-center style-2">₹699.00 INR</li>
+                <li className="text-center style-2">₹999.00 INR</li>
+                <li className="text-center style-2">₹1,099.00 INR</li>
+                <li className="text-center style-2">₹899.00 INR</li>
+                <li className="text-center style-2">₹1,299.00 INR
+</li>
+                <li className="text-center style-2">₹1,899.00 INR</li>
+                <li className="text-center style-2">₹999.00 INR</li>
+
+                <li className="text-center style-2">₹3899.00 INR</li>
+
+
+                <li className="text-center style-2">₹799.00 INR</li>
+
+
+                <li className="text-center style-2">₹699.00 INR</li><li className="text-center style-2">₹2199.00 INR</li>
+
+
+                <li className="text-center style-2">₹3299.00 INR</li>
+
+               
               </ul>
             </div>
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="800"
+            
           >
             <div className="domain-list-items">
               <h6 className="top-text">Renew</h6>
@@ -141,14 +177,21 @@ const DomainList = () => {
                 <li className="border-none">
                   <span></span>
                 </li>
-                <li className="text-center style-2">$29.95</li>
-                <li className="text-center style-2">$29.95</li>
-                <li className="text-center style-2">$29.95</li>
-                <li className="text-center style-2">$29.95</li>
-                <li className="text-center style-2">$29.95</li>
-                <li className="text-center style-2">$29.95</li>
-                <li className="text-center style-2">$29.95</li>
-                <li className="text-center style-2">$29.95</li>
+                <li className="text-center style-2">₹1,099.00 INR</li>
+                <li className="text-center style-2">₹799.00 INR</li>
+                <li className="text-center style-2">₹999.00 INR</li>
+                <li className="text-center style-2">₹1299.00 INR</li>
+                <li className="text-center style-2">₹999.00 INR</li>
+                <li className="text-center style-2">₹1299.00 INR</li>
+                <li className="text-center style-2">₹1999.00 INR</li>
+                <li className="text-center style-2">₹1,099.00 INR</li>
+                <li className="text-center style-2">₹3899.00 INR</li>
+                <li className="text-center style-2">₹799.00 INR</li>
+                <li className="text-center style-2">₹699.00 INR</li>
+<li className="text-center style-2">₹2199.00 INR</li>
+<li className="text-center style-2">₹3899.00 INR</li>
+
+
               </ul>
             </div>
           </div>
