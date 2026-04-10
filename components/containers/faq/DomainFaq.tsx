@@ -115,7 +115,7 @@ const DomainFaq = () => {
                           aria-expanded="false"
                           aria-controls="faq3"
                         >
-                       How i can register a domain name for free?
+                      How can I register a domain name for free?
 
                         </button>
                       </h5>
@@ -157,12 +157,12 @@ const DomainFaq = () => {
                       <div
                         id="faq4"
                         className={`accordion-collapse collapse${
-                          faq === 2 ? " show " : ""
+                          faq === 3 ? " show " : ""
                         }`}
                         data-bs-parent="#accordion"
                       >
                         <div className="accordion-body">
-                          When you register a domain, your personal contact information (such as your name, address, email, and phone number) is typically added to the WHOIS database, which is a public directory of domain name registrants. If you are concerned about your privacy and don't want your personal information to be publicly available, you should consider using domain privacy protection. SiteCountry offer this feature free with every eligible domain name.
+                          When you register a domain, your personal contact information (such as your name, address, email, and phone number) is typically added to the WHOIS database, which is a public directory of domain name registrants. If you are concerned about your privacy and don&apos;t want your personal information to be publicly available, you should consider using domain privacy protection. SiteCountry offer this feature free with every eligible domain name.
                         </div>
                       </div>
                     </div> 
