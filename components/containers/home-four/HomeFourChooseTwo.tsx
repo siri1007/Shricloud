@@ -16,24 +16,19 @@ const HomeFourChooseTwo = () => {
         <div className="section-title text-center">
           <span
             className="style-border-white text-white "
-            data-aos="fade-up"
-            data-aos-duration="800"
+          
           >
             Why choose uS
           </span>
           <h2
             className="mb-3 text-white "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="300"
+          
           >
             Why Choose Hostech
           </h2>
           <p
             className="text-white "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="500"
+           
           >
             Aliquam viverra accumsan lectus in dignissim ante interdum eu Sed
             odio massa{" "}

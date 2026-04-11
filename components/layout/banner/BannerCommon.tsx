@@ -13,14 +13,12 @@ const BannerCommon = ({ title }: any) => {
       <div className="container">
         <div className="page-heading">
           <div className="page-header-left">
-            <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+            <h1 >
               {title}
             </h1>
             <ul
               className="breadcrumb-items "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="500"
+              
             >
               <li>
                 <Link href="/">Home</Link>

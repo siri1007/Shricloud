@@ -25,16 +25,12 @@ const HomeThreeAbout = () => {
                   </div>
                   <div
                     className="about-image-1"
-                    data-aos="fade-left"
-                    data-aos-duration="800"
-                    data-aos-delay="300"
+                    
                   >
                     <Image src={two} alt="img" priority />
                     <div
                       className="about-image-2 "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="500"
+                     
                     >
                       <Image src={three} alt="img" priority />
                     </div>
@@ -44,22 +40,18 @@ const HomeThreeAbout = () => {
               <div className="col-lg-6">
                 <div className="about-content">
                   <div className="section-title">
-                    <span data-aos="fade-up" data-aos-duration="800">
+                    <span>
                       ABOUT US
                     </span>
                     <h2
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="300"
+                      
                     >
                     Your Trusted Cloud Hosting Partner
                     </h2>
                   </div>
                   <p
                     className="mt-3 mt-md-0 "
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="500"
+                   
                   >
                     
                     ShriCloud delivers fast, secure, and scalable hosting solutions tailored for modern websites and applications. With reliable uptime, expert support, and affordable plans, we help businesses and creators succeed online.
@@ -67,9 +59,7 @@ const HomeThreeAbout = () => {
                   <div className="about-counter-items">
                     <div
                       className="counter-items "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="300"
+                    
                     >
                       <h2>
                         <span className="count">
@@ -81,9 +71,7 @@ const HomeThreeAbout = () => {
                     </div>
                     <div
                       className="counter-items ps-0 "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="500"
+                     
                     >
                       <h2>
                         <span className="count">
@@ -95,16 +83,13 @@ const HomeThreeAbout = () => {
                     </div>
                     <div
                       className="video-thumb "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="700"
+                     
                     >
                       <Image src={four} alt="video-img" />
                       <div className="video-box">
                         <span
                           className="button-text "
-                          data-aos="fade-up"
-                          data-aos-duration="800"
+                        
                         >
                           <a
                             onClick={() => setOpen(true)}
