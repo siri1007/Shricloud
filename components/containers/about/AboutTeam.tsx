@@ -25,20 +25,17 @@ const AboutTeam = () => {
         <div className="section-title text-center">
           <span
             className="style-border "
-            data-aos="fade-up"
-            data-aos-duration="800"
+           
           >
           partnership
           </span>
           <h2
             className="mb-3 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="300"
+           
           >
             Meet our partners
           </h2>
-          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+          <p >
          Our company was founded in 2020. We work daily to become better and we are ready to share best practices.
           </p>
         </div>

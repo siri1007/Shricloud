@@ -14,30 +14,24 @@ const AboutFeature = () => {
             <div className="col-xl-5 col-lg-6">
               <div className="feature-hosting-content">
                 <div className="section-title">
-                  <span data-aos="fade-up" data-aos-duration="800">
+                  <span >
                     Best hosting
                   </span>
                   <h2
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="300"
+                   
                   >
                     Advance features for the  advanced user
                   </h2>
                 </div>
                 <p
                   className="mt-3 mt-md-0 "
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="500"
+                  
                 >
                   ShriCloud delivers high-performance cloud hosting built for developers, businesses, and advanced users who need speed, flexibility, and full control. Our platform is optimized for scalability, security, and seamless deployment, ensuring your applications run smoothly at all times.
                 </p>
                 <div className="list-items">
                   <ul
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="300"
+                 
                   >
                     <li>
                       <i className="far fa-check"></i>
@@ -66,9 +60,7 @@ const AboutFeature = () => {
                 <Link
                   href="about"
                   className="theme-btn "
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="500"
+                 
                 >
                   Explore More <i className="fas fa-long-arrow-alt-right"></i>
                 </Link>
@@ -76,9 +68,7 @@ const AboutFeature = () => {
             </div>
             <div
               className="col-xl-6 col-lg-6 "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="400"
+             
             >
               <div className="feature-hosting-image-2">
                 <div className="icon-box-1">

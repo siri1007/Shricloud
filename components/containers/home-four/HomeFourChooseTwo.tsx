@@ -36,16 +36,16 @@ const HomeFourChooseTwo = () => {
         </div>
         <div className="choose-us-top-inner style-2">
           <ul>
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <li >
               Step One
             </li>
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+            <li>
               Step Two
             </li>
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+            <li>
               Step Three
             </li>
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
+            <li>
               Step Four
             </li>
           </ul>
@@ -53,9 +53,6 @@ const HomeFourChooseTwo = () => {
         <div className="row">
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
           >
             <div className="choose-us-card-items style-2">
               <div className="icon">
@@ -72,9 +69,6 @@ const HomeFourChooseTwo = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
           >
             <div className="choose-us-card-items style-2">
               <div className="icon">
@@ -91,9 +85,6 @@ const HomeFourChooseTwo = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="600"
           >
             <div className="choose-us-card-items style-2">
               <div className="icon">
@@ -110,9 +101,6 @@ const HomeFourChooseTwo = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="800"
           >
             <div className="choose-us-card-items style-2">
               <div className="icon">
