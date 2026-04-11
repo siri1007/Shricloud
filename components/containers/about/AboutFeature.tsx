@@ -43,9 +43,7 @@ const AboutFeature = () => {
                     </li>
                   </ul>
                   <ul
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="500"
+                  
                   >
                     <li>
                       <i className="far fa-check"></i>

@@ -37,7 +37,14 @@ const features = [
   {
     img: one,
     title: "Mail us",
-    desc: "E-mail to Info@Shricloud.com our team respond in time.",
+     desc: (
+  <>
+   E-mail to Info@Shricloud.com our team <br />
+   respond in time.
+  </>
+),
+
+
      link: "/account-manager",
   },
   
