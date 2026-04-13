@@ -61,44 +61,34 @@ Find the right domain name.
               </form>
               <ul className="domain-list">
                 <li
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="200"
+                 
                 >
                   <span>.com</span>
-                  $9.95
+               
                 </li>
                 <li
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="400"
+                 
                 >
                   <span>.Info</span>
-                  $11.99
+             
                 </li>
                 <li
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="600"
+                 
                 >
                   <span>.Net</span>
-                  $8.95
+                
                 </li>
                 <li
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="800"
+                
                 >
                   <span>.Store</span>
-                  $10.50
+                
                 </li>
                 <li
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="900"
+                  
                 >
                   <span>.ORG</span>
-                  $11.95
+               
                 </li>
               </ul>
             </div>

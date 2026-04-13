@@ -13,13 +13,12 @@ const HomeFourPricing = () => {
         <div className="section-title text-center">
           <span
             className="style-border "
-            data-aos="fade-up"
-            data-aos-duration="800"
+           
           >
             Pricing Plans
           </span>
-          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            Get the More Powerful With Hostech <br /> Website Hosting Plans
+          <h2 >
+            Get the More Powerful With Shricloud <br /> Website Hosting Plans
           </h2>
         </div>
         <div className="pricing-tab-header">
@@ -29,9 +28,7 @@ const HomeFourPricing = () => {
           <ul className="nav" role="tablist">
             <li
               className="nav-item "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="300"
+             
               role="presentation"
             >
               <a
@@ -46,9 +43,7 @@ const HomeFourPricing = () => {
             </li>
             <li
               className="nav-item "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="500"
+              
               role="presentation"
             >
               <a
@@ -69,21 +64,18 @@ const HomeFourPricing = () => {
             id="monthly"
             className={`tab-pane fade ${tab === 0 ? " show active " : " "}`}
             role="tabpanel"
-          >
+           >
             <div className="row">
               <div
                 className="col-xl-4 col-lg-6 col-md-6 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
+               
               >
                 <div className="pricing-box-items">
                   <div className="pricing-header">
                     <div className="price-content">
                       <h4>Regular Plans</h4>
                       <p>
-                        Ideal for individuals who need quick access to basic
-                        features.
+                       Package to Kickstart your Idea
                       </p>
                     </div>
                     <h2>
@@ -150,9 +142,7 @@ const HomeFourPricing = () => {
               </div>
               <div
                 className="col-xl-4 col-lg-6 col-md-6 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="500"
+               
               >
                 <div className="pricing-box-items active">
                   <div className="pricing-header">
@@ -227,9 +217,7 @@ const HomeFourPricing = () => {
               </div>
               <div
                 className="col-xl-4 col-lg-6 col-md-6 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="700"
+               
               >
                 <div className="pricing-box-items">
                   <div className="pricing-header">
@@ -304,6 +292,8 @@ const HomeFourPricing = () => {
               </div>
             </div>
           </div>
+
+          
           <div
             id="yearly"
             className={`tab-pane fade ${tab === 1 ? " show active " : " "}`}

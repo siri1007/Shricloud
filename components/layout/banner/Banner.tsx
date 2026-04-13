@@ -51,23 +51,18 @@ const Banner = () => {
             <div className="hero-content">
               <span
                 className="sub-text "
-                data-aos="fade-up"
-                data-aos-duration="800"
+               
               >
                 <Image src={five} alt="img" priority className="me-2" />
                 Everything You Need to Create a Website
               </span>
               <h1
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
+               
               >
                 Upgrade To Shricloud  Cloud Hosting Today
               </h1>
               <h6
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="500"
+               
               >
                 Unlimited storage, unmetered bandwidth, unbeatable hosting.{" "}
                 <br /> This gator&apos;s got ya covered.
@@ -76,17 +71,13 @@ const Banner = () => {
                 <Link
                   href="/"
                   className="theme-btn bg-color-2 "
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="700"
+                 
                 >
                   Start Free <i className="fas fa-long-arrow-alt-right"></i>
                 </Link>
                 <div
                   className="author-content "
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="900"
+                
                 >
                   <Image src={six} alt="author-img" />
                   <div className="content">
@@ -105,9 +96,7 @@ const Banner = () => {
           </div>
           <div
             className="col-lg-5 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
+           
           >
             <div className="hero-image">
               <Image src={seven} alt="img" priority />

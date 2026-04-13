@@ -5,18 +5,14 @@ const DomainSection = () => {
         <div className="domain-name-wrapper">
           <h3
             className="text-white "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="300"
+           
           >
             Find Your Perfect Domain Name
           </h3>
           <form
             action="#"
             className="domain-input-form "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="500"
+           
           >
             <div className="domain-input">
               <input type="text" placeholder="domain.com" />
@@ -34,11 +30,11 @@ const DomainSection = () => {
             </div>
           </form>
           <ul className="domain-list">
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <li >
               <span>.com</span>
               $9.95
             </li>
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+            <li >
               <span>.Info</span>
               $11.99
             </li>

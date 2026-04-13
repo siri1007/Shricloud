@@ -10,17 +10,12 @@ const MainContact = () => {
             <div className="col-lg-6">
               <div className="contact-left">
                 <h2
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="300"
                 >
                   Request a <br /> Consultation
                 </h2>
                 <div
                   className="contact-image "
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="500"
+                 
                 >
                   <Image src={one} alt="contact-img" />
                 </div>
@@ -28,7 +23,7 @@ const MainContact = () => {
             </div>
             <div className="col-lg-6">
               <div className="contact-right">
-                <h3 data-aos="fade-up" data-aos-duration="800">
+                <h3 >
                   Get in Touch
                 </h3>
                 <form
@@ -40,9 +35,7 @@ const MainContact = () => {
                   <div className="row g-4">
                     <div
                       className="col-lg-6 "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="300"
+                     
                     >
                       <div className="form-clt">
                         <input
@@ -55,9 +48,7 @@ const MainContact = () => {
                     </div>
                     <div
                       className="col-lg-6 "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="500"
+                     
                     >
                       <div className="form-clt">
                         <input
@@ -70,9 +61,7 @@ const MainContact = () => {
                     </div>
                     <div
                       className="col-lg-6 "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="500"
+                     
                     >
                       <div className="form-clt">
                         <input
@@ -85,9 +74,7 @@ const MainContact = () => {
                     </div>
                     <div
                       className="col-lg-6 "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="500"
+                     
                     >
                       <div className="form-clt">
                         <div className="category-oneadjust">
@@ -102,9 +89,7 @@ const MainContact = () => {
                     </div>
                     <div
                       className="col-lg-12 "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="700"
+                     
                     >
                       <div className="form-clt">
                         <textarea
@@ -116,9 +101,7 @@ const MainContact = () => {
                     </div>
                     <div
                       className="col-lg-12 "
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="900"
+                     
                     >
                       <div className="form-check d-flex gap-2 from-customradio">
                         <input

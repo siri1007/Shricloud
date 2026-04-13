@@ -9,6 +9,9 @@ import Testimonial from "@/components/containers/support/Testimonial";
 import Brand from "@/components/containers/support/Brand";
 import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
+import HomeFourPricing from "@/components/containers/home-three/HomeFourPricing";
+
+import DataCenter from "@/components/DataCenter/DataCenter";
 
 const page = () => {
   return (
@@ -16,10 +19,12 @@ const page = () => {
       <Header />
       <BannerShared />
       <PricingChoose />
-      <HomeThreePricing />
+       <HomeFourPricing />
+      {/* <HomeThreePricing /> */}
       <HomeFourHosting />
       <HomeTwoCta />
       <FaqSection />
+      <DataCenter />
       <Testimonial />
       <Brand />
       <Footer />
