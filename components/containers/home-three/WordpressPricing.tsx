@@ -112,10 +112,10 @@ const HomeFourPricing = () => {
                     </div>
 
                     <h4>
-                      <span className={styles.oldPrice}>₹559 /mo</span>
+                      <span className={styles.oldPrice}>₹299 /mo</span>
                     </h4>
                     <h2>
-                      ₹199 <sup>/ Month</sup>
+                      ₹99 <sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
@@ -453,18 +453,20 @@ const HomeFourPricing = () => {
               </div>
               <div className="col-xl-4 col-lg-6 col-md-6 ">
                 <div className="pricing-box-items active">
+               
+                  
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h4>TURBO</h4>
+                      <h4  >TURBO</h4>
                       <p>Unmatched power, flexibility & performance.</p>
                     </div>
 
                     <h4>
-                      <span className={styles.oldPrice}>₹959 /mo</span>
+                      <span className={styles.oldPrice}>₹399 /mo</span>
                     </h4>
 
                     <h2>
-                      ₹ 429<sup>/ Month</sup>
+                      ₹ 199<sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
@@ -629,7 +631,7 @@ const HomeFourPricing = () => {
                           </div>
                         </li>
 
-                        <h4>Speed & Performance</h4>
+                        <h4 >Speed & Performance</h4>
 
                         <li className={styles["tooltip-item"]}>
                           <span>
@@ -701,7 +703,7 @@ const HomeFourPricing = () => {
                           </div>
                         </li>
 
-                        <h4>WordPress Management</h4>
+                        <h4 >WordPress Management</h4>
 
                         <li className={styles["tooltip-item"]}>
                           <span>
@@ -804,11 +806,22 @@ const HomeFourPricing = () => {
                     )}
 
                     {/* BUTTON */}
-                    <li className={styles["show-more-btn"]}>
+                    <li className={styles["show-more-btn-turbo"]}>
                       <button onClick={() => setShowMore(!showMore)}>
                         {showMore ? "Show Less" : "Show More"}
                       </button>
                     </li>
+
+
+                    {/* <li className={styles["show-more-btn"]}>
+  <button
+    className="turbo-show-btn"   // ✅ ADD THIS
+    onClick={() => setShowMore(!showMore)}
+  >
+    {showMore ? "Show Less" : "Show More"}
+  </button>
+</li> */}
+                    
                   </ul>
                 </div>
               </div>
@@ -824,12 +837,14 @@ const HomeFourPricing = () => {
                       </p>
                     </div>
 
+
+
                     <h4>
-                      <span className={styles.oldPrice}>₹759 /mo</span>
+                      <span className={styles.oldPrice}>₹799 /mo</span>
                     </h4>
 
                     <h2>
-                      ₹329<sup>/ Month</sup>
+                      ₹349<sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
@@ -1195,10 +1210,10 @@ const HomeFourPricing = () => {
                       <p>Package to Kickstart your Idea</p>
                     </div>
                     <h4>
-                      <span className={styles.oldPrice}>₹6,708/Yr</span>
+                      <span className={styles.oldPrice}>₹299/Yr</span>
                     </h4>
                     <h2>
-                      ₹2,388<sup>/ Year</sup>
+                      ₹99<sup>/ Year</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
@@ -1533,6 +1548,7 @@ const HomeFourPricing = () => {
 
                 </div>
               </div>
+
               <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="pricing-box-items active">
                   <div className="pricing-header">
@@ -1542,11 +1558,11 @@ const HomeFourPricing = () => {
                     </div>
                    
                     <h4>
-                      <span className={styles.oldPrice}>₹11,508 /Yr</span>
+                      <span className={styles.oldPrice}>₹399 /Yr</span>
                     </h4>
 
                     <h2>
-                      ₹ 5,148<sup>/ Year</sup>
+                      ₹ 199<sup>/ Year</sup>
                     </h2>
 
                   </div>
@@ -1711,7 +1727,8 @@ const HomeFourPricing = () => {
                           </div>
                         </li>
 
-                        <h4>Speed & Performance</h4>
+                    {/* <h4 className={styles.turboHeading}>Speed & Performance</h4> */}
+                      <h4 >Speed & Performance</h4>
 
                         <li className={styles["tooltip-item"]}>
                           <span>
@@ -1886,7 +1903,7 @@ const HomeFourPricing = () => {
                     )}
 
                     {/* BUTTON */}
-                    <li className={styles["show-more-btn"]}>
+                    <li className={styles["show-more-btn-turbo"]}>
                       <button onClick={() => setShowMore(!showMore)}>
                         {showMore ? "Show Less" : "Show More"}
                       </button>
@@ -1909,11 +1926,11 @@ const HomeFourPricing = () => {
 
                     </div>
                      <h4>
-                      <span className={styles.oldPrice}>₹9,108 /Yr</span>
+                      <span className={styles.oldPrice}>₹799 /Yr</span>
                     </h4>
 
                     <h2>
-                      ₹3,948<sup>/ Year</sup>
+                      ₹349<sup>/ Year</sup>
                     </h2>
 
                   </div>

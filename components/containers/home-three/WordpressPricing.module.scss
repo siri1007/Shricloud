@@ -4,12 +4,6 @@
   align-items: center;
 }
 
-// .tooltip-wrapper {
-//   position: relative;
-//   // display: inline-block;
-//   cursor: pointer;
-//   // border: 1px solid #000;
-// }
 
 
 .tooltip-wrapper {
@@ -19,23 +13,6 @@
   justify-content: flex-end; /* aligns icon right */
 }
 
-// .tooltip-box {
-//   position: absolute;
-//   left: 60%;
-//   transform: translateX(-50%);
-//   bottom: 130%;
-//   background: #0d6efd;
-//   color: #fff;
-//   width:400px;
-//   padding: 8px 12px;
-//   border-radius: 6px;
-//   font-size: 13px;
-//   // white-space: nowrap;
-//   opacity: 0;
-//   // visibility: hidden;
-//   transition: 0.3s;
-//   z-index: 999;
-// }
 
 
 .tooltip-box {
@@ -44,7 +21,7 @@
   bottom: 130%;
   background: #0d6efd;
   color: #fff;
-  // width: 100%;              /* ✅ FULL WIDTH like image */
+  // width: 100%;             
    width: 260px;   /* 👈 exact small box like image */
      
   // max-width: 320px;         /* ✅ control size */
@@ -98,4 +75,30 @@
 .oldPrice {
   text-decoration: line-through;
   color: #999;
+}
+
+
+/* 🔴 Only TURBO headings */
+
+.show-more-btn-turbo{
+   text-align: center;
+  margin-top: 10px;
+
+  button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+.turboHeading {
+  color: #fff;
+  margin: 10px 0;
 }
