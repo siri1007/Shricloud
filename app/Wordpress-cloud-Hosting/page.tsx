@@ -9,9 +9,10 @@ import Testimonial from "@/components/containers/support/Testimonial";
 import Brand from "@/components/containers/support/Brand";
 import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
-import HomeFourPricing from "@/components/containers/home-three/HomeFourPricing";
+import HomeFourPricing from "@/components/containers/home-three/WordpressPricing";
 
 import DataCenter from "@/components/DataCenter/DataCenter";
+import WordpressPricing from "@/components/containers/home-three/WordpressPricing";
 
 const page = () => {
   return (
@@ -19,7 +20,9 @@ const page = () => {
       <Header />
       <BannerShared />
       <PricingChoose />
-       <HomeFourPricing />
+       {/* <HomeFourPricing /> */}
+       <WordpressPricing />
+       
       {/* <HomeThreePricing /> */}
       <HomeFourHosting />
       <HomeTwoCta />

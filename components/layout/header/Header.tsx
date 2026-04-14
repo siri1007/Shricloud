@@ -221,8 +221,8 @@ const Header = () => {
 
                                         <div className="content">
                                           <h6>
-                                            <Link href="premium-cloud-hosting">
-                                              Premium Cloud
+                                            <Link href="Wordpress-cloud-Hosting">
+                                              Wordpress Cloud
                                             </Link>
                                           </h6>
                                           <p>Highest Selling Service</p>
