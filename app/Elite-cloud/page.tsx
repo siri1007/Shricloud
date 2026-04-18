@@ -9,7 +9,9 @@ import FaqSection from "@/components/containers/faq/FaqSection";
 import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
 import EliteBanner from "@/components/layout/banner/EliteBanner";
+import ElitePricing from "@/components/ElitePage/ElitePricing";
 
+import ChooseElite from "@/components/ChooseElite/ChooseElite";
 const page = () => {
   return (
 
@@ -17,9 +19,12 @@ const page = () => {
     <>
       <Header />
       <EliteBanner />
+      <ElitePricing/>
       <HostingChooseTwo />
-      <HomeThreePricing />
+
+      {/* <HomeThreePricing /> */}
       <HomeHostingTwo />
+      <ChooseElite />
       <Testimonial />
       <Brand />
       <FaqSection />

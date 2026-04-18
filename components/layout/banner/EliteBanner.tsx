@@ -31,11 +31,12 @@ const EliteBanner = () => {
           <div className={styles.content}>
             <span className={styles.subText}>
               <Image src={icon} alt="icon" />
-             Elite WordPress Hosting in India
+           
+Reliable Web hosting In india
             </span>
 
             <h1>
-             Power your website with ultra-fast, enterprise-grade hosting built for excellence.
+            Best Web Hosting for Ecommerce and High Traffic Websites
             </h1>
 
             <div className={styles.features}>
