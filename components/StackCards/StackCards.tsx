@@ -9,7 +9,7 @@ const data = [
   title: "Your Website, Built by AI",
   desc: "Describe your business, and our AI creates a stunning WordPress site with smart content, SEO-ready structure, and cloud hosting — no code, no hassle.",
   // desc: "Generate a complete WordPress website in minutes with smart AI design and content.",
-  img: "/images/ai-builder.jpg",
+  img: "/img/ai-builder.png",
 },
 
 // Variation 2

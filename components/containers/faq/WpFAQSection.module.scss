@@ -1,40 +1,207 @@
+// .faqSection {
+//   background: #0f0f0f;
+//   padding: 80px 20px;
+//   color: white;
+// }
+
+// .container {
+//   max-width: 1100px;
+//   margin: 0 auto;
+// }
+
+// .heading {
+//   text-align: center;
+//   font-size: 32px;
+//   font-weight: 600;
+//   color: #fff;
+//   margin-bottom: 10px;
+// }
+
+// .subheading {
+//   text-align: center;
+//   color: grey;
+//   margin-bottom: 40px;
+// }
+
+// /* CARD BASE */
+// .card {
+//   background: white;
+//   border-radius: 14px;
+//   padding: 20px;
+//   margin-bottom: 20px;
+//   cursor: pointer;
+//   transition: all 0.3s ease;
+//   border: 1px solid #2a2a2a;
+
+//   &:hover {
+//     border-color: #6c5ce7;
+//   }
+// }
+
+// /* FULL WIDTH */
+// .full {
+//   width: 100%;
+// }
+
+// /* GRID */
+// .grid {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   gap: 20px;
+// }
+
+// /* CARD TOP */
+// .cardTop {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: flex-start;
+
+//   h3 {
+//     font-size: 20px;
+//     margin-bottom: 6px;
+//   }
+
+//   span {
+//     font-size: 23px;
+//     color: #2d3acf;
+//   }
+// }
+
+// /* ARROW */
+// .arrow {
+//   font-size: 30px;
+//   color: #bbb;
+// }
+
+// /* ANSWER */
+// .answer {
+//   margin-top: 15px;
+//   color: black;
+//   font-size: 16px;
+//   line-height: 1.6;
+// }
+
+// /* RESPONSIVE */
+// @media (max-width: 768px) {
+//   .grid {
+//     grid-template-columns: 1fr;
+//   }
+// }
+
+
+// /* LEFT SIDE (ICON + TEXT) */
+// .left {
+//   display: flex;
+//   align-items: flex-start;
+//   gap: 12px;
+// }
+
+// /* ICON BOX */
+// .icon {
+//   min-width: 36px;
+//   height: 36px;
+//   background: #2a2a2a;
+//   border-radius: 10px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color: #a78bfa; // purple tone
+//   font-size: 18px;
+// }
+
+// /* adjust title */
+// .cardTop h3 {
+//   font-size: 15px;
+//   line-height: 1.4;
+// }
+
+
+
+
 .faqSection {
-  background: #0f0f0f;
-  padding: 80px 20px;
-  color: white;
+  position: relative;
+  background: #0c0c10; // deep navy-charcoal
+  padding: 100px 20px;
+  color: #eaeaf0;
+  overflow: hidden;
 }
 
+/* 🌌 BACKGROUND ORBS */
+.faqSection::before,
+.faqSection::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.25;
+  z-index: 0;
+}
+
+.faqSection::before {
+  background: #7c3aed; // purple
+  top: -150px;
+  left: -150px;
+}
+
+.faqSection::after {
+  background: #14b8a6; // teal
+  bottom: -150px;
+  right: -150px;
+}
+
+/* subtle grid overlay */
 .container {
+  position: relative;
+  z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.03) 1px,
+        transparent 1px
+      ),
+      linear-gradient(90deg, rgba(100, 74, 74, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: -1;
+  }
 }
 
+/* TYPOGRAPHY */
 .heading {
   text-align: center;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 600;
-  color: #fff;
+  color: #f4f4f8;
   margin-bottom: 10px;
 }
 
 .subheading {
   text-align: center;
-  color: grey;
-  margin-bottom: 40px;
+  color: #a1a1aa;
+  margin-bottom: 50px;
 }
 
-/* CARD BASE */
+/* 🧊 GLASS CARD */
 .card {
-  background: white;
-  border-radius: 14px;
-  padding: 20px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  padding: 22px;
   margin-bottom: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 1px solid #2a2a2a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  // backdrop-filter: blur(12px);
 
   &:hover {
-    border-color: #6c5ce7;
+    border-color: rgba(167, 139, 250, 0.6);
+    transform: translateY(-2px);
   }
 }
 
@@ -57,28 +224,52 @@
   align-items: flex-start;
 
   h3 {
-    font-size: 20px;
-    margin-bottom: 6px;
-  }
-
-  span {
-    font-size: 23px;
-    color: #2d3acf;
+    font-size: 16px;
+    color: #e4e4e7;
+    line-height: 1.5;
   }
 }
 
 /* ARROW */
 .arrow {
-  font-size: 30px;
-  color: #bbb;
+  font-size: 22px;
+  color: #a1a1aa;
+  transition: 0.3s;
 }
 
 /* ANSWER */
 .answer {
   margin-top: 15px;
-  color: black;
-  font-size: 16px;
+  color: #c7c7d2;
+  font-size: 14px;
   line-height: 1.6;
+}
+
+/* LEFT SIDE */
+.left {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+/* 🎯 ICON GLASS STYLE */
+.icon {
+  min-width: 38px;
+  height: 38px;
+  background: rgb(255 255 255 / 76%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #384bff;
+  font-size: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* SVG sizing */
+.icon svg {
+  width: 18px;
+  height: 18px;
 }
 
 /* RESPONSIVE */
