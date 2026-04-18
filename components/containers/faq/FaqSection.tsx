@@ -229,7 +229,7 @@ const FaqSection = () => {
                       }`}
                       onClick={() => setFaq(faq === 0 ? -1 : 0)}
                     >
-                      What Makes Premium Cloud Hosting Different from Shared Hosting?
+                      What Makes WordPress Cloud Hosting Different from Shared Hosting?
                     </button>
                   </h5>
                   <div
@@ -238,7 +238,7 @@ const FaqSection = () => {
                     }`}
                   >
                     <div className="accordion-body">
-                      Premium Cloud Hosting offers superior performance and security compared to regular shared hosting. It’s built on cloud infrastructure and performs up to 30x faster.
+                      WordPress Cloud Hosting offers superior performance and security compared to regular shared hosting. It’s built on cloud infrastructure and performs up to 30x faster.
                     </div>
                   </div>
                 </div>

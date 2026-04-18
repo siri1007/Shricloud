@@ -1,0 +1,136 @@
+/* WRAPPER */
+.wrapper {
+  position: relative;
+  width: 100%;
+  // padding-bottom: 200px; /* ensures last card scrolls properly */
+  // height: 500px;
+  // border: 1px solid #000;
+}
+
+
+.card:first-of-type {
+  margin-top: -80px; // 🔥 pulls cards upward
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 30px auto; // 🔥 reduced from 80px
+
+
+
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+}
+
+/* EACH CARD */
+.card {
+  position: sticky;
+  top: 0;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🔥 STACKING (clean, no animation) */
+.card:nth-child(2) {
+  top: 60px;
+  z-index: 1;
+}
+
+.card:nth-child(3) {
+  top: 120px;
+  z-index: 2;
+}
+
+.card:nth-child(4) {
+  top: 180px;
+  z-index: 3;
+}
+
+/* INNER CARD */
+.inner {
+  width: 85%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* LEFT CONTENT */
+.left {
+  flex: 1;
+
+  .tag {
+    background: #eef3ff;
+    color: #4a6cf7;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  button {
+    background: #4a6cf7;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+/* RIGHT IMAGE */
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+  img {
+    border-radius: 16px;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+  }
+}
+
+/* MOBILE (disable stacking for clarity) */
+@media (max-width: 768px) {
+  .card {
+    position: relative;
+    height: auto;
+    top: 0 !important;
+  }
+
+  .inner {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+}

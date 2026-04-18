@@ -1,7 +1,10 @@
 .hero-1 {
   position: relative;
   z-index: 7;
-  padding: 295px 0px 320px;
+  padding: 175px 0px 120px;
+  // height: 700px;
+  height:750px;
+  // border: 1px solid #000;
 
   @include breakpoint(max-xl) {
     padding: 200px 0 300px;
@@ -156,13 +159,42 @@
     z-index: -1;
   }
 
-  .hero-image {
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+//   .hero-image {
+//     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 
-    img {
-      @include imgw;
-    }
+//    .hero-image img {
+//   width: 280px !important;
+//   height: auto;
+// }
+//   }
+
+// .hero-image {
+//   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+//   border: 1px solid #000;
+//    margin-left: 50px;
+
+//   img {
+//     width: 680px;
+//     height: 280px;
+//     object-fit: contain;
+   
+    
+//   }
+// }
+
+
+.hero-image {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  // margin-right: -50px;
+
+
+  img {
+    // width: 100%;       // responsive
+    // width:700px;
+    // max-width: 750px;  // control size
+    height: 100%;      // keep ratio
   }
+}
 
   &.style-hero-2 {
     background-position: bottom !important;
@@ -440,8 +472,11 @@
 
       .hero-image {
         max-width: 510px;
+        // width:900px;
+
         position: relative;
         animation: initial;
+      
       }
     }
   }
@@ -549,7 +584,7 @@
   }
 
   &.style-hosting {
-    padding: 290px 0 170px;
+    padding: 150px 0 170px;
 
     @include breakpoint(max-xl) {
       padding: 240px 0 160px;

@@ -24,9 +24,7 @@ import sixteen from "@/public/img/menu-icon/vps-host.png";
 import seventeen from "@/public/img/menu-icon/wordpress-host.png";
 import eightteen from "@/public/img/menu-icon/cloud-host.png";
 import OffCanvas from "./OffCanvas";
-
-
-
+import nighteen from "@/public/img/menu-icon/n8n.png";
 
 // import Link from "next/link";
 
@@ -87,8 +85,6 @@ const Header = () => {
       window.removeEventListener("resize", handleResizeHeader);
     };
   }, []);
-  
-  
 
   return (
     <>
@@ -199,8 +195,7 @@ const Header = () => {
                             </ul>
                           </li>
 
-
-                         <li className="has-dropdown menu-thumb">
+                          <li className="has-dropdown menu-thumb">
                             <Link href="/">
                               Hosting
                               <i className="fas fa-angle-down"></i>
@@ -213,7 +208,7 @@ const Header = () => {
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
-                                            src={thirteen}
+                                            src={seventeen}
                                             alt="img"
                                             priority
                                           />
@@ -222,16 +217,12 @@ const Header = () => {
                                         <div className="content">
                                           <h6>
                                             <Link href="Wordpress-cloud-Hosting">
-                                              Wordpress Cloud
+                                              WordPress Cloud
                                             </Link>
                                           </h6>
                                           <p>Highest Selling Service</p>
                                         </div>
 
-
-
-
-                                        
                                         {/* <div className="content">
                                           <h6>
                                             <Link href="premium-cloud-hosting">
@@ -240,11 +231,9 @@ const Header = () => {
                                           </h6>
                                           <p>Highest Selling Service</p>
                                         </div> */}
-
-
-
                                       </div>
                                     </div>
+
                                     <div className="col-lg-6">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -254,6 +243,7 @@ const Header = () => {
                                             priority
                                           />
                                         </div>
+
                                         <div className="content">
                                           <h6>
                                             <Link href="reseller-hosting">
@@ -264,6 +254,27 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
+
+                                    <div className="col-lg-6">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={two}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="Elite-cloud">
+                                              Elite Cloud
+                                            </Link>
+                                          </h6>
+                                          <p>Best Provider</p>
+                                        </div>
+                                      </div>
+                                    </div>
+
                                     <div className="col-lg-6">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -283,6 +294,7 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
+
                                     <div className="col-lg-6">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -295,37 +307,19 @@ const Header = () => {
                                         <div className="content">
                                           <h6>
                                             <Link href="vps-hosting">
-                                              Basic Hosting
+                                              VPS Cloud
                                             </Link>
                                           </h6>
                                           <p>Flexible Plans</p>
                                         </div>
                                       </div>
                                     </div>
+
                                     <div className="col-lg-6">
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
-                                            src={seventeen}
-                                            alt="img"
-                                            priority
-                                          />
-                                        </div>
-                                        <div className="content">
-                                          <h6>
-                                            <Link href="wordpress-hosting">
-                                              Elie Cloud
-                                            </Link>
-                                          </h6>
-                                          <p>Best Provider</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div className="col-lg-6">
-                                      <div className="homemenu-list">
-                                        <div className="icon">
-                                          <Image
-                                            src={eightteen}
+                                            src={nighteen}
                                             alt="img"
                                             priority
                                           />
@@ -333,10 +327,10 @@ const Header = () => {
                                         <div className="content">
                                           <h6>
                                             <Link href="cloud-hosting">
-                                              Cloud vps
+                                              N8n
                                             </Link>
                                           </h6>
-                                          <p>Worldwide Data Center</p>
+                                          <p>Connect, Automate, Scale</p>
                                         </div>
                                       </div>
                                     </div>
@@ -346,10 +340,8 @@ const Header = () => {
                             </ul>
                           </li>
 
-
-
- {/* Hosting Mobile menu */}
-  <li className="has-dropdown active d-xl-none">
+                          {/* Hosting Mobile menu */}
+                          <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
                               Hosting
                               <i className="fas fa-angle-down"></i>
@@ -359,16 +351,18 @@ const Header = () => {
                                 <Link href="share-hosting">Share Hosting</Link>
                               </li>
 
-
-                               <li>
-                                <Link href="premium-cloud-hosting">premium-cloud-hosting</Link>
+                              <li>
+                                <Link href="premium-cloud-hosting">
+                                  premium-cloud-hosting
+                                </Link>
                               </li>
-                              
+
                               <li>
                                 <Link href="reseller-hosting">
                                   Reseller Hosting
                                 </Link>
                               </li>
+
                               <li>
                                 <Link href="dedicated-hosting">
                                   Dedicated Hosting
@@ -390,12 +384,9 @@ const Header = () => {
 
                           {/* Hosting Mobile menu */}
 
-
-  <li>
+                          <li>
                             <Link href="domain">Domain</Link>
                           </li>
-
-
 
                           <li className="has-dropdown menu-thumb">
                             <Link href="news">
@@ -405,10 +396,8 @@ const Header = () => {
                             <ul className="submenu has-homemenu">
                               <li className="border-none">
                                 <div className="homemenu-items">
-                                  <div  className="row">
-                                    
-                                    
-<div className="col-lg-4">
+                                  <div className="row">
+                                    <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
@@ -531,9 +520,6 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
-                                    
-
-
 
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
@@ -552,9 +538,8 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
-                                    
-                                    
-{/*                                     
+
+                                    {/*                                     
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -576,8 +561,6 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div> */}
-
-
 
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
@@ -604,11 +587,7 @@ const Header = () => {
                             </ul>
                           </li>
 
-
-
-{/*   All Services Mobile menu */}
-
-
+                          {/*   All Services Mobile menu */}
 
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
@@ -648,10 +627,8 @@ const Header = () => {
                               </li>
                             </ul>
                           </li>
-                          
 
-{/*   All Services Mobile menu  End*/}
-
+                          {/*   All Services Mobile menu  End*/}
 
                           {/* <li className="has-dropdown menu-thumb">
                             <Link href="/">
@@ -815,7 +792,6 @@ const Header = () => {
                             </ul>
                           </li> */}
 
-
                           {/* <li>
                             <Link href="domain">Domain</Link>
                           </li> */}
@@ -837,68 +813,112 @@ const Header = () => {
                             </ul>
                           </li> */}
 
+                          <li className="has-dropdown menu-thumb support-menu">
+                            <Link href="#">
+                              Support
+                              <i className="fas fa-angle-down"></i>
+                            </Link>
 
+                            <ul className="submenu support-submenu">
+                              <li>
+                                <a
+                                  href="https://shricloud.com/kb/"
+                                  style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px",
+                                  }}
+                                >
+                                  <i className="fas fa-book"></i>
+                                  <span>Knowledge Base</span>
+                                </a>
+                              </li>
 
-<li className="has-dropdown menu-thumb support-menu">
-  <Link href="#">
-    Support
-    <i className="fas fa-angle-down"></i>
-  </Link>
+                              <li>
+                                <a
+                                  href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=1"
+                                  style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px",
+                                  }}
+                                >
+                                  <i className="fas fa-tools"></i>
+                                  <span>Technical</span>
+                                </a>
+                              </li>
 
-  <ul className="submenu support-submenu">
-    <li>
-      <a href="https://shricloud.com/kb/"
-      style={{ display: "flex", alignItems: "center", gap: "12px" }} >
+                              <li>
+                                <a
+                                  href="https://my.shricloud.com/index.php?/tickets/new/"
+                                  style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px",
+                                  }}
+                                >
+                                  <i className="fas fa-shopping-cart"></i>
+                                  <span>Sales</span>
+                                </a>
+                              </li>
 
-        <i className="fas fa-book"></i>
-        <span>Knowledge Base</span>
-      </a>
-    </li>
+                              <li>
+                                <a
+                                  href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=2"
+                                  style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px",
+                                  }}
+                                >
+                                  <i className="fas fa-exchange-alt"></i>
+                                  <span>Migration</span>
+                                </a>
+                              </li>
 
-    <li>
-      <a href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=1"
-       style={{ display: "flex", alignItems: "center", gap: "12px" }} >
-        <i className="fas fa-tools"></i>
-        <span>Technical</span>
-      </a>
-    </li>
+                              <li>
+                                <a
+                                  href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=3 "
+                                  style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px",
+                                  }}
+                                >
+                                  <i className="fas fa-file-invoice-dollar"></i>
+                                  <span>Billing</span>
+                                </a>
+                              </li>
 
-    <li>
-      <a href="https://my.shricloud.com/index.php?/tickets/new/"  style={{ display: "flex", alignItems: "center", gap: "12px" }} >
-        <i className="fas fa-shopping-cart"></i>
-        <span>Sales</span>
-      </a>
-    </li>
+                              <li>
+                                <a
+                                  href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=5"
+                                  style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px",
+                                  }}
+                                >
+                                  <i className="fas fa-users"></i>
+                                  <span>Affiliate</span>
+                                </a>
+                              </li>
 
-    <li>
-      <a href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=2" style={{ display: "flex", alignItems: "center", gap: "12px" }} >
-        <i className="fas fa-exchange-alt"></i>
-        <span>Migration</span>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=3 " style={{ display: "flex", alignItems: "center", gap: "12px" }} >
-        <i className="fas fa-file-invoice-dollar"></i>
-        <span>Billing</span>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=5" style={{ display: "flex", alignItems: "center", gap: "12px" }} >
-        <i className="fas fa-users"></i>
-        <span>Affiliate</span>
-      </a>
-    </li>
-
-    <li>
-      <a href="https://www.shricloud.com/blog/" style={{ display: "flex", alignItems: "center", gap: "12px" }} >
-        <i className="fas fa-blog"></i>
-        <span>Blog</span>
-      </a>
-    </li>
-  </ul>
-</li>
+                              <li>
+                                <a
+                                  href="https://www.shricloud.com/blog/"
+                                  style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px",
+                                  }}
+                                >
+                                  <i className="fas fa-blog"></i>
+                                  <span>Blog</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
 
                           <li>
                             <Link href="#">

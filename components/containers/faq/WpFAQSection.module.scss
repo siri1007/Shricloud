@@ -1,0 +1,89 @@
+.faqSection {
+  background: #0f0f0f;
+  padding: 80px 20px;
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  text-align: center;
+  color: grey;
+  margin-bottom: 40px;
+}
+
+/* CARD BASE */
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #2a2a2a;
+
+  &:hover {
+    border-color: #6c5ce7;
+  }
+}
+
+/* FULL WIDTH */
+.full {
+  width: 100%;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* CARD TOP */
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  span {
+    font-size: 23px;
+    color: #2d3acf;
+  }
+}
+
+/* ARROW */
+.arrow {
+  font-size: 30px;
+  color: #bbb;
+}
+
+/* ANSWER */
+.answer {
+  margin-top: 15px;
+  color: black;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -33,25 +33,19 @@ const BannerShared = () => {
             <div className="hero-content">
               <span
                 className="sub-text-2 "
-                data-aos="fade-up"
-                data-aos-duration="800"
               >
                 <Image src={five} alt="img" priority className="me-2" />
                
 Premium Web Hosting in India.
               </span>
               <h1
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
+                
               >
               Energize your website with limitless and high-speed hosting.
               </h1>
               <div
                 className="hero-list-items "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                aria-errormessage=".5s"
+               
               >
                 <ul className="hero-list">
                   <li>
@@ -77,9 +71,7 @@ Premium Web Hosting in India.
               <Link
                 href="pricing"
                 className="theme-btn bg-color-2 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="700"
+                
               >
                 view plan <i className="fas fa-long-arrow-alt-right"></i>
               </Link>
@@ -87,13 +79,15 @@ Premium Web Hosting in India.
           </div>
           <div
             className="col-lg-3 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
+           
           >
+
+
             <div className="hero-image">
               <Image src={six} alt="img" priority />
             </div>
+
+
           </div>
         </div>
       </div>

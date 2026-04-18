@@ -11,37 +11,34 @@ const PricingChoose = () => {
         <div className="section-title text-center">
           <span
             className="style-bg "
-            data-aos="fade-up"
-            data-aos-duration="800"
+           
           >
             Why Choose Us
           </span>
-          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <h2 >
             Why Choose Shricloud
           </h2>
         </div>
         <div className="choose-us-top-inner">
           <ul>
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-              Step One
+            <li >
+              1
             </li>
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-              Step Two
+            <li >
+             2
             </li>
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
-              Step Three
+            <li >
+             3
             </li>
-            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
-              Step Four
+            <li >
+             4
             </li>
           </ul>
         </div>
         <div className="row">
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
+            
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -57,9 +54,7 @@ const PricingChoose = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
+          
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -75,9 +70,7 @@ const PricingChoose = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="600"
+            
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -93,9 +86,7 @@ const PricingChoose = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="800"
+            
           >
             <div className="choose-us-card-items">
               <div className="icon">

@@ -61,9 +61,7 @@ const HomeFourPricing = () => {
       <div className="container">
         <div className="section-title text-center">
           <span className="style-border ">Pricing Plans</span>
-          <h2>
-            Get the More Powerful With Shricloud <br /> Website Hosting Plans
-          </h2>
+          <h2>Best WordPress Hosting Plans</h2>
         </div>
         <div className="pricing-tab-header">
           <div className="arrow-shape">
@@ -93,7 +91,7 @@ const HomeFourPricing = () => {
               </a>
             </li>
           </ul>
-          <div className="save-text">Save 25%</div>
+          <div className="save-text">Save 50%</div>
         </div>
 
         <div className="tab-content">
@@ -107,8 +105,8 @@ const HomeFourPricing = () => {
                 <div className="pricing-box-items">
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h4>LITE</h4>
-                      <p>Package to Kickstart your Idea</p>
+                      <h4>Starter</h4>
+                      <p>Plan that helps you grow</p>
                     </div>
 
                     <h4>
@@ -119,7 +117,203 @@ const HomeFourPricing = () => {
                     </h2>
                   </div>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
+                      Get Started Now
+                    </Link>
+                  </div>
+
+                 <ul className="pricing-list">
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>1 Website
+                      </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.web}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Managed WordPress
+                      </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.gb}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        10 GB SSD Storage
+                      </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.vcpu}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        10 Business Email
+                      </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.nvme}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Free SSL Certificates
+                      </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.subdomian}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        No Backups
+                      </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.databse}
+                        </div>
+                      </div>
+                    </li>
+
+                    {showMore && (
+                      <>
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>
+                            Free Migration
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.tenmigrations}
+                            </div>
+                          </div>
+                        </li>
+
+                        <h4>Speed & Performance</h4>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>Litespeed
+                            Servers
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.litespeed}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Optimized
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.wordpress}
+                            </div>
+                          </div>
+                        </li>
+
+                        <h4>WordPress Management</h4>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>1 Click
+                            Installation
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.oneclick}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>In Memory Cache
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.storage}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Security
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.wpsecurity}
+                            </div>
+                          </div>
+                        </li>
+                      </>
+                    )}
+
+                    <li className={styles["show-more-btn"]}>
+                      <button onClick={() => setShowMore(!showMore)}>
+                        {showMore ? "Show Less" : "Show More"}
+                      </button>
+                    </li>
+                  </ul>
+
+
+
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6 col-md-6 ">
+                <div className="pricing-box-items active">
+                  <div className="pricing-header">
+                    <div className="price-content">
+                      <h4>Premium </h4>
+                      <p>Quality Resources at a Great Price</p>
+                    </div>
+
+                    <h4>
+                      <span className={styles.oldPrice}>₹399 /mo</span>
+                    </h4>
+
+                    <h2>
+                      ₹ 199<sup>/ Month</sup>
+                    </h2>
+                  </div>
+                  <div className="pricing-button">
+                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>
@@ -447,382 +641,6 @@ const HomeFourPricing = () => {
                       </button>
                     </li>
                   </ul>
-
-
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6 col-md-6 ">
-                <div className="pricing-box-items active">
-               
-                  
-                  <div className="pricing-header">
-                    <div className="price-content">
-                      <h4  >TURBO</h4>
-                      <p>Unmatched power, flexibility & performance.</p>
-                    </div>
-
-                    <h4>
-                      <span className={styles.oldPrice}>₹399 /mo</span>
-                    </h4>
-
-                    <h2>
-                      ₹ 199<sup>/ Month</sup>
-                    </h2>
-                  </div>
-                  <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
-                      Get Started Now
-                    </Link>
-                  </div>
-
-                  <ul className="pricing-list">
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        300 Websites
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.threewebsites}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>6 GB RAM
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.sixgb}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>4 vCPU
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.fourcpv}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        Free & Auto SSL
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.ssl}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        300 GB NVMe Storage
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.nvme}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        Free Domain (worth $10)
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.storage}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        Unlimited Subdomains
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.subdomian}
-                        </div>
-                      </div>
-                    </li>
-
-                    {/* SHOW MORE */}
-                    {showMore && (
-                      <>
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Unlimited Databases
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.databse}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Powerful Control panel
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.pocntrlpanel}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Daily Backups
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.backup}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            30 Free Migrations
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.storage}
-                            </div>
-                          </div>
-                        </li>
-
-                        <h4 >Speed & Performance</h4>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Litespeed Servers
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.litespeed}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Redis Cache
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.redis}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            LSCache
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.lscache}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            MemCached
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.mem}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Optimized
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.wordpress}
-                            </div>
-                          </div>
-                        </li>
-
-                        <h4 >WordPress Management</h4>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>1 Click
-                            Installation
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.oneclick}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Staging
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.staging}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Cloning
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.cloning}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            On Demand Backups
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.ondemand}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Multisite
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.wpmulti}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            In Memory Cache
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.storage}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Security
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.wpsecurity}
-                            </div>
-                          </div>
-                        </li>
-                      </>
-                    )}
-
-                    {/* BUTTON */}
-                    <li className={styles["show-more-btn-turbo"]}>
-                      <button onClick={() => setShowMore(!showMore)}>
-                        {showMore ? "Show Less" : "Show More"}
-                      </button>
-                    </li>
-
-
-                    {/* <li className={styles["show-more-btn"]}>
-  <button
-    className="turbo-show-btn"   // ✅ ADD THIS
-    onClick={() => setShowMore(!showMore)}
-  >
-    {showMore ? "Show Less" : "Show More"}
-  </button>
-</li> */}
-                    
-                  </ul>
                 </div>
               </div>
 
@@ -830,14 +648,9 @@ const HomeFourPricing = () => {
                 <div className="pricing-box-items">
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h4>PRO</h4>
-                      <p>
-                        Ideal for individuals who need quick access to basic
-                        features.
-                      </p>
+                      <h4>Business</h4>
+                      <p>Boost with power and features</p>
                     </div>
-
-
 
                     <h4>
                       <span className={styles.oldPrice}>₹799 /mo</span>
@@ -848,7 +661,7 @@ const HomeFourPricing = () => {
                     </h2>
                   </div>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>
@@ -856,7 +669,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        200 Websites
+                        300 Websites
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -869,7 +682,7 @@ const HomeFourPricing = () => {
 
                     <li className={styles["tooltip-item"]}>
                       <span>
-                        <i className="fa-solid fa-check"></i>4 GB RAM
+                        <i className="fa-solid fa-check"></i>Managed WordPress
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -882,7 +695,7 @@ const HomeFourPricing = () => {
 
                     <li className={styles["tooltip-item"]}>
                       <span>
-                        <i className="fa-solid fa-check"></i>3 vCPU
+                        <i className="fa-solid fa-check"></i>300 GB SSD Storage
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -896,7 +709,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        Free & Auto SSL
+                        Free Domain
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -910,7 +723,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        200 GB NVMe Storage
+                        Unlimited Subdomains
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -924,7 +737,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        Free Domain (worth $10)
+                        Unlimited Business Email
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -938,7 +751,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        Unlimited Subdomains
+                        Unlimited SSL Certificates
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -949,13 +762,12 @@ const HomeFourPricing = () => {
                       </div>
                     </li>
 
-                    {/* SHOW MORE */}
                     {showMore && (
                       <>
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            Unlimited Databases
+                            Daily Backups
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
@@ -969,7 +781,7 @@ const HomeFourPricing = () => {
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            Powerful Control panel
+                            Free Cloudflare CDN
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
@@ -983,7 +795,7 @@ const HomeFourPricing = () => {
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            Daily Backups
+                            Free Migration
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
@@ -997,7 +809,35 @@ const HomeFourPricing = () => {
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            20 Free Migrations
+                            Powerful Control panel
+                          </span>
+
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.storage}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>
+                            Malware Scanning
+                          </span>
+
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.storage}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>
+                            Priority Support
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
@@ -1012,10 +852,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Litespeed Servers
+                            <i className="fa-solid fa-check"></i>Litespeed
+                            Servers
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1026,10 +865,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Redis Cache
+                            <i className="fa-solid fa-check"></i>Redis Cache
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1040,10 +877,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            LSCache
+                            <i className="fa-solid fa-check"></i>LSCache
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1054,10 +889,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            MemCached
+                            <i className="fa-solid fa-check"></i>MemCached
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1068,10 +901,21 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Optimized
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Optimized
                           </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.wordpress}
+                            </div>
+                          </div>
+                        </li>
 
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>Turbo PHP
+                          </span>
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1087,7 +931,6 @@ const HomeFourPricing = () => {
                             <i className="fa-solid fa-check"></i>1 Click
                             Installation
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1098,10 +941,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Staging
+                            <i className="fa-solid fa-check"></i>Staging
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1112,10 +953,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Cloning
+                            <i className="fa-solid fa-check"></i>Cloning
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1126,10 +965,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            On Demand Backups
+                            <i className="fa-solid fa-check"></i>On Demand
+                            Backups
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1140,10 +978,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Multisite
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Multisite
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1154,10 +991,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            In Memory Cache
+                            <i className="fa-solid fa-check"></i>In Memory Cache
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1168,10 +1003,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Security
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Security
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1182,15 +1016,12 @@ const HomeFourPricing = () => {
                       </>
                     )}
 
-                    {/* BUTTON */}
                     <li className={styles["show-more-btn"]}>
                       <button onClick={() => setShowMore(!showMore)}>
                         {showMore ? "Show Less" : "Show More"}
                       </button>
                     </li>
                   </ul>
-
-
                 </div>
               </div>
             </div>
@@ -1206,28 +1037,27 @@ const HomeFourPricing = () => {
                 <div className="pricing-box-items">
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h4>LITE</h4>
-                      <p>Package to Kickstart your Idea</p>
+                      <h4>Starter</h4>
+                      <p>Plan that helps you grow</p>
                     </div>
                     <h4>
-                      <span className={styles.oldPrice}>₹299/Yr</span>
+                      <span className={styles.oldPrice}>₹299/Month</span>
                     </h4>
                     <h2>
-                      ₹99<sup>/ Year</sup>
+                      ₹99<sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>
-                 <ul className="pricing-list">
+
+                  <ul className="pricing-list">
                     <li className={styles["tooltip-item"]}>
                       <span>
-                        <i className="fa-solid fa-check"></i>
-                        100 Websites
+                        <i className="fa-solid fa-check"></i>1 Website
                       </span>
-
                       <div className={styles["tooltip-wrapper"]}>
                         <i className="fa-light fa-circle-question"></i>
                         <div className={styles["tooltip-box"]}>
@@ -1238,9 +1068,9 @@ const HomeFourPricing = () => {
 
                     <li className={styles["tooltip-item"]}>
                       <span>
-                        <i className="fa-solid fa-check"></i>2 GB RAM
+                        <i className="fa-solid fa-check"></i>
+                        Managed WordPress
                       </span>
-
                       <div className={styles["tooltip-wrapper"]}>
                         <i className="fa-light fa-circle-question"></i>
                         <div className={styles["tooltip-box"]}>
@@ -1251,9 +1081,9 @@ const HomeFourPricing = () => {
 
                     <li className={styles["tooltip-item"]}>
                       <span>
-                        <i className="fa-solid fa-check"></i>2 vCPU
+                        <i className="fa-solid fa-check"></i>
+                        10 GB SSD Storage
                       </span>
-
                       <div className={styles["tooltip-wrapper"]}>
                         <i className="fa-light fa-circle-question"></i>
                         <div className={styles["tooltip-box"]}>
@@ -1265,37 +1095,8 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        Free SSL Certificates
+                        10 Business Email
                       </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.ssl}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        Free Domain (worth ₹849)
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.storage}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        100 GB NVMe Storage
-                      </span>
-
                       <div className={styles["tooltip-wrapper"]}>
                         <i className="fa-light fa-circle-question"></i>
                         <div className={styles["tooltip-box"]}>
@@ -1307,9 +1108,8 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        Unlimited Subdomains
+                        Free SSL Certificates
                       </span>
-
                       <div className={styles["tooltip-wrapper"]}>
                         <i className="fa-light fa-circle-question"></i>
                         <div className={styles["tooltip-box"]}>
@@ -1321,9 +1121,8 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        Unlimited Databases
+                        No Backups
                       </span>
-
                       <div className={styles["tooltip-wrapper"]}>
                         <i className="fa-light fa-circle-question"></i>
                         <div className={styles["tooltip-box"]}>
@@ -1332,29 +1131,13 @@ const HomeFourPricing = () => {
                       </div>
                     </li>
 
-                    {/* SHOW MORE */}
                     {showMore && (
                       <>
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            Daily Backups
+                            Free Migration
                           </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.backup}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            10 Free Migrations
-                          </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1367,10 +1150,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Litespeed Servers
+                            <i className="fa-solid fa-check"></i>Litespeed
+                            Servers
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1381,52 +1163,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Redis Cache
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Optimized
                           </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.redis}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            LSCache
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.lscache}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            MemCached
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.mem}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Optimized
-                          </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1442,7 +1181,6 @@ const HomeFourPricing = () => {
                             <i className="fa-solid fa-check"></i>1 Click
                             Installation
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1453,66 +1191,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Staging
+                            <i className="fa-solid fa-check"></i>In Memory Cache
                           </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.staging}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Cloning
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.cloning}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            On Demand Backups
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.ondemand}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Multisite
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.wpmulti}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            In Memory Cache
-                          </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1523,10 +1203,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Security
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Security
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -1537,15 +1216,12 @@ const HomeFourPricing = () => {
                       </>
                     )}
 
-                    {/* BUTTON */}
                     <li className={styles["show-more-btn"]}>
                       <button onClick={() => setShowMore(!showMore)}>
                         {showMore ? "Show Less" : "Show More"}
                       </button>
                     </li>
                   </ul>
-
-
                 </div>
               </div>
 
@@ -1553,21 +1229,20 @@ const HomeFourPricing = () => {
                 <div className="pricing-box-items active">
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h4>TURBO</h4>
-                      <p>Unmatched power, flexibility & performance.</p>
+                      <h4>Premium</h4>
+                      <p>Quality Resources at a Great Price</p>
                     </div>
-                   
+
                     <h4>
-                      <span className={styles.oldPrice}>₹399 /Yr</span>
+                      <span className={styles.oldPrice}>₹399 /Month</span>
                     </h4>
 
                     <h2>
-                      ₹ 199<sup>/ Year</sup>
+                      ₹ 199<sup>/ Month</sup>
                     </h2>
-
                   </div>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>
@@ -1575,7 +1250,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        300 Websites
+                        100 Websites
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -1588,7 +1263,7 @@ const HomeFourPricing = () => {
 
                     <li className={styles["tooltip-item"]}>
                       <span>
-                        <i className="fa-solid fa-check"></i>6 GB RAM
+                        <i className="fa-solid fa-check"></i>Managed WordPress
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -1601,7 +1276,7 @@ const HomeFourPricing = () => {
 
                     <li className={styles["tooltip-item"]}>
                       <span>
-                        <i className="fa-solid fa-check"></i>4 vCPU
+                        <i className="fa-solid fa-check"></i>100 GB SSD Storage
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -1615,7 +1290,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        Free & Auto SSL
+                        Free Domain
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -1629,7 +1304,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        300 GB NVMe Storage
+                        100 Subdomains
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -1643,7 +1318,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        Free Domain (worth $10)
+                        100 Business Email
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -1657,7 +1332,7 @@ const HomeFourPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        Unlimited Subdomains
+                        Free SSL Certificates
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -1668,13 +1343,12 @@ const HomeFourPricing = () => {
                       </div>
                     </li>
 
-                    {/* SHOW MORE */}
                     {showMore && (
                       <>
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            Unlimited Databases
+                            Daily Backups
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
@@ -1688,21 +1362,7 @@ const HomeFourPricing = () => {
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            Powerful Control panel
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.pocntrlpanel}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Daily Backups
+                            Free Migration
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
@@ -1716,353 +1376,13 @@ const HomeFourPricing = () => {
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            30 Free Migrations
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.storage}
-                            </div>
-                          </div>
-                        </li>
-
-                    {/* <h4 className={styles.turboHeading}>Speed & Performance</h4> */}
-                      <h4 >Speed & Performance</h4>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Litespeed Servers
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.litespeed}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Redis Cache
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.redis}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            LSCache
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.lscache}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            MemCached
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.mem}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Optimized
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.wordpress}
-                            </div>
-                          </div>
-                        </li>
-
-                        <h4>WordPress Management</h4>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>1 Click
-                            Installation
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.oneclick}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Staging
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.staging}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Cloning
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.cloning}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            On Demand Backups
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.ondemand}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Multisite
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.wpmulti}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            In Memory Cache
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.storage}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Security
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.wpsecurity}
-                            </div>
-                          </div>
-                        </li>
-                      </>
-                    )}
-
-                    {/* BUTTON */}
-                    <li className={styles["show-more-btn-turbo"]}>
-                      <button onClick={() => setShowMore(!showMore)}>
-                        {showMore ? "Show Less" : "Show More"}
-                      </button>
-                    </li>
-                  </ul>
-
-
-
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6 col-md-6">
-                <div className="pricing-box-items">
-                  <div className="pricing-header">
-                    <div className="price-content">
-                       <h4>PRO</h4>
-                      <p>
-                        Ideal for individuals who need quick access to basic
-                        features.
-                      </p>
-
-                    </div>
-                     <h4>
-                      <span className={styles.oldPrice}>₹799 /Yr</span>
-                    </h4>
-
-                    <h2>
-                      ₹349<sup>/ Year</sup>
-                    </h2>
-
-                  </div>
-                  <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
-                      Get Started Now
-                    </Link>
-                  </div>
-                <ul className="pricing-list">
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        200 Websites
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.twowebsites}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>4 GB RAM
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.fourgb}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>3 vCPU
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.storage}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        Free & Auto SSL
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.ssl}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        200 GB NVMe Storage
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.nvme}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        Free Domain (worth $10)
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.storage}
-                        </div>
-                      </div>
-                    </li>
-
-                    <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        Unlimited Subdomains
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {tooltipText.subdomian}
-                        </div>
-                      </div>
-                    </li>
-
-                    {/* SHOW MORE */}
-                    {showMore && (
-                      <>
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Unlimited Databases
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {tooltipText.databse}
-                            </div>
-                          </div>
-                        </li>
-
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
                             Powerful Control panel
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
-                              {tooltipText.pocntrlpanel}
+                              {tooltipText.storage}
                             </div>
                           </div>
                         </li>
@@ -2070,13 +1390,13 @@ const HomeFourPricing = () => {
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            Daily Backups
+                            Malware Scanning
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
-                              {tooltipText.backup}
+                              {tooltipText.storage}
                             </div>
                           </div>
                         </li>
@@ -2084,7 +1404,7 @@ const HomeFourPricing = () => {
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            20 Free Migrations
+                            Priority Support
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
@@ -2099,10 +1419,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Litespeed Servers
+                            <i className="fa-solid fa-check"></i>Litespeed
+                            Servers
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2113,10 +1432,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Redis Cache
+                            <i className="fa-solid fa-check"></i>Redis Cache
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2127,10 +1444,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            LSCache
+                            <i className="fa-solid fa-check"></i>LSCache
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2141,24 +1456,21 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            MemCached
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Optimized
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
-                              {tooltipText.mem}
+                              {tooltipText.wordpress}
                             </div>
                           </div>
                         </li>
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Optimized
+                            <i className="fa-solid fa-check"></i>Turbo PHP
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2174,7 +1486,6 @@ const HomeFourPricing = () => {
                             <i className="fa-solid fa-check"></i>1 Click
                             Installation
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2185,10 +1496,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Staging
+                            <i className="fa-solid fa-check"></i>Staging
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2199,10 +1508,8 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            Cloning
+                            <i className="fa-solid fa-check"></i>Cloning
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2213,10 +1520,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            On Demand Backups
+                            <i className="fa-solid fa-check"></i>On Demand
+                            Backups
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2227,10 +1533,9 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
-                            <i className="fa-solid fa-check"></i>
-                            WordPress Multisite
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Multisite
                           </span>
-
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2241,8 +1546,204 @@ const HomeFourPricing = () => {
 
                         <li className={styles["tooltip-item"]}>
                           <span>
+                            <i className="fa-solid fa-check"></i>In Memory Cache
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.storage}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Security
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.wpsecurity}
+                            </div>
+                          </div>
+                        </li>
+                      </>
+                    )}
+
+                    <li className={styles["show-more-btn-turbo"]}>
+                      <button onClick={() => setShowMore(!showMore)}>
+                        {showMore ? "Show Less" : "Show More"}
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6 col-md-6">
+                <div className="pricing-box-items">
+                  <div className="pricing-header">
+                    <div className="price-content">
+                      <h4>Business</h4>
+                      <p>Boost with power and features</p>
+                    </div>
+                    <h4>
+                      <span className={styles.oldPrice}>₹799 /Month</span>
+                    </h4>
+
+                    <h2>
+                      ₹349<sup>/ Month</sup>
+                    </h2>
+                  </div>
+                  <div className="pricing-button">
+                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
+                      Get Started Now
+                    </Link>
+                  </div>
+                  <ul className="pricing-list">
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        300 Websites
+                      </span>
+
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.twowebsites}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>Managed WordPress
+                      </span>
+
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.fourgb}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>300 GB SSD Storage
+                      </span>
+
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.storage}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Free Domain
+                      </span>
+
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.ssl}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Unlimited Subdomains
+                      </span>
+
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.nvme}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Unlimited Business Email
+                      </span>
+
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.storage}
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Unlimited SSL Certificates
+                      </span>
+
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {tooltipText.subdomian}
+                        </div>
+                      </div>
+                    </li>
+
+                    {showMore && (
+                      <>
+                        <li className={styles["tooltip-item"]}>
+                          <span>
                             <i className="fa-solid fa-check"></i>
-                            In Memory Cache
+                            Daily Backups
+                          </span>
+
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.databse}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>
+                            Free Cloudflare CDN
+                          </span>
+
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.pocntrlpanel}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>
+                            Free Migration
+                          </span>
+
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.backup}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>
+                            Powerful Control panel
                           </span>
 
                           <div className={styles["tooltip-wrapper"]}>
@@ -2256,9 +1757,189 @@ const HomeFourPricing = () => {
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
-                            WordPress Security
+                            Malware Scanning
                           </span>
 
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.storage}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>
+                            Priority Support
+                          </span>
+
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.storage}
+                            </div>
+                          </div>
+                        </li>
+
+                        <h4>Speed & Performance</h4>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>Litespeed
+                            Servers
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.litespeed}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>Redis Cache
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.redis}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>LSCache
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.lscache}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>MemCached
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.mem}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Optimized
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.wordpress}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>Turbo PHP
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.wordpress}
+                            </div>
+                          </div>
+                        </li>
+
+                        <h4>WordPress Management</h4>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>1 Click
+                            Installation
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.oneclick}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>Staging
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.staging}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>Cloning
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.cloning}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>On Demand
+                            Backups
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.ondemand}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Multisite
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.wpmulti}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>In Memory Cache
+                          </span>
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {tooltipText.storage}
+                            </div>
+                          </div>
+                        </li>
+
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>WordPress
+                            Security
+                          </span>
                           <div className={styles["tooltip-wrapper"]}>
                             <i className="fa-light fa-circle-question"></i>
                             <div className={styles["tooltip-box"]}>
@@ -2269,16 +1950,12 @@ const HomeFourPricing = () => {
                       </>
                     )}
 
-                    {/* BUTTON */}
                     <li className={styles["show-more-btn"]}>
                       <button onClick={() => setShowMore(!showMore)}>
                         {showMore ? "Show Less" : "Show More"}
                       </button>
                     </li>
                   </ul>
-
-
-
                 </div>
               </div>
             </div>

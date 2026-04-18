@@ -50,18 +50,18 @@ const DataCenter = () => {
       {/* Counter Section */}
       <div className={styles.counterSection}>
         <div className={styles.counter}>
-          <h2>30,000+</h2>
+          <h2>10,000+</h2>
           <p>Websites Hosted</p>
         </div>
 
         <div className={styles.counter}>
-          <h2>520+</h2>
+          <h2>100+</h2>
           <p>Servers Deployed</p>
         </div>
 
         <div className={styles.counter}>
-          <h2>25+</h2>
-          <p>Team Members (as of 2024)</p>
+          <h2>10+</h2>
+          <p>Team Members (as of 2025)</p>
         </div>
 
         <div className={styles.counter}>

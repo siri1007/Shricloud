@@ -6,7 +6,7 @@ import "swiper/swiper-bundle.css";
 import thumb from "@/public/img/w.png";
 import one from "@/public/img/brand/trustipilot.png";
 import two from "@/public/img/brand/google.png";
-import three from "@/public/img/brand/wpbeginner.png";
+// import three from "@/public/img/brand/wpbeginner.png";
 import four from "@/public/img/brand/hostadvice.png";
 import five from "@/public/img/brand/capterra.png";
 
@@ -14,10 +14,7 @@ const Brand = () => {
   return (
     <div className="brand-section fix section-padding section-bg pt-0 margin-top-10">
       <div className="container">
-        <h3 className="brand-head-title">
-          <Image src={thumb} alt="img" priority />
-          Recommended By <span>WordPress.org</span>
-        </h3>
+        
         <div className="swiper brand-slider-2">
           <Swiper
             slidesPerGroup={1}
@@ -68,13 +65,13 @@ const Brand = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
                   <Image src={three} alt="img" priority />
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
@@ -82,13 +79,13 @@ const Brand = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
                   <Image src={five} alt="img" priority />
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
@@ -103,13 +100,13 @@ const Brand = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
                   <Image src={three} alt="img" priority />
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
@@ -117,13 +114,13 @@ const Brand = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
                   <Image src={five} alt="img" priority />
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>
