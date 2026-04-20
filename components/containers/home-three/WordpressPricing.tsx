@@ -109,15 +109,15 @@ const HomeFourPricing = () => {
                       <p>Plan that helps you grow</p>
                     </div>
 
-                    <h4>
+                    {/* <h4>
                       <span className={styles.oldPrice}>₹299 /mo</span>
-                    </h4>
+                    </h4> */}
                     <h2>
-                      ₹99 <sup>/ Month</sup>
+                      ₹299 <sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
-                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=48&promocode=SALE50%OFF">
                       Get Started Now
                     </Link>
                   </div>
@@ -304,16 +304,16 @@ const HomeFourPricing = () => {
                       <p>Quality Resources at a Great Price</p>
                     </div>
 
-                    <h4>
+                    {/* <h4>
                       <span className={styles.oldPrice}>₹399 /mo</span>
-                    </h4>
+                    </h4> */}
 
                     <h2>
-                      ₹ 199<sup>/ Month</sup>
+                      ₹ 399<sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
-                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=49&promocode=SALE50%OFF">
                       Get Started Now
                     </Link>
                   </div>
@@ -652,12 +652,10 @@ const HomeFourPricing = () => {
                       <p>Boost with power and features</p>
                     </div>
 
-                    <h4>
-                      <span className={styles.oldPrice}>₹799 /mo</span>
-                    </h4>
+                  
 
                     <h2>
-                      ₹349<sup>/ Month</sup>
+                      ₹799<sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">

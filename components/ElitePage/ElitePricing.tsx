@@ -63,7 +63,7 @@ const ElitePricing = () => {
       <div className="container">
         <div className="section-title text-center">
           <span className="style-border ">Pricing Plans</span>
-          <h2>Best WordPress Hosting Plans</h2>
+          <h2>Best Elite Hosting Plans</h2>
         </div>
         <div className="pricing-tab-header">
           <div className="arrow-shape">

@@ -18,7 +18,7 @@ const data = [
   title: "Stop Building. Start Launching.",
   desc: "Our AI WordPress builder designs, writes, and deploys your website instantly — fully optimized, beautifully crafted, and hosted on lightning-fast cloud infrastructure.",
   // desc: "Generate My Site in Minutes",
-  img: "/images/ai-builder.jpg",
+  img: "/img/Stopbuilding.jpg",
 },
 
 // Variation 3
@@ -27,7 +27,7 @@ const data = [
   title: "From Idea to Live Website — Without Writing a Single Line of Code",
   desc: "Tell the AI your vision. Get a professionally designed, SEO-optimized WordPress site backed by secure, high-performance cloud hosting — ready before your coffee gets cold.",
   // desc: "Try the AI Builder Free",
-  img: "/images/ai-builder.jpg",
+  img: "/img/Aiwordpress.jpg",
 },
 ];
 

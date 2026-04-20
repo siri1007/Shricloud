@@ -1,0 +1,215 @@
+// .techSection {
+//   padding: 80px 20px;
+//   text-align: center;
+
+//   background:#fff;
+
+//   color: white;
+//   overflow: hidden;
+// }
+
+// .title {
+//   font-size: 32px;
+//   font-weight: 600;
+//   margin-bottom: 50px;
+// }
+
+// // Slider
+// .slider {
+//   position: relative;
+//   width: 100%;
+//   overflow: hidden;
+// }
+
+// // Track
+// .slideTrack {
+//   display: flex;
+//   width: calc(150px * 10);
+//   animation: scroll 20s linear infinite;
+// }
+
+// // Card
+// .card {
+//   height: 120px;
+//   width: 120px;
+//   margin: 0 15px;
+//   border-radius: 20px;
+
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+//   background: rgba(255, 255, 255, 0.08);
+//   backdrop-filter: blur(10px);
+
+//   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+
+//   border: 1px solid rgba(255, 255, 255, 0.1);
+
+//   transition: transform 0.3s ease;
+// }
+
+// // SVG Icon
+// .icon {
+//   width: 50px;
+//   height: 50px;
+//   fill: white;
+//   transition: all 0.3s ease;
+// }
+
+// // Hover effects
+// .card:hover {
+//   transform: scale(1.1);
+// }
+
+// .card:hover .icon {
+//   transform: scale(1.2);
+//   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
+// }
+
+// // Pause on hover
+// .slideTrack:hover {
+//   animation-play-state: paused;
+// }
+
+// // Animation
+// @keyframes scroll {
+//   0% {
+//     transform: translateX(0);
+//   }
+//   100% {
+//     transform: translateX(-50%);
+//   }
+// }
+
+// // Responsive
+// @media (max-width: 768px) {
+//   .title {
+//     font-size: 24px;
+//   }
+
+//   .card {
+//     width: 90px;
+//     height: 90px;
+//   }
+
+//   .icon {
+//     width: 35px;
+//     height: 35px;
+//   }
+// }
+
+
+.techSection {
+  padding: 80px 20px;
+  text-align: center;
+  background: #fff;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #000;
+}
+
+// Slider container
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+// Gradient fade effect (left & right)
+.slider::before,
+.slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  background: linear-gradient(to right, #fff, transparent);
+}
+
+.slider::after {
+  right: 0;
+  background: linear-gradient(to left, #fff, transparent);
+}
+
+// Track
+.slideTrack {
+  display: flex;
+  width: max-content; // 🔥 fixes gap issue
+  animation: scroll 25s linear infinite;
+}
+
+// Card
+.card {
+  height: 120px;
+  width: 120px;
+  margin: 0 15px;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  border: 1px solid rgba(0, 0, 0, 0.05);
+
+  transition: transform 0.3s ease;
+}
+
+// Image
+.card img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+// Hover
+.card:hover {
+  transform: scale(1.1);
+}
+
+// Pause on hover
+.slideTrack:hover {
+  animation-play-state: paused;
+}
+
+// Animation (seamless loop)
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .card {
+    width: 90px;
+    height: 90px;
+  }
+
+  .card img {
+    width: 35px;
+    height: 35px;
+  }
+}

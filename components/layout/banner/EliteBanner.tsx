@@ -12,7 +12,12 @@ import rightShape from "@/public/img/hero/hero-1-circle-right.png";
 import icon from "@/public/img/hero/activity.png";
 import bannerImg from "@/public/img/WP-image.png";
 
-const EliteBanner = () => {
+
+type EliteBannerProps = {
+  scrollToPricing: () => void;
+};
+
+const EliteBanner = ({ scrollToPricing }: EliteBannerProps) => {
   return (
     <section className={styles.wordpressBanner}>
       {/* Background Shapes */}
@@ -51,9 +56,10 @@ Reliable Web hosting In india
               </ul>
             </div>
 
-            <Link href="/pricing" className={styles.ctaBtn}>
+<button onClick={scrollToPricing} className={styles.ctaBtn}>
               View Plans →
-            </Link>
+            </button>
+            
           </div>
 
           {/* RIGHT IMAGE */}

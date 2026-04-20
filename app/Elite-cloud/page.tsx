@@ -1,3 +1,7 @@
+"use client";
+
+import { useRef } from "react";
+
 import Header from "@/components/layout/header/Header";
 import WordpressBanner from "@/components/layout/banner/WordpressBanner";
 import HostingChooseTwo from "@/components/containers/hosting/HostingChooseTwo";
@@ -10,24 +14,40 @@ import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
 import EliteBanner from "@/components/layout/banner/EliteBanner";
 import ElitePricing from "@/components/ElitePage/ElitePricing";
+import DataCenter from "@/components/DataCenter/DataCenter";
 
+import TechStack from "@/components/ChooseElite/TechStack";
+import EliteFAQSection from "@/components/containers/faq/EliteFAQSection";
 import ChooseElite from "@/components/ChooseElite/ChooseElite";
 const page = () => {
-  return (
+  const pricingRef = useRef<HTMLDivElement | null>(null);
 
-    
+  return (
     <>
       <Header />
-      <EliteBanner />
-      <ElitePricing/>
+      <EliteBanner
+        scrollToPricing={() => {
+          pricingRef.current?.scrollIntoView({ behavior: "smooth" });
+        }}
+      />
+
+      <div ref={pricingRef}>
+        <ElitePricing />
+      </div>
       <HostingChooseTwo />
+      
 
       {/* <HomeThreePricing /> */}
-      <HomeHostingTwo />
+      {/* <HomeHostingTwo /> */}
+
       <ChooseElite />
+<TechStack />
+    
+      <EliteFAQSection />
+      <DataCenter />
       <Testimonial />
       <Brand />
-      <FaqSection />
+
       <Footer />
       <CustomCursor />
     </>
@@ -35,5 +55,3 @@ const page = () => {
 };
 
 export default page;
-
-
