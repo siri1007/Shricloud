@@ -22,10 +22,14 @@ import fourteen from "@/public/img/menu-icon/reseller-shost.png";
 import fifteen from "@/public/img/menu-icon/dedicated-host.png";
 import sixteen from "@/public/img/menu-icon/vps-host.png";
 import seventeen from "@/public/img/menu-icon/wordpress-host.png";
-import eightteen from "@/public/img/menu-icon/cloud-host.png";
+
 import OffCanvas from "./OffCanvas";
 import nighteen from "@/public/img/menu-icon/n8n.png";
 
+import shricloudlogo from "@/public/img/logo/shri logomavy.svg";
+
+
+// import shrinavy from ""
 // import Link from "next/link";
 
 {
@@ -100,10 +104,14 @@ const Header = () => {
                 <div className="header-left">
                   <div className="logo">
                     <Link href="/" className="header-logo">
-                      <Image src={logo} alt="logo-img" priority />
+                      <Image src={shricloudlogo} alt="logo-img"
+                      
+                        width={180}   // increase this
+  height={60}   // adjust proportion
+  priority  />
                     </Link>
                     <Link href="/" className="header-logo-2">
-                      <Image src={logoBlack} alt="logo-img" priority />
+                      <Image src={shricloudlogo} alt="logo-img" priority />
                     </Link>
                   </div>
                 </div>
@@ -246,7 +254,11 @@ const Header = () => {
 
                                         <div className="content">
                                           <h6>
-                                            <Link href="reseller-hosting">
+                                            {/* <Link href="reseller-hosting">
+                                              Reseller Hosting
+                                            </Link> */}
+
+                                            <Link href="reseller">
                                               Reseller Hosting
                                             </Link>
                                           </h6>

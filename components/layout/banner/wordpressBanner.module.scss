@@ -1,11 +1,16 @@
 .wordpressBanner {
   position: relative;
-  padding: 100px 0;
+  // padding: 100px 0;
+  padding-top: 50px;
+  // padding-bottom: 100px;
+  padding-left: 0;
+  padding-right: 0;
   background: linear-gradient(135deg, #f5f9ff, #ffffff);
   overflow: hidden;
   background-image: url(/img/hero/hero-bg-1.jpg);
   background-size: cover;
   background-position: center;
+  height: 650px;
 
   .leftShape {
     position: absolute;
@@ -107,3 +112,8 @@
     text-align: center;
   }
 }
+
+
+
+// .elite {}
+// .wordpress {}

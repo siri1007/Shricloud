@@ -10,7 +10,7 @@ import styles from "./wordpressBanner.module.scss";
 import leftShape from "@/public/img/hero/hero-1-circle-left.png";
 import rightShape from "@/public/img/hero/hero-1-circle-right.png";
 import icon from "@/public/img/hero/activity.png";
-import bannerImg from "@/public/img/WP-image.png";
+import bannerImg from "@/public/img/Eliteimg.png";
 
 
 type EliteBannerProps = {
@@ -20,6 +20,7 @@ type EliteBannerProps = {
 const EliteBanner = ({ scrollToPricing }: EliteBannerProps) => {
   return (
     <section className={styles.wordpressBanner}>
+   
       {/* Background Shapes */}
       <div className={styles.leftShape}>
         <Image src={leftShape} alt="shape" priority />
