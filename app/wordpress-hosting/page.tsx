@@ -1,5 +1,5 @@
 import Header from "@/components/layout/header/Header";
-import WordpressBanner from "@/components/layout/banner/WordpressBanner";
+// import WordpressBanner from "@/components/layout/banner/WordpressBanner";
 import HostingChooseTwo from "@/components/containers/hosting/HostingChooseTwo";
 import HomeThreePricing from "@/components/containers/home-three/HomeThreePricing";
 import HomeHostingTwo from "@/components/containers/home/HomeHostingTwo";
@@ -15,7 +15,7 @@ const page = () => {
 
     <>
       <Header />
-      <WordpressBanner />
+      {/* <WordpressBanner /> */}
       <HostingChooseTwo />
       <HomeThreePricing />
       <HomeHostingTwo />
