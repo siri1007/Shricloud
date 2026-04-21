@@ -28,15 +28,20 @@ const page = () => {
 
     <>
       <Header />
-      <WordpressBanner  scrollToPricing={scrollToPricing} />
+      <WordpressBanner
+  scrollToPricing={() => {
+    document
+      .getElementById("pricing")
+      ?.scrollIntoView({ behavior: "smooth" });
+  }}
+/>
 
 
       <HostingChooseTwo />
 
-      
-      <div ref={pricingRef}>
-       <HomeThreePricing  />
-      </div>
+      <div id="pricing">
+  <HomeThreePricing />
+</div>
      
       <HomeHostingTwo />
       <Testimonial />
