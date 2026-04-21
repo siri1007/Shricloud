@@ -19,8 +19,8 @@ type EliteBannerProps = {
 
 const EliteBanner = ({ scrollToPricing }: EliteBannerProps) => {
   return (
-    <section className={styles.wordpressBanner}>
-   
+    // <section className={styles.wordpressBanner}>
+   <section className={styles.wordpressBanner} style={{ paddingTop: "170px" }}>
       {/* Background Shapes */}
       <div className={styles.leftShape}>
         <Image src={leftShape} alt="shape" priority />
