@@ -79,7 +79,7 @@ const BannerBlack = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                <span>Black Friday</span> super Sale Hosting deals
+                
               </h1>
               <div className="coming-soon-timer">
                 <div

@@ -29,12 +29,7 @@ const Topbar = () => {
                 <Link href="tel:+20866660112">+208-6666-0112</Link>
               </li> */}
             </ul>
-            <p>
-              Shricloud Flash Discount:Plans Starting at  just  <b>$3.49/mo</b>  Limited time  Offer!
-              
-
-              
-            </p>
+           
             <ul className="list">
               <li>
                 <i className="fa-light fa-comments"></i>

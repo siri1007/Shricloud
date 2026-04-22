@@ -1,9 +1,9 @@
 .hero-1 {
   position: relative;
   z-index: 7;
-  padding: 185px 0px 120px;
-  // height: 700px;
-  height:650px;
+  padding: 230px 0px 120px;
+  height: 770px;
+  // height:650px;
   // border: 1px solid #000;
 
   @include breakpoint(max-xl) {
@@ -199,6 +199,7 @@
   &.style-hero-2 {
     background-position: bottom !important;
     padding: 325px 0 275px;
+    border: 1px solid #000;
 
     @include breakpoint(max-xl) {
       padding: 250px 0 387px;

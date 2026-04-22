@@ -3,8 +3,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Topbar from "./Topbar";
-import logo from "@/public/img/logo/white-logo.svg";
-import logoBlack from "@/public/img/logo/black-logo.svg";
 import one from "@/public/img/menu-icon/web-host.png";
 import two from "@/public/img/menu-icon/host-service.png";
 import three from "@/public/img/menu-icon/host-solut.png";
@@ -27,7 +25,7 @@ import OffCanvas from "./OffCanvas";
 import nighteen from "@/public/img/menu-icon/n8n.png";
 
 import shricloudlogo from "@/public/img/logo/shri logomavy.svg";
-
+import shricloudwhitelogo from "@/public/img/logo/shricloud logo white 186x35.svg";
 
 // import shrinavy from ""
 // import Link from "next/link";
@@ -104,14 +102,18 @@ const Header = () => {
                 <div className="header-left">
                   <div className="logo">
                     <Link href="/" className="header-logo">
-                      <Image src={shricloudlogo} alt="logo-img"
-                      
-                        width={180}   // increase this
-  height={60}   // adjust proportion
-  priority  />
+                      <Image
+                        src={shricloudwhitelogo}
+                        alt="logo-img"
+                        width={244} // increase this
+                        height={60} // adjust proportion
+                        priority
+                      />
                     </Link>
                     <Link href="/" className="header-logo-2">
-                      <Image src={shricloudlogo} alt="logo-img" priority />
+                      <Image src={shricloudlogo} alt="logo-img" priority 
+                       width={244} // increase this
+                        height={60} />
                     </Link>
                   </div>
                 </div>
@@ -228,7 +230,7 @@ const Header = () => {
                                               WordPress Cloud
                                             </Link>
                                           </h6>
-                                          <p>Highest Selling Service</p>
+                                          <p>Top-Selling Solution</p>
                                         </div>
 
                                         {/* <div className="content">
@@ -262,7 +264,7 @@ const Header = () => {
                                               Reseller Hosting
                                             </Link>
                                           </h6>
-                                          <p>Excellent Offer</p>
+                                          <p>Great Value Plans</p>
                                         </div>
                                       </div>
                                     </div>
@@ -270,11 +272,7 @@ const Header = () => {
                                     <div className="col-lg-6">
                                       <div className="homemenu-list">
                                         <div className="icon">
-                                          <Image
-                                            src={two}
-                                            alt="img"
-                                            priority
-                                          />
+                                          <Image src={two} alt="img" priority />
                                         </div>
                                         <div className="content">
                                           <h6>
@@ -282,7 +280,7 @@ const Header = () => {
                                               Elite Cloud
                                             </Link>
                                           </h6>
-                                          <p>Best Provider</p>
+                                          <p>Premium Performance</p>
                                         </div>
                                       </div>
                                     </div>
@@ -302,7 +300,7 @@ const Header = () => {
                                               Dedicated Hosting
                                             </Link>
                                           </h6>
-                                          <p>Flexible Plans</p>
+                                          <p>High Power & Reliability</p>
                                         </div>
                                       </div>
                                     </div>
@@ -322,7 +320,7 @@ const Header = () => {
                                               VPS Cloud
                                             </Link>
                                           </h6>
-                                          <p>Flexible Plans</p>
+                                          <p>Scalable Cloud Hosting</p>
                                         </div>
                                       </div>
                                     </div>

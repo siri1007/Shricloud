@@ -107,20 +107,18 @@ const ElitePricing = () => {
                 <div className="pricing-box-items">
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h4>STARTUP</h4>
+                      <h4>Startup</h4>
                       <p>Plan that helps you grow</p>
                     </div>
 
-                    <h4>
-                      <span className={styles.oldPrice}>₹1759 /mo</span>
-                    </h4>
+                  
                     <h2>
-                      ₹714 <sup>/ Month</sup>
+                      ₹1759 <sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
                     <Link
-                      href="https://my.shricloud.com/index.php?/cart/&step=1"
+                      href="https://my.shricloud.com/?cmd=cart&action=add&id=21&promocode=SALE35%OFF"
                       className="theme-btn"
                     >
                       Get Started Now
@@ -504,21 +502,19 @@ const ElitePricing = () => {
                 <div className="pricing-box-items active">
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h4>BUSINESS </h4>
+                      <h4>Business </h4>
                       <p>Quality Resources at a Great Price</p>
                     </div>
 
-                    <h4>
-                      <span className={styles.oldPrice}>₹2759 /mo</span>
-                    </h4>
+                   
 
                     <h2>
-                      ₹1259<sup>/ Month</sup>
+                      ₹2759<sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
                     <Link
-                      href="https://my.shricloud.com/index.php?/cart/&step=1"
+                      href="https://my.shricloud.com/?cmd=cart&action=add&id=22&promocode=SALE35%OFF"
                       className="theme-btn"
                     >
                       Get Started Now
@@ -871,17 +867,14 @@ const ElitePricing = () => {
                       <p>Boost with power and features</p>
                     </div>
 
-                    <h4>
-                      <span className={styles.oldPrice}>₹3159 /mo</span>
-                    </h4>
-
+                   
                     <h2>
-                      ₹1659 <sup>/ Month</sup>
+                      ₹3159 <sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
                     <Link
-                      href="https://my.shricloud.com/index.php?/cart/&step=1"
+                      href="https://my.shricloud.com/?cmd=cart&action=add&id=23&promocode=SALE35%OFF"
                       className="theme-btn"
                     >
                       Get Started Now
@@ -1288,16 +1281,15 @@ const ElitePricing = () => {
                       <p>Plan that helps you grow</p>
                     </div>
                     <h4>
-                      <span className={styles.oldPrice}>₹299/Month</span>
+                      <span className={styles.oldPrice}>₹1759 /Month</span>
                     </h4>
                     <h2>
-                      ₹99<sup>/ Month</sup>
+                      ₹714<sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
                     <Link
-                      href="https://my.shricloud.com/index.php?/cart/&step=1"
-                      className="theme-btn"
+                      href="https://my.shricloud.com/?cmd=cart&action=add&id=21&promocode=SALE35%OFF"
                     >
                       Get Started Now
                     </Link>
@@ -1634,16 +1626,16 @@ const ElitePricing = () => {
                     </div>
 
                     <h4>
-                      <span className={styles.oldPrice}>₹399 /Month</span>
+                      <span className={styles.oldPrice}>₹2759 /Month</span>
                     </h4>
 
                     <h2>
-                      ₹ 199<sup>/ Month</sup>
+                      ₹ 1259<sup>/ Month</sup>
                     </h2>
                   </div>
                   <div className="pricing-button">
                     <Link
-                      href="https://my.shricloud.com/index.php?/cart/&step=1"
+                      href="https://my.shricloud.com/?cmd=cart&action=add&id=22&promocode=SALE35%OFF"
                       className="theme-btn"
                     >
                       Get Started Now
@@ -2002,8 +1994,7 @@ const ElitePricing = () => {
                   </div>
                   <div className="pricing-button">
                     <Link
-                      href="https://my.shricloud.com/index.php?/cart/&step=1"
-                      className="theme-btn"
+                      href="https://my.shricloud.com/?cmd=cart&action=add&id=23&promocode=SALE35%OFF"
                     >
                       Get Started Now
                     </Link>

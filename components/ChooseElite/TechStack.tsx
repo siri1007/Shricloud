@@ -52,7 +52,7 @@ const TechStack: React.FC = () => {
   return (
     <section className={styles.techSection}>
       <h2 className={styles.title}>
-        Host Any Technology Seamlessly on Elite Cloud
+       Latest technologies integrated
       </h2>
 
       <div className={styles.slider}>

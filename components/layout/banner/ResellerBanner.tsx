@@ -7,6 +7,8 @@ import four from "@/public/img/hero/hero-1-dot-right.png";
 import five from "@/public/img/hero/activity.png";
 import six from "@/public/img/breadcrumb.png";
 
+// import resell from "@/public/img/resell.jpeg
+
 const ResellerBanner = () => {
   return (
     <section

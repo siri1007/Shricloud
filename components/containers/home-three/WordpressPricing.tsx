@@ -116,8 +116,14 @@ const HomeFourPricing = () => {
                       ₹299 <sup>/ Month</sup>
                     </h2>
                   </div>
-                  <div className="pricing-button">
+                  {/* <div className="pricing-button">
                     <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=48&promocode=SALE50%OFF">
+                      Get Started Now
+                    </Link>
+                  </div> */}
+
+                  <div className="pricing-button">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=48&promocode=SALE50%OFF" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>
@@ -312,8 +318,14 @@ const HomeFourPricing = () => {
                       ₹ 399<sup>/ Month</sup>
                     </h2>
                   </div>
+                  {/* <div className="pricing-button">
+                    <Link href="#">
+                      Get Started Now
+                    </Link>
+                  </div> */}
+
                   <div className="pricing-button">
-                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=49&promocode=SALE50%OFF">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=49&promocode=SALE50%OFF" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>
@@ -658,11 +670,13 @@ const HomeFourPricing = () => {
                       ₹799<sup>/ Month</sup>
                     </h2>
                   </div>
+                  
                   <div className="pricing-button">
-                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=50&promocode=SALE50%OFF" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>
+
                   <ul className="pricing-list">
                     <li className={styles["tooltip-item"]}>
                       <span>
@@ -1240,7 +1254,7 @@ const HomeFourPricing = () => {
                     </h2>
                   </div>
                   <div className="pricing-button">
-                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=49&promocode=SALE50%OFF" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>
@@ -1593,7 +1607,7 @@ const HomeFourPricing = () => {
                     </h2>
                   </div>
                   <div className="pricing-button">
-                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=50&promocode=SALE50%OFF" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>

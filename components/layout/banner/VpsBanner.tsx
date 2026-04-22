@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import one from "@/public/img/hero/hero-1-circle-left.png";
@@ -6,8 +8,12 @@ import three from "@/public/img/hero/hero-1-dot-left.png";
 import four from "@/public/img/hero/hero-1-dot-right.png";
 import five from "@/public/img/hero/activity.png";
 import six from "@/public/img/breadcrumb.png";
+import styles from "./wordpressBanner.module.scss";
 
-const VpsBanner = () => {
+type EliteBannerProps = {
+  scrollToPricing: () => void;
+};
+const VpsBanner = ({ scrollToPricing }: EliteBannerProps) => {
   return (
     <section
       className="hero-section hero-1 style-hosting bg-cover fix"
@@ -31,41 +37,26 @@ const VpsBanner = () => {
         <div className="row g-4 justify-content-between align-items-center">
           <div className="col-lg-6">
             <div className="hero-content">
-              <span
-                className="sub-text-2 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-              >
+              <span className="sub-text-2 ">
                 <Image src={five} alt="img" priority className="me-2" />
-                Dedicated Starter Plan - 12 months for $99/month
+                VPS Cloud Starter Plan – Just $99/month (12 Months)
               </span>
-              <h1
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
-              >
-                Managed Dedicated Server Hosting
-              </h1>
-              <div
-                className="hero-list-items "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                aria-errormessage=".5s"
-              >
+              <h1>Fully Managed VPS Cloud Hosting</h1>
+              <div className="hero-list-items " aria-errormessage=".5s">
                 <ul className="hero-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    Lifetime Free Wildcard SLL certificate
+                    Free SSL Certificate for Lifetime Security
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    24/7 Chat, call & Ticket Support
+                    24/7 Chat & Ticket Support
                   </li>
                 </ul>
                 <ul className="hero-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    Free Domain 2 Years Billing
+                    Free Domain with Long-Term VPS Plans
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
@@ -73,23 +64,12 @@ const VpsBanner = () => {
                   </li>
                 </ul>
               </div>
-              <Link
-                href="pricing"
-                className="theme-btn bg-color-2 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="700"
-              >
-                view plan <i className="fas fa-long-arrow-alt-right"></i>
-              </Link>
+              <button onClick={scrollToPricing} className={styles.ctaBtn}>
+                View Plans →
+              </button>
             </div>
           </div>
-          <div
-            className="col-lg-3 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
-          >
+          <div className="col-lg-3 ">
             <div className="hero-image">
               <Image src={six} alt="img" priority />
             </div>

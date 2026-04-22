@@ -1,0 +1,172 @@
+.wrapper {
+  // background: #020617;
+
+  background:linear-gradient(135deg, #384bff, #5f6dff, #1b2bb5, #0f1a7a);
+  padding: 80px 40px;
+  color: #fff;
+}
+
+.heading {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 50px;
+  color:#fff;
+
+  span {
+    color: #fff;
+  }
+}
+
+/* TOP CARDS */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+//   background: linear-gradient(145deg, #020617, #0b1220);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.card:hover {
+  border-color: #fff;
+  transform: translateY(-6px);
+}
+
+.number {
+  font-size: 14px;
+  color: #fff;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(56, 75, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin: 20px 0;
+  font-size: 22px;
+  color:#fff;
+
+
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color:#fff;
+}
+
+.card p {
+  font-size: 14px;
+  color: white;
+  line-height: 1.6;
+}
+
+/* TAGS */
+
+.tagGreen,
+.tagBlue,
+.tagRed {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.tagGreen {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+}
+
+.tagBlue {
+  background: rgba(56, 75, 255, 0.15);
+  color: #60a5fa;
+}
+
+.tagRed {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+}
+
+/* BOTTOM BOX */
+
+.bottomBox {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border-radius: 20px;
+  // background: linear-gradient(120deg, #020617, #0b1220);
+ background:linear-gradient(135deg, #384bff, #5f6dff, #1b2bb5, #0f1a7a);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+}
+
+.left {
+  max-width: 40%;
+}
+
+.globe {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.left h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+   color:#fff;
+}
+
+.left p {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* RIGHT STATS */
+
+.right {
+  display: flex;
+  gap: 60px;
+}
+
+.stat h2 {
+  font-size: 36px;
+  color: #fff;
+}
+
+.stat p {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .bottomBox {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .left {
+    max-width: 100%;
+  }
+
+  .right {
+    gap: 30px;
+  }
+}

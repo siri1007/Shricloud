@@ -15,21 +15,18 @@ const HostingFeatureTwo = () => {
         <div className="section-title text-center">
           <span
             className="style-border "
-            data-aos="fade-up"
-            data-aos-duration="800"
+           
           >
             Features
           </span>
-          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <h2>
             Quick Look on Our <br /> VPS Features
           </h2>
         </div>
         <div className="row">
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
+           
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -38,17 +35,14 @@ const HostingFeatureTwo = () => {
               <div className="content">
                 <h3>RAM & Storage</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+               High-performance RAM and fast NVMe storage to keep your website running smoothly and reliably at all times.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
+           
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -57,17 +51,14 @@ const HostingFeatureTwo = () => {
               <div className="content">
                 <h3>SSDs, Email & SSL</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                 Enjoy ultra-fast SSD storage, business email, and free SSL to keep your data secure and your brand trusted.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="600"
+           
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -76,17 +67,15 @@ const HostingFeatureTwo = () => {
               <div className="content">
                 <h3>Daily Backups</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Automatic daily backups to keep your data safe  anytime , so you can restore your website anytime without
+                  stress.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="800"
+        
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -95,17 +84,14 @@ const HostingFeatureTwo = () => {
               <div className="content">
                 <h3>Maximum Security</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                Advanced security layers and real-time monitoring to protect your server from threats and unauthorized access..
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
+          
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -114,17 +100,14 @@ const HostingFeatureTwo = () => {
               <div className="content">
                 <h3>Safe and Secured</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                Your data is hosted in secure environments with strict protection protocols to ensure complete safet
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
+           
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -133,17 +116,14 @@ const HostingFeatureTwo = () => {
               <div className="content">
                 <h3>Money-Back Guarantee</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                 Try our services risk-free with a 30-day money-back guarantee, giving you complete peace of mind.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="600"
+         
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -152,17 +132,14 @@ const HostingFeatureTwo = () => {
               <div className="content">
                 <h3>Safe and Secured</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+               End-to-end protection with encrypted connections and secure infrastructure to keep your data safe at all times.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="800"
+           
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -171,8 +148,7 @@ const HostingFeatureTwo = () => {
               <div className="content">
                 <h3>Dedicated Support</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                 24/7 expert support is always available to help you anytime through chat, or support tickets.
                 </p>
               </div>
             </div>

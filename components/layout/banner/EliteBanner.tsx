@@ -1,6 +1,3 @@
-
-
-
 "use client";
 
 import Link from "next/link";
@@ -12,7 +9,6 @@ import rightShape from "@/public/img/hero/hero-1-circle-right.png";
 import icon from "@/public/img/hero/activity.png";
 import bannerImg from "@/public/img/Eliteimg.png";
 
-
 type EliteBannerProps = {
   scrollToPricing: () => void;
 };
@@ -20,7 +16,7 @@ type EliteBannerProps = {
 const EliteBanner = ({ scrollToPricing }: EliteBannerProps) => {
   return (
     // <section className={styles.wordpressBanner}>
-   <section className={styles.wordpressBanner} style={{ paddingTop: "170px" }}>
+    <section className={styles.wordpressBanner} style={{ paddingTop: "195px" }}>
       {/* Background Shapes */}
       <div className={styles.leftShape}>
         <Image src={leftShape} alt="shape" priority />
@@ -32,18 +28,14 @@ const EliteBanner = ({ scrollToPricing }: EliteBannerProps) => {
 
       <div className="container">
         <div className={styles.bannerWrapper}>
-          
           {/* LEFT CONTENT */}
           <div className={styles.content}>
             <span className={styles.subText}>
               <Image src={icon} alt="icon" />
-           
-Reliable Web hosting In india
+              Reliable Web hosting In india
             </span>
 
-            <h1>
-            Best Web Hosting for Ecommerce and High Traffic Websites
-            </h1>
+            <h1>Best Web Hosting for Ecommerce and High Traffic Websites</h1>
 
             <div className={styles.features}>
               <ul>
@@ -57,17 +49,15 @@ Reliable Web hosting In india
               </ul>
             </div>
 
-<button onClick={scrollToPricing} className={styles.ctaBtn}>
+            <button onClick={scrollToPricing} className={styles.ctaBtn}>
               View Plans →
             </button>
-            
           </div>
 
           {/* RIGHT IMAGE */}
           <div className={styles.imageWrapper}>
             <Image src={bannerImg} alt="wordpress hosting" priority />
           </div>
-
         </div>
       </div>
     </section>
