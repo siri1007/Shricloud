@@ -16,6 +16,7 @@ import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
 import CloudVpsPlans from "@/components/containers/CloudVpspalns/CloudVpsPlans";
 import CloudWhychoose from "@/components/containers/CloudVpspalns/CloudVpsWhyChoose";
+import CloudVpsHero from "@/components/containers/CloudVpspalns/CloudVpsHero";
 
 
 const page = () => {
@@ -34,6 +35,7 @@ const page = () => {
       </div>
 
       {/* <HomeThreePricing /> */}
+      <CloudVpsHero />
       <HostingFeatureTwo />
       <CloudWhychoose />
       <HostingTab />

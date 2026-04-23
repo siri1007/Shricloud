@@ -4,13 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import one from "@/public/img/hero/hero-1-circle-left.png";
 import two from "@/public/img/hero/hero-1-circle-right.png";
-import three from "@/public/img/hero/hero-1-dot-left.png";
-import four from "@/public/img/hero/hero-1-dot-right.png";
+// import three from "@/public/img/hero/hero-1-dot-left.png";
+// import four from "@/public/img/hero/hero-1-dot-right.png";
 import five from "@/public/img/hero/activity.png";
 import six from "@/public/img/breadcrumb.png";
 import styles from "./wordpressBanner.module.scss";
-
-type EliteBannerProps = {
+import Vpsimg from "@/public/img/Vpsimg.png";type EliteBannerProps = {
   scrollToPricing: () => void;
 };
 const VpsBanner = ({ scrollToPricing }: EliteBannerProps) => {
@@ -19,20 +18,21 @@ const VpsBanner = ({ scrollToPricing }: EliteBannerProps) => {
       className="hero-section hero-1 style-hosting bg-cover fix"
       style={{
         backgroundImage: "url(/img/hero/hero-bg-1.jpg)",
+       
       }}
     >
-      <div className="circle-shape-left">
+      {/* <div className="circle-shape-left">
         <Image src={one} alt="shape-img" priority />
       </div>
       <div className="circle-shape-right">
         <Image src={two} alt="shape-img" priority />
-      </div>
-      <div className="dot-left">
+      </div> */}
+      {/* <div className="dot-left">
         <Image src={three} alt="img" priority />
-      </div>
-      <div className="dot-right">
+      </div> */}
+      {/* <div className="dot-right">
         <Image src={four} alt="img" priority />
-      </div>
+      </div> */}
       <div className="container">
         <div className="row g-4 justify-content-between align-items-center">
           <div className="col-lg-6">
@@ -71,7 +71,12 @@ const VpsBanner = ({ scrollToPricing }: EliteBannerProps) => {
           </div>
           <div className="col-lg-3 ">
             <div className="hero-image">
-              <Image src={six} alt="img" priority />
+              <Image 
+  src={Vpsimg} 
+  alt="img" 
+  priority 
+  style={{ marginLeft: "-200px" }} 
+/>
             </div>
           </div>
         </div>

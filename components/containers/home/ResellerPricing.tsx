@@ -16,10 +16,10 @@ const PricingHome = () => {
       <div className="container">
         
         <div className="section-title text-center">
-          <span className="style-border" data-aos="fade-up" data-aos-duration="800">
+          <span className="style-border" >
             Pricing Plans
           </span>
-          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <h2 >
             Get the More Powerful With Hostech <br /> Website Hosting Plans
           </h2>
         </div>
@@ -30,7 +30,7 @@ const PricingHome = () => {
           </div>
 
           <ul className="nav" role="tablist">
-            <li className="nav-item" data-aos="fade-up" data-aos-duration="800">
+            <li className="nav-item">
               <a
                 onClick={() => setTab(0)}
                 className={`nav-link ${tab === 0 ? "active" : ""}`}
@@ -49,7 +49,7 @@ const PricingHome = () => {
             </li>
           </ul>
 
-          <div className="save-text">Save 25%</div>
+          <div className="save-text">Save 50%</div>
         </div>
 
         <div className="tab-content">

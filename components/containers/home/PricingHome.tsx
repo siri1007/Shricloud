@@ -14,14 +14,8 @@ const PricingHome = () => {
     <section className="pricing-section fix section-padding section-bg">
       <div className="container">
         <div className="section-title text-center">
-          <span
-            className="style-border "
-            data-aos="fade-up"
-            data-aos-duration="800"
-          >
-            Pricing Plans
-          </span>
-          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <span className="style-border ">Pricing Plans</span>
+          <h2>
             Get the More Powerful With Hostech <br /> Website Hosting Plans
           </h2>
         </div>
@@ -30,13 +24,7 @@ const PricingHome = () => {
             <Image src={one} alt="img" priority />
           </div>
           <ul className="nav" role="tablist">
-            <li
-              className="nav-item "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="300"
-              role="presentation"
-            >
+            <li className="nav-item " role="presentation">
               <a
                 onClick={() => setTab(0)}
                 data-bs-toggle="tab"
@@ -47,13 +35,7 @@ const PricingHome = () => {
                 Monthly
               </a>
             </li>
-            <li
-              className="nav-item "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="500"
-              role="presentation"
-            >
+            <li className="nav-item " role="presentation">
               <a
                 onClick={() => setTab(1)}
                 data-bs-toggle="tab"
@@ -74,12 +56,7 @@ const PricingHome = () => {
             role="tabpanel"
           >
             <div className="row">
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
-              >
+              <div className="col-xl-4 col-lg-6 col-md-6 ">
                 <div className="pricing-card-items responsive-pricing-style">
                   <div className="wing-shape">
                     <Image src={two} alt="img" priority />
@@ -92,35 +69,55 @@ const PricingHome = () => {
                   </div>
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h3>Shared Hosting</h3>
-                      <p>Collaboratively formulate</p>
+                      <h3>Startup</h3>
+                      {/* <p> ₹999/mo</p> */}
                     </div>
-                    <h2>$29</h2>
+                    <h2>$₹999/mo</h2>
                   </div>
                   <ul className="pricing-list">
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Branding and design Identity
+                      30 Hosting Accounts
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Web site Marketing Solutions
+                      50 GB Disk Space
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Free 15 GB Linux Hosting
+                      Unlimited Websites
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Application Installation
+                      Unlimited Free SSL
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Download Data
+                      Unlimited Databases
                     </li>
-                    <li className="color-2">
-                      <i className="fa-solid fa-xmark"></i>
-                      Dedicated IP Address
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Private Nameservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Cloud Infrastructure
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      100% White Labelled
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Litespeed Webservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Softaculous Auto Installer
                     </li>
                   </ul>
                   <div className="pricing-button">
@@ -131,12 +128,7 @@ const PricingHome = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="500"
-              >
+              <div className="col-xl-4 col-lg-6 col-md-6 ">
                 <div className="pricing-card-items responsive-pricing-style">
                   <div className="wing-shape">
                     <Image src={two} alt="img" priority />
@@ -149,35 +141,55 @@ const PricingHome = () => {
                   </div>
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h3>VPS Hosting</h3>
-                      <p>Collaboratively formulate</p>
+                      <h3>Growth</h3>
+                      {/* <p>Collaboratively formulate</p> */}
                     </div>
-                    <h2>$39</h2>
+                    <h2>₹1899/mo</h2>
                   </div>
                   <ul className="pricing-list">
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Branding and design Identity
+                      60 Hosting Accounts
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Web site Marketing Solutions
+                      100 GB Disk Space
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Free 15 GB Linux Hosting
+                      Unlimited Websites
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Application Installation
+                      Unlimited Free SSL
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Download Data
+                      Unlimited Databases
                     </li>
-                    <li className="color-2">
-                      <i className="fa-solid fa-xmark"></i>
-                      Dedicated IP Address
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Private Nameservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Cloud Infrastructure
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      100% White Labeled
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Litespeed Webservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Softaculous Auto Installer
                     </li>
                   </ul>
                   <div className="pricing-button">
@@ -188,12 +200,7 @@ const PricingHome = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="700"
-              >
+              <div className="col-xl-4 col-lg-6 col-md-6 ">
                 <div className="pricing-card-items responsive-pricing-style">
                   <div className="wing-shape">
                     <Image src={two} alt="img" priority />
@@ -206,35 +213,55 @@ const PricingHome = () => {
                   </div>
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h3>Cloud Hosting</h3>
-                      <p>Collaboratively formulate</p>
+                      <h3>Expand</h3>
+                      {/* <p>₹2599/mo</p> */}
                     </div>
-                    <h2>$59</h2>
+                    <h2>₹2599/mo</h2>
                   </div>
                   <ul className="pricing-list">
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Branding and design Identity
+                      90 Hosting Accounts
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Web site Marketing Solutions
+                      150 GB Disk Space
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Free 15 GB Linux Hosting
+                      Unlimited Websites
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Application Installation
+                      Unlimited Free SSL
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Download Data
+                      Unlimited Databases
                     </li>
-                    <li className="color-2">
-                      <i className="fa-solid fa-xmark"></i>
-                      Dedicated IP Address
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Private Nameservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Cloud Infrastructure
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      100% White Labeled
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Litespeed Webservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Softaculous Auto Installer
                     </li>
                   </ul>
                   <div className="pricing-button">
@@ -266,35 +293,55 @@ const PricingHome = () => {
                   </div>
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h3>Shared Hosting</h3>
-                      <p>Collaboratively formulate</p>
+                      <h3>Startup</h3>
+                      {/* <p>Collaboratively formulate</p> */}
                     </div>
-                    <h2>$29</h2>
+                    <h2>$₹999/mo</h2>
                   </div>
                   <ul className="pricing-list">
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Branding and design Identity
+                      30 Hosting Accounts
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Web site Marketing Solutions
+                      50 GB Disk Space
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Free 15 GB Linux Hosting
+                      Unlimited Websites
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Application Installation
+                      Unlimited Free SSL
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Download Data
+                      Unlimited Databases
                     </li>
-                    <li className="color-2">
-                      <i className="fa-solid fa-xmark"></i>
-                      Dedicated IP Address
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Private Nameservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Cloud Infrastructure
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      100% White Labelled
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Litespeed Webservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Softaculous Auto Installer
                     </li>
                   </ul>
                   <div className="pricing-button">
@@ -318,35 +365,55 @@ const PricingHome = () => {
                   </div>
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h3>VPS Hosting</h3>
-                      <p>Collaboratively formulate</p>
+                      <h3>Growth</h3>
+                      {/* <p>Collaboratively formulate</p> */}
                     </div>
-                    <h2>$39</h2>
+                    <h2>₹1899/mo</h2>
                   </div>
-                  <ul className="pricing-list">
+                   <ul className="pricing-list">
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Branding and design Identity
+                      60 Hosting Accounts
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Web site Marketing Solutions
+                      100 GB Disk Space
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Free 15 GB Linux Hosting
+                      Unlimited Websites
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Application Installation
+                      Unlimited Free SSL
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Download Data
+                      Unlimited Databases
                     </li>
-                    <li className="color-2">
-                      <i className="fa-solid fa-xmark"></i>
-                      Dedicated IP Address
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Private Nameservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Cloud Infrastructure
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      100% White Labeled
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Litespeed Webservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Softaculous Auto Installer
                     </li>
                   </ul>
                   <div className="pricing-button">
@@ -370,35 +437,55 @@ const PricingHome = () => {
                   </div>
                   <div className="pricing-header">
                     <div className="price-content">
-                      <h3>Cloud Hosting</h3>
-                      <p>Collaboratively formulate</p>
+                      <h3>Expand</h3>
+                      {/* <p>Collaboratively formulate</p> */}
                     </div>
-                    <h2>$59</h2>
+                    <h2>₹2599</h2>
                   </div>
-                  <ul className="pricing-list">
+                <ul className="pricing-list">
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Branding and design Identity
+                      90 Hosting Accounts
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Web site Marketing Solutions
+                      150 GB Disk Space
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Free 15 GB Linux Hosting
+                      Unlimited Websites
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Application Installation
+                      Unlimited Free SSL
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i>
-                      Unlimited Download Data
+                      Unlimited Databases
                     </li>
-                    <li className="color-2">
-                      <i className="fa-solid fa-xmark"></i>
-                      Dedicated IP Address
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Private Nameservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Cloud Infrastructure
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      100% White Labeled
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Litespeed Webservers
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-check"></i>
+                      Softaculous Auto Installer
                     </li>
                   </ul>
                   <div className="pricing-button">
@@ -419,7 +506,8 @@ const PricingHome = () => {
           data-aos-delay="400"
         >
           <p>
-            Cost-effective hosting that delivers secure, reliable performance.{" "}
+            Cost-effective hosting that delivers secure, reliable
+            performance.{" "}
           </p>
           <Link href="pricing" className="theme-btn">
             See all plan & details

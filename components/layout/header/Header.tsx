@@ -256,13 +256,13 @@ const Header = () => {
 
                                         <div className="content">
                                           <h6>
-                                            {/* <Link href="reseller-hosting">
-                                              Reseller Hosting
-                                            </Link> */}
-
-                                            <Link href="reseller">
+                                            <Link href="reseller-hosting">
                                               Reseller Hosting
                                             </Link>
+
+                                            {/* <Link href="reseller">
+                                              Reseller Hosting
+                                            </Link> */}
                                           </h6>
                                           <p>Great Value Plans</p>
                                         </div>
