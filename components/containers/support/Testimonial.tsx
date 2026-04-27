@@ -12,12 +12,11 @@ const Testimonial = () => {
         <div className="section-title text-center">
           <span
             className="style-bg "
-            data-aos="fade-up"
-            data-aos-duration="800"
+          
           >
             clients Testimonials
           </span>
-          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <h2>
             Latest Client Feedback
           </h2>
         </div>

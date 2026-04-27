@@ -8,16 +8,25 @@ import Testimonial from "@/components/containers/support/Testimonial";
 import Brand from "@/components/containers/support/Brand";
 import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
+import ResellerHostingplan from "@/components/Resellersections/ResellerSection";
+import HostingEnterprise from "@/components/Resellersections/HostingEnterprise";
 
 const page = () => {
   return (
     <>
       <Header />
       <ResellerBanner />
+
+   
       <PricingHome />
+
+          <ResellerHostingplan />
+
       <HostingChooseThree />
-      <HomeTwoCta />
-      <FaqSection />
+      {/* <HomeTwoCta /> */}
+      {/* <FaqSection /> */}
+     
+      <HostingEnterprise />
       <Testimonial />
       <Brand />
       <Footer />

@@ -1,5 +1,5 @@
 import Header from "@/components/layout/header/Header";
-import CloudBanner from "@/components/layout/banner/CloudBanner";
+import N8nBanner from "@/components/layout/banner/N8nBanner";
 import HostingFeatureThree from "@/components/containers/hosting/HostingFeatureThree";
 import HostingPricing from "@/components/containers/hosting/HostingPricing";
 import HomeFourFeature from "@/components/containers/home-four/HomeFourFeature";
@@ -8,14 +8,17 @@ import Brand from "@/components/containers/support/Brand";
 import FaqSection from "@/components/containers/faq/FaqSection";
 import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
+// import NnPricing from "@/components/NnPage/NnPricing;
+import NnPricing from "@/components/NnPage/NnPricing";
 
 const page = () => {
   return (
     <>
       <Header />
-      <CloudBanner />
+      <N8nBanner />
       <HostingFeatureThree />
-      <HostingPricing />
+      {/* <HostingPricing /> */}
+      <NnPricing />
       <HomeFourFeature />
       <Testimonial />
       <Brand />

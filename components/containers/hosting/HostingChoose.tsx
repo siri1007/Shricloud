@@ -11,21 +11,18 @@ const HostingChoose = () => {
         <div className="section-title text-center">
           <span
             className="style-border "
-            data-aos="fade-up"
-            data-aos-duration="800"
+            
           >
             Features
           </span>
-          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <h2 >
             Reseller Hosting Features
           </h2>
         </div>
         <div className="row">
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
+           
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -42,9 +39,7 @@ const HostingChoose = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
+           
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -61,9 +56,7 @@ const HostingChoose = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="600"
+          
           >
             <div className="choose-us-card-items">
               <div className="icon">
@@ -80,9 +73,7 @@ const HostingChoose = () => {
           </div>
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="800"
+           
           >
             <div className="choose-us-card-items">
               <div className="icon">

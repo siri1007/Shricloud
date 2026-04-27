@@ -22,9 +22,7 @@ const Footer = () => {
           <div className="row">
             <div
               className="col-xl-3 col-lg-4 col-md-6 "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="200"
+             
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -89,9 +87,7 @@ const Footer = () => {
             </div>
             <div
               className="col-xl-2 col-lg-4 col-md-3 ps-lg-3 "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="400"
+             
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -133,9 +129,7 @@ const Footer = () => {
             </div>
             <div
               className="col-xl-2 col-lg-4 col-md-3 ps-lg-4 "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="600"
+             
             >
               <div className="single-footer-widget style-margin">
                 <div className="widget-head">
@@ -177,9 +171,7 @@ const Footer = () => {
             </div>
             <div
               className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="800"
+            
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
@@ -221,9 +213,7 @@ const Footer = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-4 "
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="900"
+            
             >
               <div className="single-footer-widget">
                 <div className="widget-head">

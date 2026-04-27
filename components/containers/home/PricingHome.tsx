@@ -121,7 +121,7 @@ const PricingHome = () => {
                     </li>
                   </ul>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=24" className="theme-btn">
                       get Started Now{" "}
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
@@ -193,7 +193,7 @@ const PricingHome = () => {
                     </li>
                   </ul>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=25" className="theme-btn">
                       get Started Now{" "}
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
@@ -265,7 +265,7 @@ const PricingHome = () => {
                     </li>
                   </ul>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=26" className="theme-btn">
                       get Started Now{" "}
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
@@ -345,7 +345,7 @@ const PricingHome = () => {
                     </li>
                   </ul>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=24" className="theme-btn">
                       get Started Now{" "}
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
@@ -417,7 +417,7 @@ const PricingHome = () => {
                     </li>
                   </ul>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=25" className="theme-btn">
                       get Started Now{" "}
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
@@ -489,7 +489,7 @@ const PricingHome = () => {
                     </li>
                   </ul>
                   <div className="pricing-button">
-                    <Link href="contact" className="theme-btn">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=26" className="theme-btn">
                       get Started Now{" "}
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
