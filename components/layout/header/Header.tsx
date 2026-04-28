@@ -260,9 +260,9 @@ const Header = () => {
                                               Reseller Hosting
                                             </Link>
 
-                                            <Link href="reseller">
+                                            {/* <Link href="reseller">
                                               Reseller Hosting
-                                            </Link>
+                                            </Link> */}
                                           </h6>
                                           <p>Great Value Plans</p>
                                         </div>
@@ -418,7 +418,7 @@ const Header = () => {
                                         </div>
                                         <div className="content">
                                           <h6>
-                                            <Link href="about">
+                                            <Link href="Wordpress-cloud-Hosting">
                                               Premium Cloud
                                             </Link>
                                           </h6>
@@ -426,6 +426,49 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
+
+
+                                    <div className="col-lg-4">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={eight}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="reseller-hosting">
+                                              Reseller Cloud
+                                            </Link>
+                                          </h6>
+                                          <p>Start hosting business</p>
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+<div className="col-lg-4">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={twelve}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="error">
+                                              Error Pages
+                                            </Link>
+                                          </h6>
+                                          <p>Back to Home</p>
+                                        </div>
+                                      </div>
+                                    </div>
+
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -433,7 +476,7 @@ const Header = () => {
                                         </div>
                                         <div className="content">
                                           <h6>
-                                            <Link href="black-friday">
+                                            <Link href="Elite-cloud">
                                               Elite Cloud
                                             </Link>
                                           </h6>
@@ -441,26 +484,37 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
+
+
+
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
-                                            src={seven}
+                                            src={eight}
                                             alt="img"
                                             priority
                                           />
                                         </div>
                                         <div className="content">
                                           <h6>
-                                            <Link href="affiliate">
-                                              Cloud VPS
+                                            <Link href="dedicated-hosting">
+                                              Dedicated Servers
                                             </Link>
                                           </h6>
-                                          <p>Private VPS Server</p>
+                                          <p>Bare Metal Servers</p>
                                         </div>
                                       </div>
                                     </div>
-                                    <div className="col-lg-4">
+
+
+                                    
+
+
+
+
+                                    
+                                    {/* <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
@@ -478,8 +532,8 @@ const Header = () => {
                                           <p>Start hosting business</p>
                                         </div>
                                       </div>
-                                    </div>
-                                    <div className="col-lg-4">
+                                    </div> */}
+                                    {/* <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
@@ -497,7 +551,7 @@ const Header = () => {
                                           <p>Bare Metal Servers</p>
                                         </div>
                                       </div>
-                                    </div>
+                                    </div> */}
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -517,6 +571,31 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
+
+
+<div className="col-lg-4">
+                                      <div className="homemenu-list">
+                                        <div className="icon">
+                                          <Image
+                                            src={seven}
+                                            alt="img"
+                                            priority
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <h6>
+                                            <Link href="vps-hosting">
+                                              Cloud VPS
+                                            </Link>
+                                          </h6>
+                                          <p>Private VPS Server</p>
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+
+
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -524,9 +603,9 @@ const Header = () => {
                                         </div>
                                         <div className="content">
                                           <h6>
-                                            <Link href="service">Services</Link>
+                                            <Link href="N8n-hosting">N8n</Link>
                                           </h6>
-                                          <p>Best Services Provider</p>
+                                          <p>Connect, Automate, Scale</p>
                                         </div>
                                       </div>
                                     </div>
@@ -572,7 +651,7 @@ const Header = () => {
                                       </div>
                                     </div> */}
 
-                                    <div className="col-lg-4">
+                                    {/* <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
@@ -590,7 +669,7 @@ const Header = () => {
                                           <p>Back to Home</p>
                                         </div>
                                       </div>
-                                    </div>
+                                    </div> */}
                                   </div>
                                 </div>
                               </li>

@@ -10,8 +10,10 @@ const N8nBanner = () => {
     <section
       className="hero-section hero-1 style-hosting bg-cover fix"
       style={{
-        backgroundImage: "url(/img/hero/hero-bg-1.jpg)",
-      }}
+  backgroundImage: "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/img/hero/hero-bg-1.jpg)",
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+}}
     >
      
       <div className="container">

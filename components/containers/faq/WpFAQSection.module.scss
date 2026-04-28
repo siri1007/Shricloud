@@ -121,7 +121,10 @@
 .faqSection {
   position: relative;
   // background: #0c0c10; // deep navy-charcoal
-  background: linear-gradient(135deg, #384bff, #5f6dff, #1b2bb5, #0f1a7a);
+  // background: linear-gradient(135deg, #384bff, #5f6dff, #1b2bb5, #0f1a7a);
+// /img/hero/hero-bg-1.jpg
+  background: url("/img/hero/hero-bg-1.jpg") no-repeat center center;
+// background-size: cover;
   padding: 100px 20px;
   color: #eaeaf0;
   overflow: hidden;
@@ -244,7 +247,9 @@
   color: #c7c7d2;
   font-size: 14px;
   line-height: 1.6;
+  white-space: pre-line;
 }
+
 
 /* LEFT SIDE */
 .left {

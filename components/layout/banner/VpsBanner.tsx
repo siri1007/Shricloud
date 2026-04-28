@@ -71,12 +71,12 @@ const VpsBanner = ({ scrollToPricing }: EliteBannerProps) => {
           </div>
           <div className="col-lg-3 ">
             <div className="hero-image">
-              <Image 
+              {/* <Image 
   src={Vpsimg} 
   alt="img" 
   priority 
   style={{ marginLeft: "-200px" }} 
-/>
+/> */}
             </div>
           </div>
         </div>
