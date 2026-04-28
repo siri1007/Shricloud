@@ -45,19 +45,7 @@ const faqs: FAQ[] = [
       "Yes, Shricloud offers seamless migration services for your existing website to our Managed VPS Hosting. Our team of experts will handle the entire migration process, ensuring that your website is transferred smoothly without any downtime or data loss.",
     icon: <FiServer />,
   },
-//   {
-//     question: "How Do I Start with Cloud Hosting?",
-//     answer:
-//       "To begin with WordPress Cloud Hosting, simply place your hosting package order. You’ll receive an email with all the necessary information, and once you receive the confirmation email, your hosting account will be activated, allowing you to manage it effortlessly from our user-friendly dashboard.",
-//     icon: <FiServer />,
-//   },
 
-//   {
-//     question: "Can I migrate my website to ShriCloud?",
-//     answer:
-//       "Yes! You can move your current website from another hosting provider to ShriCloud hassle-free. Our migration experts are here to handle the complete process so you can concentrate on your main business goals. Our best Starter Cloud hosting plans come with free website migration.",
-//     icon: <FiServer />,
-//   },
 ];
 
 export default function FaqSection() {

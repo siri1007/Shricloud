@@ -1,0 +1,108 @@
+.pricing {
+  background: #f3f4f6;
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #1f2a44;
+  margin-bottom: 40px;
+}
+
+/* Toggle */
+.toggleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.toggle {
+  display: flex;
+  border: 2px solid #032B9D;
+  border-radius: 10px;
+  overflow: hidden;
+
+  button {
+    padding: 10px 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    color: #032B9D;
+  }
+
+  .active {
+    background: #1a4fcf;
+    color: #fff;
+  }
+}
+
+.save {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header */
+.tableHeader {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background: #032B9D;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Rows */
+.row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  padding: 10px;
+// padding-top: 10px;
+
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+
+  &:nth-child(even) {
+    background: #f9fafb;
+  }
+
+  span {
+    font-size: 15px;
+    color: #374151;
+  }
+}
+
+/* Button */
+.btn {
+  background: #fff;
+  border: 1px solid #c7d2fe;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #032B9D;
+  font-weight: 500;
+  transition: 0.3s;
+
+  &:hover {
+    background: #1a4fcf;
+    color: #fff;
+  }
+}

@@ -15,7 +15,7 @@ const DedicatedBanner = () => {
         backgroundImage: "url(/img/hero/hero-bg-1.jpg)",
       }}
     >
-      <div className="circle-shape-left">
+      {/* <div className="circle-shape-left">
         <Image src={one} alt="shape-img" priority />
       </div>
       <div className="circle-shape-right">
@@ -26,30 +26,26 @@ const DedicatedBanner = () => {
       </div>
       <div className="dot-right">
         <Image src={four} alt="img" priority />
-      </div>
+      </div> */}
       <div className="container">
         <div className="row g-4 justify-content-between align-items-center">
           <div className="col-lg-6">
             <div className="hero-content">
               <span
                 className="sub-text-2 "
-                data-aos="fade-up"
-                data-aos-duration="800"
+              
               >
                 <Image src={five} alt="img" priority className="me-2" />
                 Dedicated Starter Plan - 12 months for $99/month
               </span>
               <h1
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
+            
               >
                 Managed Dedicated Server Hosting
               </h1>
               <div
                 className="hero-list-items "
-                data-aos="fade-up"
-                data-aos-duration="800"
+             
                 aria-errormessage=".5s"
               >
                 <ul className="hero-list">
@@ -76,9 +72,7 @@ const DedicatedBanner = () => {
               <Link
                 href="pricing"
                 className="theme-btn bg-color-2 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="700"
+               
               >
                 view plan <i className="fas fa-long-arrow-alt-right"></i>
               </Link>
@@ -86,9 +80,7 @@ const DedicatedBanner = () => {
           </div>
           <div
             className="col-lg-3 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="400"
+        
           >
             <div className="hero-image">
               <Image src={six} alt="img" priority />

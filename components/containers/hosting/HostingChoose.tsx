@@ -16,7 +16,7 @@ const HostingChoose = () => {
             Features
           </span>
           <h2 >
-            Reseller Hosting Features
+            Dedicated Hosting Features
           </h2>
         </div>
         <div className="row">
@@ -29,10 +29,9 @@ const HostingChoose = () => {
                 <Image src={one} alt="img" priority />
               </div>
               <div className="content">
-                <h3>Safe and Secured</h3>
+                <h3>High-Performance </h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Seamlessly deliver high-performance servers. Efficiently optimize dedicated infrastructure for speed, stability, and reliability.
                 </p>
               </div>
             </div>
@@ -46,10 +45,9 @@ const HostingChoose = () => {
                 <Image src={two} alt="img" priority />
               </div>
               <div className="content">
-                <h3>Money-Back Guarantee</h3>
+                <h3> Security Protection</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Proactively secure server environments. strengthen dedicated protection with real-time monitoring and threat defense.
                 </p>
               </div>
             </div>
@@ -63,10 +61,10 @@ const HostingChoose = () => {
                 <Image src={three} alt="img" priority />
               </div>
               <div className="content">
-                <h3>Safe and Secured</h3>
+                <h3>Flexible Pricing</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Clearly structure hosting plans.  deliver flexible pricing with reliable guarantee and  <br></br> customer-first  
+                transparency.
                 </p>
               </div>
             </div>
@@ -80,10 +78,9 @@ const HostingChoose = () => {
                 <Image src={four} alt="img" priority />
               </div>
               <div className="content">
-                <h3>Dedicated Support</h3>
+                <h3>24/7 Expert Support</h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Reliably assist server operations. Continuously provide expert support with fast response and proactive issue resolution.
                 </p>
               </div>
             </div>
