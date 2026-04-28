@@ -1,8 +1,8 @@
 import Header from "@/components/layout/header/Header";
 import DedicatedBanner from "@/components/layout/banner/DedicatedBanner";
-// import AffiliateProgram from "@/components/containers/Dedicatedpage/AffiliateProgram";
+
 import HostingChoose from "@/components/containers/hosting/HostingChoose";
-import HostingFeature from "@/components/containers/hosting/HostingFeature";
+
 import DedicatedFaq from "@/components/containers/faq/DedicatedFaq";
 import Testimonial from "@/components/containers/support/Testimonial";
 import Brand from "@/components/containers/support/Brand";
@@ -17,7 +17,7 @@ const page = () => {
     <>
       <Header />
       <DedicatedBanner />
-      {/* <AffiliateProgram /> */}
+     
         <DedicatedPricing />
       <HostingChoose />
       
