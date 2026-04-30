@@ -5,7 +5,7 @@ import Image from "next/image";
 import two from "@/public/img/arrow.png";
 import styles from "./WordpressPricing.module.scss";
 
-const HomeFourPricing = () => {
+const WordpressPricing = () => {
   const [tab, setTab] = useState(1);
 
   // ✅ ADD HERE (inside component)
@@ -1978,4 +1978,4 @@ const HomeFourPricing = () => {
   );
 };
 
-export default HomeFourPricing;
+export default WordpressPricing;

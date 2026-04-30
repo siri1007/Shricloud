@@ -7,29 +7,38 @@ import HomeCta from "@/components/containers/home/HomeCta";
 import HomeBrand from "@/components/containers/home/HomeBrand";
 import HomeHostingTwo from "@/components/containers/home/HomeHostingTwo";
 import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
-import FaqSection from "@/components/containers/faq/FaqSection";
+import FaqSection from "@/components/containers/faq/HomeFaq";
 import HomeNews from "@/components/containers/home/HomeNews";
 import Brand from "@/components/containers/support/Brand";
 import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
 import HomeThreePricing from "@/components/containers/home-three/HomeThreePricing";
 
+import HostingHero from "@/components/containers/home/HostingHero";
+import AboutTeam from "@/components/containers/about/AboutTeam";
+
+
 const page = () => {
   return (
     <>
       <Header />
       <Banner />
-      <DomainSection />
+      {/* <DomainSection /> */}
       <HostingHome />
       <HomeThreePricing />
+      <HostingHero />
       {/* <PricingHome /> */}
-      <HomeCta />
+      {/* <HomeCta /> */}
       <HomeBrand />
+       <FaqSection />
+      <AboutTeam />
+    
+     
+      {/* <HomeNews /> */}
       <HomeHostingTwo />
-      <HomeTestimonial />
-      <FaqSection />
-      <HomeNews />
-      <Brand />
+        <HomeTestimonial />
+      {/* <Brand /> */}
+      <HomeBrand />
       <Footer />
       <CustomCursor />
     </>

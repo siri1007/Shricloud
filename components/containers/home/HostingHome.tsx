@@ -9,23 +9,24 @@ import six from "@/public/img/hosting/icon-6.png";
 
 const HostingHome = () => {
   return (
-    <section className="hosting-section fix section-padding pt-0">
+  <section
+  className="hosting-section fix section-padding pt-0"
+  style={{ marginTop: "80px" }}
+>
       <div className="container">
         <div className="section-title-area">
           <div className="section-title">
-            <span data-aos="fade-up" data-aos-duration="800">
+            <span>
               Best hosting
             </span>
-            <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+            <h2 >
               Discover Most Powerful Web <br /> Hosting Features
             </h2>
           </div>
           <Link
             href="vps-hosting"
             className="theme-btn "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="500"
+          
           >
             Explore More <i className="fas fa-long-arrow-alt-right"></i>
           </Link>
@@ -33,9 +34,6 @@ const HostingHome = () => {
         <div className="row">
           <div
             className="col-xl-4 col-lg-6 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="300"
           >
             <div
               className="hosting-inner-items responsive-style"
@@ -48,20 +46,19 @@ const HostingHome = () => {
               </div>
               <div className="content">
                 <h3>
-                  <Link href="dedicated-hosting">Dedicated Hosting</Link>
+                  <Link href="Wordpress-cloud-Hosting">WordPress  Hosting</Link>
                 </h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                 
+
+Launch your WordPress site effortlessly with the fast & reliable web hosting services, ensuring a seamless start with cloud hosting.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-4 col-lg-6 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="500"
+           
           >
             <div
               className="hosting-inner-items responsive-style"
@@ -74,20 +71,18 @@ const HostingHome = () => {
               </div>
               <div className="content">
                 <h3>
-                  <Link href="dedicated-hosting">Email Hosting</Link>
+                  <Link href="reseller-hosting"> Reseller  Hosting</Link>
                 </h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                 
+Empower your clients with unlimited scalability while maximizing your earnings potential with the most reliable and affordable web hosting solutions available.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-4 col-lg-6 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="700"
+           
           >
             <div
               className="hosting-inner-items responsive-style"
@@ -100,21 +95,20 @@ const HostingHome = () => {
               </div>
               <div className="content">
                 <h3>
-                  <Link href="dedicated-hosting">Ecommerce Hosting</Link>
+                  <Link href="Elite-cloud">    Elite Cloud</Link>
                 </h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  
+
+Tailored for eCommerce sites and high-traffic blogs, as well as PHP and NodeJS websites, experience elite web hosting at competitive prices.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-4 col-lg-6 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="300"
           >
+            
             <div
               className="hosting-inner-items responsive-style"
               style={{
@@ -126,20 +120,17 @@ const HostingHome = () => {
               </div>
               <div className="content">
                 <h3>
-                  <Link href="cloud-hosting">Cloud Hosting</Link>
+                  <Link href="dedicated-hosting">Dedicated Hosting</Link>
                 </h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                Built for demanding applications and enterprise workloads, power your projects with fully dedicated servers delivering unmatched performance and control.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-4 col-lg-6 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="500"
+         
           >
             <div
               className="hosting-inner-items responsive-style"
@@ -152,20 +143,17 @@ const HostingHome = () => {
               </div>
               <div className="content">
                 <h3>
-                  <Link href="reseller-hosting">Reseller Hosting</Link>
+                  <Link href="dedicated-hosting"> VPS  Hosting</Link>
                 </h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+               Perfect for developers and scalable projects, deploy high-performance VPS hosting with dedicated resources, flexibility, and cost-efficient control.
                 </p>
               </div>
             </div>
           </div>
           <div
             className="col-xl-4 col-lg-6 col-md-6 "
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="700"
+           
           >
             <div
               className="hosting-inner-items responsive-style"
@@ -178,11 +166,10 @@ const HostingHome = () => {
               </div>
               <div className="content">
                 <h3>
-                  <Link href="vps-hosting">VPS Hosting</Link>
+                  <Link href="vps-hosting">n8n Hosting</Link>
                 </h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                Designed for automation enthusiasts and growing businesses, run n8n workflows seamlessly with reliable hosting, real-time execution, and full flexibility.
                 </p>
               </div>
             </div>

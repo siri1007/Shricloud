@@ -66,16 +66,16 @@ const page = () => {
  <DedicatedBanner />
       
         <DedicatedPricing />
-     
+      <DedicatedFaq />
        <HostingChoose />
- <DedicatedFaq />
+
       {/* <HomeThreePricing /> */}
       {/* <HomeHostingTwo /> */}
-
+  <IncludedSection />
       
  <Testimonial />
     <Brand />
-        <IncludedSection />
+        {/* <IncludedSection /> */}
      <Footer />
     <CustomCursor />
      

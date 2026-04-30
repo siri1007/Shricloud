@@ -49,13 +49,7 @@ const HomeBrand = () => {
             }}
             className="swiper-wrapper"
           >
-            <SwiperSlide>
-              <div className="swiper-slide">
-                <div className="brand-img center">
-                  <Image src={one} alt="img" priority />
-                </div>
-              </div>
-            </SwiperSlide>
+            
             <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
@@ -87,14 +81,14 @@ const HomeBrand = () => {
             <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
-                  <Image src={one} alt="img" priority />
+                  {/* <Image src={one} alt="img" priority /> */}
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
-                  <Image src={one} alt="img" priority />
+                  {/* <Image src={one} alt="img" priority /> */}
                 </div>
               </div>
             </SwiperSlide>
@@ -126,13 +120,7 @@ const HomeBrand = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="swiper-slide">
-                <div className="brand-img center">
-                  <Image src={one} alt="img" priority />
-                </div>
-              </div>
-            </SwiperSlide>
+            
           </Swiper>
         </div>
       </div>

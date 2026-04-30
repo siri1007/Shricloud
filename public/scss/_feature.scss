@@ -313,6 +313,7 @@
   .tab-pane.active {
     display: block;
     animation: fadeInc 0.7s linear;
+    // margin-top: 50px;
   }
 
   @keyframes fadeInc {
