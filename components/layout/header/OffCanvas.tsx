@@ -2,7 +2,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/img/logo/black-logo.svg";
+
+import shricloudlogo from "@/public/img/logo/shri logomavy.svg";
 
 const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
   const [openSubMenu, setOpenSubMenu] = useState<string | null>(null);
@@ -53,7 +54,10 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <Image src={logo} alt="logo-img" priority />
+                    <Image src={shricloudlogo} alt="logo-img" priority
+                     width={244} // increase this
+                        height={60} // adjust proportion
+                         />
                   </Link>
                 </div>
                 <div
@@ -101,29 +105,38 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                         className={`drop ${isSubMenuButton("pages")}`}
                         onClick={() => handleSubmenu("pages")}
                       >
-                        Pages
+                        All services
                       </a>
                       <ul className={`submenu ${isSubMenuOpen("pages")}`}>
                         <li>
-                          <Link href="about">About Us</Link>
+                        <Link href="Wordpress-cloud-Hosting">
+                                  Premium cloud
+                                </Link>
                         </li>
                         <li>
-                          <Link href="black-friday">Black Friday</Link>
+                        <Link href="Elite-cloud"> Elite Cloud</Link>
                         </li>
                         <li>
-                          <Link href="affiliate">Affiliate</Link>
+                      <Link href="reseller-hosting">
+                                  Reseller Cloud
+                                </Link>
                         </li>
                         <li>
-                          <Link href="pricing">Pricing</Link>
+                          <Link href="wordpress-hosting">
+                                  WordPress Hosting
+                                </Link>
                         </li>
                         <li>
-                          <Link href="pricing-2">Pricing Package</Link>
+                         <Link href="dedicated-hosting">
+                                 
+                                  Dedicated Hosting
+                                </Link>
                         </li>
                         <li>
-                          <Link href="data-center">Data Center</Link>
+                     <Link href="vps-hosting"> Basic Hosting</Link>
                         </li>
                         <li>
-                          <Link href="service">Services</Link>
+                        <Link href="cloud-hosting">Cloud-Hosting</Link>
                         </li>
                         <li>
                           <Link href="team">Team</Link>
@@ -171,7 +184,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                     <li>
                       <Link href="domain">Domain</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         className={`drop ${isSubMenuButton("blog")}`}
                         onClick={() => handleSubmenu("blog")}
@@ -189,27 +202,47 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                           <Link href="news-details">News Details</Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         className={`drop ${isSubMenuButton("help")}`}
                         onClick={() => handleSubmenu("help")}
                       >
-                        Help Center
+                       About 
                       </a>
                       <ul className={`submenu ${isSubMenuOpen("help")}`}>
                         <li>
-                          <Link href="faq">FAQ</Link>
+                           <Link href="about">Company</Link>
                         </li>
                         <li>
-                          <Link href="error">Error 404</Link>
+                         <Link href="contact">Contact Us</Link>
                         </li>
                         <li>
-                          <Link href="support">Support</Link>
+                           <Link href="/terms-of-service">
+                                  Terms of Service
+                                </Link>
                         </li>
                         <li>
-                          <Link href="contact">Contact Us</Link>
+                      <Link href="/cookie-policy">Cookie Policy</Link>
                         </li>
+
+                         <li>
+                  <Link href="/afi">Affiliate Policy</Link>
+                        </li>
+
+                         <li>
+                     <Link href="/refund-policy">Refund Policy</Link>
+                        </li>
+
+
+                        
+                              <li>
+                                <Link href="/privacy-policy">
+                                  Privacy Policy
+                                </Link>
+                              </li>
+
+
                       </ul>
                     </li>
                   </ul>

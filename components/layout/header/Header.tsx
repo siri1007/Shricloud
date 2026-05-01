@@ -111,9 +111,13 @@ const Header = () => {
                       />
                     </Link>
                     <Link href="/" className="header-logo-2">
-                      <Image src={shricloudlogo} alt="logo-img" priority 
-                       width={244} // increase this
-                        height={60} />
+                      <Image
+                        src={shricloudlogo}
+                        alt="logo-img"
+                        priority
+                        width={244} // increase this
+                        height={60}
+                      />
                     </Link>
                   </div>
                 </div>
@@ -336,9 +340,7 @@ const Header = () => {
                                         </div>
                                         <div className="content">
                                           <h6>
-                                            <Link href="N8n-hosting">
-                                              N8n
-                                            </Link>
+                                            <Link href="N8n-hosting">N8n</Link>
                                           </h6>
                                           <p>Connect, Automate, Scale</p>
                                         </div>
@@ -427,7 +429,6 @@ const Header = () => {
                                       </div>
                                     </div>
 
-
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -448,8 +449,7 @@ const Header = () => {
                                       </div>
                                     </div>
 
-
-<div className="col-lg-4">
+                                    <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
@@ -485,8 +485,6 @@ const Header = () => {
                                       </div>
                                     </div>
 
-
-
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -507,13 +505,6 @@ const Header = () => {
                                       </div>
                                     </div>
 
-
-                                    
-
-
-
-
-                                    
                                     {/* <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -572,8 +563,7 @@ const Header = () => {
                                       </div>
                                     </div>
 
-
-<div className="col-lg-4">
+                                    <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
@@ -592,9 +582,6 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
-
-
-
 
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
@@ -679,31 +666,41 @@ const Header = () => {
                           {/*   All Services Mobile menu */}
 
                           <li className="has-dropdown active d-xl-none">
-                            <Link href="team" className="border-none">
-                              Pages
+                            <Link href="/" className="border-none">
+                              {/* Pages */}
+                              All services
                               <i className="fas fa-angle-down"></i>
                             </Link>
                             <ul className="submenu">
                               <li>
-                                <Link href="about">About Us</Link>
+                                <Link href="Wordpress-cloud-Hosting">
+                                  Premium cloud
+                                </Link>
                               </li>
                               <li>
-                                <Link href="black-friday">Black Friday</Link>
+                                <Link href="black-friday"> Elite Cloud</Link>
                               </li>
                               <li>
-                                <Link href="affiliate">Affiliate</Link>
+                                <Link href="reseller-hosting">
+                                  Reseller Cloud
+                                </Link>
                               </li>
                               <li>
-                                <Link href="pricing">Pricing</Link>
+                                <Link href="wordpress-hosting">
+                                  WordPress Hosting
+                                </Link>
                               </li>
                               <li>
-                                <Link href="pricing-2">Pricing Package</Link>
+                                <Link href="dedicated-hosting">
+                                 
+                                  Dedicated Hosting
+                                </Link>
                               </li>
                               <li>
-                                <Link href="data-center">Data Center</Link>
+                                <Link href="vps-hosting"> Basic Hosting</Link>
                               </li>
                               <li>
-                                <Link href="service">Services</Link>
+                                <Link href="cloud-hosting">cloud-hosting</Link>
                               </li>
                               <li>
                                 <Link href="team">Team</Link>
@@ -717,7 +714,7 @@ const Header = () => {
                             </ul>
                           </li>
 
-                          {/*   All Services Mobile menu  End*/}
+                          {/* All Services Mobile menu  End */}
 
                           {/* <li className="has-dropdown menu-thumb">
                             <Link href="/">
@@ -919,7 +916,7 @@ const Header = () => {
                                   }}
                                 >
                                   <i className="fas fa-book"></i>
-                                  <span>Knowledge Base</span>
+                                  <span>Knowledghhe Base</span>
                                 </a>
                               </li>
 
@@ -1080,7 +1077,10 @@ const Header = () => {
                     </div>
                   </div>
                   <div className="header-button">
-                    <Link href="https://my.shricloud.com/index.php?/clientarea/" className="theme-btn">
+                    <Link
+                      href="https://my.shricloud.com/index.php?/clientarea/"
+                      className="theme-btn"
+                    >
                       Client Area
                       <i className="fa-solid fa-arrow-right-long"></i>
                     </Link>

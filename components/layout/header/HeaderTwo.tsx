@@ -189,7 +189,7 @@ const HeaderTwo = () => {
                           </li>
                           <li className="has-dropdown menu-thumb">
                             <Link href="news">
-                              Pages
+                             Pages
                               <i className="fas fa-angle-down"></i>
                             </Link>
                             <ul className="submenu has-homemenu">
