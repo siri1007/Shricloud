@@ -169,7 +169,7 @@ const HeaderTwo = () => {
                           </li>
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
-                              Home
+                              Homejj
                               <i className="fas fa-angle-down"></i>
                             </Link>
                             <ul className="submenu">
@@ -432,7 +432,7 @@ const HeaderTwo = () => {
                                         <div className="content">
                                           <h6>
                                             <Link href="share-hosting">
-                                              Share Hosting
+                                              Share Hostingggg
                                             </Link>
                                           </h6>
                                           <p>About hostech</p>

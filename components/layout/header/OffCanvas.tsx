@@ -157,28 +157,37 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                         Hosting
                       </a>
                       <ul className={`submenu ${isSubMenuOpen("hosting")}`}>
-                        <li>
-                          <Link href="share-hosting">Share Hosting</Link>
-                        </li>
-                        <li>
-                          <Link href="reseller-hosting">Reseller Hosting</Link>
-                        </li>
-                        <li>
-                          <Link href="dedicated-hosting">
-                            Dedicated Hosting
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="vps-hosting">VPS Hosting</Link>
-                        </li>
-                        <li>
-                          <Link href="wordpress-hosting">
-                            Wordpress Hosting
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="cloud-hosting">Cloud Hosting</Link>
-                        </li>
+                       <li>
+                                <Link href="Wordpress-cloud-Hosting">
+                                  Premium cloud
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="black-friday"> Elite Cloud</Link>
+                              </li>
+                              <li>
+                                <Link href="reseller-hosting">
+                                  Reseller Cloud
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="wordpress-hosting">
+                                  WordPress Hosting
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="dedicated-hosting">
+                                 
+                                  Dedicated Hosting
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="vps-hosting"> Basic Hosting</Link>
+                              </li>
+                              <li>
+                                <Link href="cloud-hosting">cloud-hosting</Link>
+                              </li>
+                             
                       </ul>
                     </li>
                     <li>
@@ -257,7 +266,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <Link target="_blank" href="/">
-                        Main Street, Melbourne, Australia
+                       Hyderabad,India
                       </Link>
                     </div>
                   </li>

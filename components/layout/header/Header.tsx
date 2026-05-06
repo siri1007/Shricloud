@@ -132,7 +132,6 @@ const Header = () => {
                               <i className="fas fa-angle-down"></i>
                             </Link>
 
-                            
                             <ul className="submenu has-homemenu has-menu-home">
                               <li className="border-none">
                                 <div className="homemenu-items">
@@ -189,8 +188,6 @@ const Header = () => {
                                 </div>
                               </li>
                             </ul>
-
-
                           </li>
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
@@ -368,9 +365,7 @@ const Header = () => {
                               </li> */}
 
                               <li>
-                                <Link href="N8n-hosting">
-                                 N8n-hosting
-                                </Link>
+                                <Link href="N8n-hosting">N8n-hosting</Link>
                               </li>
 
                               <li>
@@ -398,7 +393,7 @@ const Header = () => {
                             </ul>
                           </li>
 
-                          {/* Hosting Mobile menu */}
+                          {/* Hosting Mobile menu end */}
 
                           <li>
                             <Link href="domain">Domain</Link>
@@ -417,7 +412,7 @@ const Header = () => {
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
-                                            src={five}
+                                            src={seventeen}
                                             alt="img"
                                             priority
                                           />
@@ -437,7 +432,7 @@ const Header = () => {
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
-                                            src={eight}
+                                            src={fourteen}
                                             alt="img"
                                             priority
                                           />
@@ -476,7 +471,7 @@ const Header = () => {
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
-                                          <Image src={six} alt="img" priority />
+                                          <Image src={two} alt="img" priority />
                                         </div>
                                         <div className="content">
                                           <h6>
@@ -493,7 +488,7 @@ const Header = () => {
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
-                                            src={eight}
+                                            src={fifteen}
                                             alt="img"
                                             priority
                                           />
@@ -571,7 +566,7 @@ const Header = () => {
                                       <div className="homemenu-list">
                                         <div className="icon">
                                           <Image
-                                            src={seven}
+                                            src={sixteen}
                                             alt="img"
                                             priority
                                           />
@@ -618,7 +613,6 @@ const Header = () => {
                                         </div>
                                       </div>
                                     </div>
-
                                   </div>
                                 </div>
                               </li>
@@ -628,8 +622,11 @@ const Header = () => {
                           {/*   All Services Mobile menu */}
 
                           <li className="has-dropdown active d-xl-none">
-                            <Link href="
-                            /" className="border-none">
+                            <Link
+                              href="
+                            /"
+                              className="border-none"
+                            >
                               {/* Pages */}
                               All services
                               <i className="fas fa-angle-down"></i>
@@ -655,7 +652,6 @@ const Header = () => {
                               </li>
                               <li>
                                 <Link href="dedicated-hosting">
-                                 
                                   Dedicated Hosting
                                 </Link>
                               </li>
