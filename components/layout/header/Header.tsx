@@ -356,20 +356,20 @@ const Header = () => {
                             </ul>
                           </li>
 
-                          {/* Hosting Mobile menu */}
+                          {/* Hosting Mobile menu Start */}
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
                               Hosting
                               <i className="fas fa-angle-down"></i>
                             </Link>
                             <ul className="submenu">
-                              <li>
+                              {/* <li>
                                 <Link href="share-hosting">Share Hosting</Link>
-                              </li>
+                              </li> */}
 
                               <li>
-                                <Link href="premium-cloud-hosting">
-                                  premium-cloud-hosting
+                                <Link href="N8n-hosting">
+                                 N8n-hosting
                                 </Link>
                               </li>
 
@@ -385,15 +385,15 @@ const Header = () => {
                                 </Link>
                               </li>
                               <li>
-                                <Link href="vps-hosting">Basic Hosting</Link>
+                                <Link href="vps-hosting">Vps Hosting</Link>
                               </li>
                               <li>
-                                <Link href="wordpress-hosting">
+                                <Link href="Wordpress-cloud-Hosting">
                                   WordPress Hosting
                                 </Link>
                               </li>
                               <li>
-                                <Link href="cloud-hosting">Cloud Hosting</Link>
+                                <Link href="Elite-cloud">Elite Cloud</Link>
                               </li>
                             </ul>
                           </li>
@@ -405,7 +405,7 @@ const Header = () => {
                           </li>
 
                           <li className="has-dropdown menu-thumb">
-                            <Link href="news">
+                            <Link href="/">
                               All Services
                               <i className="fas fa-angle-down"></i>
                             </Link>
@@ -619,48 +619,6 @@ const Header = () => {
                                       </div>
                                     </div>
 
-                                    {/*                                     
-                                    <div className="col-lg-4">
-                                      <div className="homemenu-list">
-                                        <div className="icon">
-                                          <Image
-                                            src={eleven}
-                                            alt="img"
-                                            priority
-                                          />
-                                        </div>
-
-
-                                        <div className="content">
-                                          <h6>
-                                            <Link href="team-details">
-                                              Team Details
-                                            </Link>
-                                          </h6>
-                                          <p>Experts Member</p>
-                                        </div>
-                                      </div>
-                                    </div> */}
-
-                                    {/* <div className="col-lg-4">
-                                      <div className="homemenu-list">
-                                        <div className="icon">
-                                          <Image
-                                            src={twelve}
-                                            alt="img"
-                                            priority
-                                          />
-                                        </div>
-                                        <div className="content">
-                                          <h6>
-                                            <Link href="error">
-                                              Error Pages
-                                            </Link>
-                                          </h6>
-                                          <p>Back to Home</p>
-                                        </div>
-                                      </div>
-                                    </div> */}
                                   </div>
                                 </div>
                               </li>
@@ -670,7 +628,8 @@ const Header = () => {
                           {/*   All Services Mobile menu */}
 
                           <li className="has-dropdown active d-xl-none">
-                            <Link href="/" className="border-none">
+                            <Link href="
+                            /" className="border-none">
                               {/* Pages */}
                               All services
                               <i className="fas fa-angle-down"></i>
@@ -904,7 +863,7 @@ const Header = () => {
                           </li> */}
 
                           <li className="has-dropdown menu-thumb support-menu">
-                            <Link href="#">
+                            <Link href="/">
                               Support
                               <i className="fas fa-angle-down"></i>
                             </Link>

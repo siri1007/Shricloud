@@ -1,6 +1,6 @@
 import Header from "@/components/layout/header/Header";
 import BannerCommon from "@/components/layout/banner/BannerCommon";
-import NewsGrid from "@/components/containers/news/NewsGrid";
+import NewsGrid from "@/components/containers/ne/NewsGrid";
 import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
 
