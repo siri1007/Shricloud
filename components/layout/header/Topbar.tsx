@@ -33,7 +33,7 @@ const Topbar = () => {
             <ul className="list">
               <li>
                 <i className="fa-light fa-comments"></i>
-                <Link href="contact">Live Chat</Link>
+                <Link href="https://tawk.to/chat/65cb0abb8d261e1b5f5f80c0/1hmgi3rb6">Live Chat</Link>
               </li>
               <li>
                 <i className="fa-light fa-user"></i>

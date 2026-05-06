@@ -131,6 +131,8 @@ const Header = () => {
                               Home
                               <i className="fas fa-angle-down"></i>
                             </Link>
+
+                            
                             <ul className="submenu has-homemenu has-menu-home">
                               <li className="border-none">
                                 <div className="homemenu-items">
@@ -187,6 +189,8 @@ const Header = () => {
                                 </div>
                               </li>
                             </ul>
+
+
                           </li>
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">

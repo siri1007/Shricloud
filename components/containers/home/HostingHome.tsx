@@ -6,6 +6,10 @@ import three from "@/public/img/hosting/icon-3.png";
 import four from "@/public/img/hosting/icon-4.png";
 import five from "@/public/img/hosting/icon-5.png";
 import six from "@/public/img/hosting/icon-6.png";
+import Wordpressicon from "@/public/img/menu-icon/wordpress-host.png";
+import n8n from "@/public/img/menu-icon/n8n.png";
+import Elite from "@/public/img/menu-icon/host-service.png";
+import vps from "@/public/img/menu-icon/vps-host.png";
 
 const HostingHome = () => {
   return (
@@ -42,7 +46,12 @@ const HostingHome = () => {
               }}
             >
               <div className="icon">
-                <Image src={one} alt="img" priority />
+                        <Image
+    src={Wordpressicon}
+    alt="img"
+    priority
+    style={{ width: "40px", height: "auto" }}
+  />
               </div>
               <div className="content">
                 <h3>
@@ -67,7 +76,7 @@ Launch your WordPress site effortlessly with the fast & reliable web hosting ser
               }}
             >
               <div className="icon">
-                <Image src={two} alt="img" priority />
+                <Image src={five} alt="img" priority />
               </div>
               <div className="content">
                 <h3>
@@ -91,7 +100,12 @@ Empower your clients with unlimited scalability while maximizing your earnings p
               }}
             >
               <div className="icon">
-                <Image src={three} alt="img" priority />
+                <Image
+    src={Elite}
+    alt="img"
+    priority
+    style={{ width: "40px", height: "auto" }}
+  />
               </div>
               <div className="content">
                 <h3>
@@ -139,11 +153,16 @@ Tailored for eCommerce sites and high-traffic blogs, as well as PHP and NodeJS w
               }}
             >
               <div className="icon">
-                <Image src={five} alt="img" priority />
+                       <Image
+    src={vps}
+    alt="img"
+    priority
+    style={{ width: "40px", height: "auto" }}
+  />
               </div>
               <div className="content">
                 <h3>
-                  <Link href="dedicated-hosting"> VPS  Hosting</Link>
+                  <Link href="vps-hosting"> VPS  Hosting</Link>
                 </h3>
                 <p>
                Perfect for developers and scalable projects, deploy high-performance VPS hosting with dedicated resources, flexibility, and cost-efficient control.
@@ -160,13 +179,18 @@ Tailored for eCommerce sites and high-traffic blogs, as well as PHP and NodeJS w
               style={{
                 backgroundImage: "url(/img/hosting/card-bg.png)",
               }}
-            >
-              <div className="icon">
-                <Image src={six} alt="img" priority />
-              </div>
+             >
+            <div className="icon">
+  <Image
+    src={n8n}
+    alt="img"
+    priority
+    style={{ width: "40px", height: "auto" }}
+  />
+</div>
               <div className="content">
                 <h3>
-                  <Link href="vps-hosting">n8n Hosting</Link>
+                  <Link href="N8n-hosting">n8n Hosting</Link>
                 </h3>
                 <p>
                 Designed for automation enthusiasts and growing businesses, run n8n workflows seamlessly with reliable hosting, real-time execution, and full flexibility.

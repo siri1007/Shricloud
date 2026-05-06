@@ -17,6 +17,7 @@ import HomeThreePricing from "@/components/containers/home-three/HomeThreePricin
 import HostingHero from "@/components/containers/home/HostingHero";
 import AboutTeam from "@/components/containers/about/AboutTeam";
 import HostingBenefits from "@/components/containers/home/HostingBenefits";
+import Testimonial from "@/components/containers/support/Testimonial";
 
 
 const page = () => {
@@ -28,18 +29,20 @@ const page = () => {
       <HostingHome />
       <HomeThreePricing />
       <HostingHero />
+        <HostingBenefits/>
       {/* <PricingHome /> */}
       {/* <HomeCta /> */}
-      <HomeBrand />
+      {/* <HomeBrand /> */}
        <FaqSection />
       <AboutTeam />
-    <HostingBenefits/>
+  
      
       {/* <HomeNews /> */}
       {/* <HomeHostingTwo /> */}
         <HomeTestimonial />
+        {/* <Testimonial/> */}
       {/* <Brand /> */}
-      <HomeBrand />
+      {/* <HomeBrand /> */}
       <Footer />
       <CustomCursor />
     </>

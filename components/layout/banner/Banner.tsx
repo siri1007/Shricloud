@@ -30,7 +30,7 @@ const Banner = () => {
       {/* <div className="dot-right">
         <Image src={four} alt="img" priority />
       </div> */}
-      <div className="hero-social">
+      {/* <div className="hero-social">
         <span>Follow on</span>
         <Link href="/">
           <i className="fab fa-facebook-f"></i>
@@ -44,7 +44,7 @@ const Banner = () => {
         <Link href="/">
           <i className="fa-brands fa-youtube"></i>
         </Link>
-      </div>
+      </div> */}
       <div className="container">
         <div className="row g-4 justify-content-between">
           <div className="col-lg-6">
@@ -73,12 +73,12 @@ const Banner = () => {
                   className="theme-btn bg-color-2 "
                  
                 >
-                  Start Free <i className="fas fa-long-arrow-alt-right"></i>
+                  Start Now <i className="fas fa-long-arrow-alt-right"></i>
                 </Link>
-                <div
+                {/* <div
                   className="author-content "
                 
-                >
+                  >
                   <Image src={six} alt="author-img" />
                   <div className="content">
                     <div className="star">
@@ -90,7 +90,7 @@ const Banner = () => {
                     </div>
                     <p className="text-white">450+ reviews</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
