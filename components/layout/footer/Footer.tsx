@@ -20,10 +20,7 @@ const Footer = () => {
       <div className="footer-widgets-wrapper">
         <div className="container">
           <div className="row">
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 "
-             
-            >
+            <div className="col-xl-3 col-lg-4 col-md-6 ">
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
@@ -32,8 +29,9 @@ const Footer = () => {
                 </div>
                 <div className="footer-content">
                   <p>
-                    Nullam interdum libero vitae pretium aliquam donec nibh
-                    purus laoreet in ullamcorper vel malesuada.
+                    We aim to empower individuals, developers, and businesses
+                    through secure, dependable, and budget-friendly web hosting
+                    solutions.
                   </p>
                   <ul className="contact-info">
                     <li>
@@ -85,53 +83,9 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="col-xl-2 col-lg-4 col-md-3 ps-lg-3 "
-             
-            >
-              <div className="single-footer-widget">
-                <div className="widget-head">
-                  <h3>Company</h3>
-                </div>
-                <ul className="list-area">
-                  <li>
-                    <Link href="about">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Hostech About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="contact">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Contact Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="pricing">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Pricing Plans
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="faq">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      FAQ&apos;S
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="contact">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Privacy Policy
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div
-              className="col-xl-2 col-lg-4 col-md-3 ps-lg-4 "
-             
-            >
-              <div className="single-footer-widget style-margin">
+            <div className="col-xl-2 col-lg-4 col-md-3 ps-lg-3 ">
+
+               <div className="single-footer-widget style-margin">
                 <div className="widget-head">
                   <h3>Hosting</h3>
                 </div>
@@ -168,11 +122,57 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+              
             </div>
-            <div
-              className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 "
-            
-            >
+            <div className="col-xl-2 col-lg-4 col-md-3 ps-lg-4 ">
+            <div className="single-footer-widget">
+                 <div className="widget-head">
+                  <h3>Company</h3>
+                </div>
+                <ul className="list-area">
+                  <li>
+                    <Link href="about">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Shricloud About
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="contact">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Terms of Service
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="pricing">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Refund Policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="faq">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Privacy Policy
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="contact">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Affiliate Policy
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="contact">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Payment Methods
+                    </Link>
+                  </li>
+                </ul>
+              </div> 
+            </div>
+
+            <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <h3>Support</h3>
@@ -211,10 +211,11 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div
+
+            {/* <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-4 "
             
-            >
+              >
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <h3>Newsletter</h3>
@@ -249,6 +250,53 @@ const Footer = () => {
                     </Link>
                   </div>
                 </div>
+              </div>
+            </div> */}
+
+            <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
+              <div className="single-footer-widget">
+                <div className="widget-head">
+                  <h3>Help</h3>
+                </div>
+                <ul className="list-area">
+                  <li>
+                    <Link href="/">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Support
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Knowledge Base
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="contact">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Live Chat
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="support">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Submit a Ticket{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="contact">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Client Login
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="contact">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Blog
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
