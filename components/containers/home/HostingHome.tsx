@@ -59,8 +59,7 @@ const HostingHome = () => {
                 </h3>
                 <p>
                  
-
-Launch your WordPress site effortlessly with the fast & reliable web hosting services, ensuring a seamless start with cloud hosting.
+The perfect hosting package for everyone — ideal for WordPress blogs, business websites, and portfolio sites.
                 </p>
               </div>
             </div>
@@ -84,7 +83,7 @@ Launch your WordPress site effortlessly with the fast & reliable web hosting ser
                 </h3>
                 <p>
                  
-Empower your clients with unlimited scalability while maximizing your earnings potential with the most reliable and affordable web hosting solutions available.
+A complete beginner-friendly package to build your web hosting business with minimum investment.
                 </p>
               </div>
             </div>
@@ -114,7 +113,7 @@ Empower your clients with unlimited scalability while maximizing your earnings p
                 <p>
                   
 
-Tailored for eCommerce sites and high-traffic blogs, as well as PHP and NodeJS websites, experience elite web hosting at competitive prices.
+Perfect for hosting ecommerce websites, high-traffic blogs, and hosting several websites together with ease.
                 </p>
               </div>
             </div>
@@ -137,7 +136,7 @@ Tailored for eCommerce sites and high-traffic blogs, as well as PHP and NodeJS w
                   <Link href="dedicated-hosting">Dedicated Hosting</Link>
                 </h3>
                 <p>
-                Built for demanding applications and enterprise workloads, power your projects with fully dedicated servers delivering unmatched performance and control.
+               High-performance Dedicated Bare Metal Servers featuring exclusive hardware, full root access, and a secure single-tenant network
                 </p>
               </div>
             </div>
@@ -165,7 +164,7 @@ Tailored for eCommerce sites and high-traffic blogs, as well as PHP and NodeJS w
                   <Link href="vps-hosting"> VPS  Hosting</Link>
                 </h3>
                 <p>
-               Perfect for developers and scalable projects, deploy high-performance VPS hosting with dedicated resources, flexibility, and cost-efficient control.
+             Managed Cloud VPS packages powered by KVM virtualization, featuring Dedicated resources and a Dedicated IP address.
                 </p>
               </div>
             </div>
@@ -193,7 +192,7 @@ Tailored for eCommerce sites and high-traffic blogs, as well as PHP and NodeJS w
                   <Link href="N8n-hosting">n8n Hosting</Link>
                 </h3>
                 <p>
-                Designed for automation enthusiasts and growing businesses, run n8n workflows seamlessly with reliable hosting, real-time execution, and full flexibility.
+               Power your automation journey with seamless n8n workflow hosting, fast real-time execution, and flexible infrastructure designed for growing businesses
                 </p>
               </div>
             </div>

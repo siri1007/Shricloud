@@ -61,12 +61,53 @@ const Banner = () => {
               >
                 Upgrade To Shricloud  Cloud Hosting Today
               </h1>
-              <h6
-               
-              >
-                Unlimited storage, unmetered bandwidth, unbeatable hosting.{" "}
-                <br /> This gator&apos;s got ya covered.
-              </h6>
+
+
+             <h6
+  style={{
+    fontSize: "16px",
+    lineHeight: "28px",
+    color: "#ffffff",
+    marginTop: "18px",
+  }}
+>
+  <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+    <span style={{ color: "#FFA31A", fontSize: "18px" }}>✔</span>
+    <span>
+      <strong>Domain:</strong> Free.
+    </span>
+  </div>
+
+  <div
+    style={{
+      display: "flex",
+      alignItems: "center",
+      gap: "10px",
+      marginTop: "10px",
+    }}
+  >
+    <span style={{ color: "#FFA31A", fontSize: "18px" }}>✔</span>
+    <span>
+      <strong>Migration:</strong> Seamless.
+    </span>
+  </div>
+
+  <div
+    style={{
+      display: "flex",
+      alignItems: "center",
+      gap: "10px",
+      marginTop: "10px",
+    }}
+  >
+    <span style={{ color: "#FFA31A", fontSize: "18px" }}>✔</span>
+    <span>
+      <strong>Support:</strong> Constant.
+    </span>
+  </div>
+</h6>
+
+
               <div className="hero-author">
                 <Link
                   href="/"

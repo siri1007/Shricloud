@@ -7,7 +7,7 @@ import styles from "./wordpressBanner.module.scss";
 import leftShape from "@/public/img/hero/hero-1-circle-left.png";
 import rightShape from "@/public/img/hero/hero-1-circle-right.png";
 import icon from "@/public/img/hero/activity.png";
-import bannerImg from "@/public/img/Eliteimg.png";
+import bannerImg from "@/public/img/Elitebannerimg.png";
 
 type EliteBannerProps = {
   scrollToPricing: () => void;
@@ -55,13 +55,111 @@ const EliteBanner = ({ scrollToPricing }: EliteBannerProps) => {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className={styles.imageWrapper}>
+          {/* <div className={styles.Elitewrapper}>
             <Image src={bannerImg} alt="wordpress hosting" priority />
+          </div> */}
+
+          <div className={styles.Elitewrapper}>
+            <div className={styles.Elitewrapper}>
+              <Image src={bannerImg} alt="" priority />
+            </div>
           </div>
         </div>
+        
       </div>
     </section>
   );
 };
 
 export default EliteBanner;
+
+// ------------
+
+// "use client";
+
+// import Image from "next/image";
+// import styles from "./wordpressBanner.module.scss";
+
+// import leftShape from "@/public/img/hero/hero-1-circle-left.png";
+// import rightShape from "@/public/img/hero/hero-1-circle-right.png";
+// import icon from "@/public/img/hero/activity.png";
+// import bannerImg from "@/public/img/Elitebannerimg.png";
+
+// type EliteBannerProps = {
+//   scrollToPricing: () => void;
+// };
+
+// const EliteBanner = ({ scrollToPricing }: EliteBannerProps) => {
+//   return (
+//     <section className={styles.wordpressBanner}>
+//       {/* Background Shapes */}
+//       <div className={styles.leftShape}>
+//         <Image src={leftShape} alt="shape" priority />
+//       </div>
+
+//       <div className={styles.rightShape}>
+//         <Image src={rightShape} alt="shape" priority />
+//       </div>
+
+//       <div className="container">
+//         <div className={styles.bannerWrapper}>
+//           {/* LEFT SIDE CONTENT */}
+//           <div className={styles.content}>
+//             <span className={styles.subText}>
+//               <Image src={icon} alt="icon" />
+//               Reliable Web Hosting In India
+//             </span>
+
+//             <h1>
+//               Best Web Hosting for Ecommerce and High Traffic Websites
+//             </h1>
+
+//             <p className={styles.description}>
+//               Powerful, secure and lightning-fast hosting built for modern
+//               businesses, ecommerce brands and growing websites.
+//             </p>
+
+//             <div className={styles.features}>
+//               <div className={styles.featureItem}>
+//                 ✔ Seamless Scalability for High-Growth Brands
+//               </div>
+
+//               <div className={styles.featureItem}>
+//                 ✔ 24/7 Chat, Call & Ticket Support
+//               </div>
+
+//               <div className={styles.featureItem}>
+//                 ✔ Automated Daily Backups
+//               </div>
+
+//               <div className={styles.featureItem}>
+//                 ✔ 99.99% Uptime Guarantee
+//               </div>
+//             </div>
+
+//             <button
+//               onClick={scrollToPricing}
+//               className={styles.ctaBtn}
+//             >
+//               View Plans →
+//             </button>
+//           </div>
+
+//           {/* RIGHT SIDE IMAGE */}
+//           <div className={styles.imageSection}>
+//             <div className={styles.imageBox}>
+//               <Image
+//                 src={bannerImg}
+//                 alt="Web Hosting Banner"
+//                 priority
+//                 className={styles.bannerImage}
+//               />
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default EliteBanner;

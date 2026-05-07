@@ -585,7 +585,7 @@ const Header = () => {
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
-                                          <Image src={ten} alt="img" priority />
+                                          <Image src={nighteen} alt="img" priority />
                                         </div>
                                         <div className="content">
                                           <h6>

@@ -1,9 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import five from "@/public/img/hero/activity.png";
-import six from "@/public/img/breadcrumb.png";
-
+// import resellerim
+// resellerBanner
+import resellerBanner from "@/public/img/resellerBanner.png";
 // import resell from "@/public/img/resell.jpeg
+
+import styles from "./wordpressBanner.module.scss";
 
 const ResellerBanner = () => {
   return (
@@ -14,7 +17,8 @@ const ResellerBanner = () => {
       }}
     >
       
-      <div className="container">
+      <div className="container"
+        style={{ marginTop: "-70px" }}>
         <div className="row g-4 justify-content-between align-items-center">
           <div className="col-lg-6">
             <div className="hero-content">
@@ -65,14 +69,11 @@ const ResellerBanner = () => {
               </Link>
             </div>
           </div>
-          <div
-            className="col-lg-3 "
-           
-          >
-            <div className="hero-image">
-              <Image src={six} alt="img" priority />
-            </div>
+
+<div className={styles.Resellwrapper}>
+            <Image src={resellerBanner} alt="wordpress hosting" priority />
           </div>
+         
         </div>
       </div>
     </section>

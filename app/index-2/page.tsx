@@ -6,9 +6,9 @@ import BannerTwo from "@/components/layout/banner/BannerTwo";
 // import HomeTwoPricing from "@/components/containers/home-two/HomeTwoPricing";
 // import HomeTwoService from "@/components/containers/home-two/HomeTwoService";
 // import HomeTwoLocation from "@/components/containers/home-two/HomeTwoLocation";
-import HomeTwoCta from "@/components/containers/home-two/HomeTwoCta";
-import HomeTwoChoose from "@/components/containers/home-two/HomeTwoChoose";
-import HomeTwoFeature from "@/components/containers/home-two/HomeTwoFeature";
+// import HomeTwoCta from "@/components/containers/home-two/HomeTwoCta";
+// import HomeTwoChoose from "@/components/containers/home-two/HomeTwoChoose";
+// import HomeTwoFeature from "@/components/containers/home-two/HomeTwoFeature";
 import Testimonial from "@/components/containers/support/Testimonial";
 import FooterTwo from "@/components/layout/footer/FooterTwo";
 import CustomCursor from "@/components/layout/CustomCursor";
@@ -25,9 +25,9 @@ const page = () => {
       {/* <HomeTwoPricing /> */}
       {/* <HomeTwoService /> */}
       {/* <HomeTwoLocation /> */}
-      <HomeTwoCta />
-      <HomeTwoChoose />
-      <HomeTwoFeature />
+      {/* <HomeTwoCta /> */}
+      {/* <HomeTwoChoose /> */}
+      {/* <HomeTwoFeature /> */}
       <Testimonial />
       <FooterTwo />
       <CustomCursor />

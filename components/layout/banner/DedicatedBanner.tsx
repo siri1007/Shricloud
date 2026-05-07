@@ -1,12 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import one from "@/public/img/hero/hero-1-circle-left.png";
-import two from "@/public/img/hero/hero-1-circle-right.png";
-import three from "@/public/img/hero/hero-1-dot-left.png";
-import four from "@/public/img/hero/hero-1-dot-right.png";
-import five from "@/public/img/hero/activity.png";
-import six from "@/public/img/breadcrumb.png";
 
+import five from "@/public/img/hero/activity.png";
+
+import dedicatedbanner from "@/public/img/dedicatedbanner.png"
+import styles from "./wordpressBanner.module.scss";
 const DedicatedBanner = () => {
   return (
     <section
@@ -78,12 +76,9 @@ const DedicatedBanner = () => {
               </Link>
             </div>
           </div>
-          <div
-            className="col-lg-3 "
-        
-          >
-            <div className="hero-image">
-              <Image src={six} alt="img" priority />
+          <div className={styles.Dedicatedwrapper}>
+            <div className={styles.Dedicatedwrapper}>
+              <Image src={dedicatedbanner} alt="" priority />
             </div>
           </div>
         </div>

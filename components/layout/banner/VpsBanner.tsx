@@ -2,14 +2,11 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import one from "@/public/img/hero/hero-1-circle-left.png";
-import two from "@/public/img/hero/hero-1-circle-right.png";
-// import three from "@/public/img/hero/hero-1-dot-left.png";
-// import four from "@/public/img/hero/hero-1-dot-right.png";
+
 import five from "@/public/img/hero/activity.png";
-import six from "@/public/img/breadcrumb.png";
+
 import styles from "./wordpressBanner.module.scss";
-import Vpsimg from "@/public/img/Vpsimg.png";type EliteBannerProps = {
+import Vpsimg from "@/public/img/VpsBannerimg.png";type EliteBannerProps = {
   scrollToPricing: () => void;
 };
 const VpsBanner = ({ scrollToPricing }: EliteBannerProps) => {
@@ -69,16 +66,22 @@ const VpsBanner = ({ scrollToPricing }: EliteBannerProps) => {
               </button>
             </div>
           </div>
-          <div className="col-lg-3 ">
+
+
+<div className={styles.imageWrapper}>
+            <Image src={Vpsimg} alt="wordpress hosting" priority />
+          </div>
+
+          {/* <div className="col-lg-3 ">
             <div className="hero-image">
-              {/* <Image 
+              <Image 
   src={Vpsimg} 
   alt="img" 
   priority 
-  style={{ marginLeft: "-200px" }} 
-/> */}
+   
+/>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
@@ -86,3 +89,5 @@ const VpsBanner = ({ scrollToPricing }: EliteBannerProps) => {
 };
 
 export default VpsBanner;
+
+
