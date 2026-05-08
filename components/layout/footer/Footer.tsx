@@ -91,9 +91,9 @@ const Footer = () => {
                 </div>
                 <ul className="list-area">
                   <li>
-                    <Link href="share-hosting">
+                    <Link href="Wordpress-cloud-Hosting">
                       <i className="fa-regular fa-chevrons-right"></i>
-                      Shared Hosting
+             Premium Cloud
                     </Link>
                   </li>
                   <li>
@@ -120,62 +120,22 @@ const Footer = () => {
                       Dedicated Hosting
                     </Link>
                   </li>
+
+                  <li>
+                    <Link href="N8n-hosting">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                     N8n-Hosting
+                    </Link>
+                  </li>
                 </ul>
               </div>
               
             </div>
-            <div className="col-xl-2 col-lg-4 col-md-3 ps-lg-4 ">
-            <div className="single-footer-widget">
-                 <div className="widget-head">
-                  <h3>Company</h3>
-                </div>
-                <ul className="list-area">
-                  <li>
-                    <Link href="about">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Shricloud About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="contact">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Terms of Service
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="pricing">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Refund Policy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="faq">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Privacy Policy
-                    </Link>
-                  </li>
 
-                  <li>
-                    <Link href="contact">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Affiliate Policy
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="contact">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Payment Methods
-                    </Link>
-                  </li>
-                </ul>
-              </div> 
-            </div>
-
-            <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
+  <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h3>Support</h3>
+                  <h3>Services</h3>
                 </div>
                 <ul className="list-area">
                   <li>
@@ -212,46 +172,54 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-4 "
-            
-              >
-              <div className="single-footer-widget">
-                <div className="widget-head">
-                  <h3>Newsletter</h3>
+          <div className="col-xl-2 col-lg-4 col-md-3 ps-lg-4 ">
+            <div className="single-footer-widget">
+                 <div className="widget-head">
+                  <h3>Company</h3>
                 </div>
-                <div className="footer-content">
-                  <p>
-                    Sign up to seargin weekly newsletter to get the latest
-                    updates.
-                  </p>
-                  <div className="footer-input">
-                    <input
-                      type="email"
-                      id="email2"
-                      placeholder="Enter Email Address"
-                    />
-                    <button className="newsletter-btn" type="submit">
-                      <i className="fa-regular fa-paper-plane"></i>
-                    </button>
-                  </div>
-                  <div className="social-icon d-flex align-items-center">
-                    <Link href="/">
-                      <i className="fab fa-facebook-f"></i>
+                <ul className="list-area">
+
+
+
+
+                  <li>
+                    <Link href="about">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Shricloud About
                     </Link>
-                    <Link href="/">
-                      <i className="fab fa-twitter"></i>
+                  </li>
+                  <li>
+                    <Link href="terms-of-service">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Terms of Service
                     </Link>
-                    <Link href="/">
-                      <i className="fa-brands fa-linkedin-in"></i>
+                  </li>
+                  <li>
+                    <Link href="refund-policy">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Refund Policy
                     </Link>
-                    <Link href="/">
-                      <i className="fa-brands fa-youtube"></i>
+                  </li>
+                  <li>
+                    <Link href="privacy-policy">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Privacy Policy
                     </Link>
-                  </div>
-                </div>
-              </div>
-            </div> */}
+                  </li>
+
+                  <li>
+                    <Link href="affiliate-policy">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Affiliate Policy
+                    </Link>
+                  </li>
+
+
+                </ul>
+              </div> 
+            </div>
+
+           
 
             <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
               <div className="single-footer-widget">
@@ -266,13 +234,13 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link href="https://shricloud.com/kb/">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Knowledge Base
                     </Link>
                   </li>
                   <li>
-                    <Link href="contact">
+                    <Link href="https://tawk.to/chat/65cb0abb8d261e1b5f5f80c0/1hmgi3rb6">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Live Chat
                     </Link>
@@ -284,14 +252,14 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="contact">
+                    <Link href="https://my.shricloud.com/index.php?/clientarea/">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Client Login
                     </Link>
                   </li>
 
                   <li>
-                    <Link href="contact">
+                    <Link href="https://www.shricloud.com/blog/">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Blog
                     </Link>

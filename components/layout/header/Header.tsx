@@ -238,14 +238,7 @@ const Header = () => {
                                           <p>Top-Selling Solution</p>
                                         </div>
 
-                                        {/* <div className="content">
-                                          <h6>
-                                            <Link href="premium-cloud-hosting">
-                                              Premium-cloud- Cloud
-                                            </Link>
-                                          </h6>
-                                          <p>Highest Selling Service</p>
-                                        </div> */}
+                                        
                                       </div>
                                     </div>
 
@@ -875,7 +868,7 @@ const Header = () => {
                                   }}
                                 >
                                   <i className="fas fa-book"></i>
-                                  <span>Knowledghhe Base</span>
+                                  <span>Knowledge Base</span>
                                 </a>
                               </li>
 
@@ -999,7 +992,7 @@ const Header = () => {
                               </li>
 
                               <li>
-                                <Link href="/afi">Affiliate Policy</Link>
+                                <Link href="/affiliate-policy">Affiliate Policy</Link>
                               </li>
 
                               {/* <li>
