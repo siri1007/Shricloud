@@ -8,7 +8,7 @@ import Header from "@/components/layout/header/Header";
 import VpsBanner from "@/components/layout/banner/VpsBanner";
 import HomeThreePricing from "@/components/containers/home-three/HomeThreePricing";
 import HostingFeatureTwo from "@/components/containers/hosting/HostingFeatureTwo";
-import HostingTab from "@/components/containers/hosting/HostingTab";
+// import HostingTab from "@/components/containers/hosting/HostingTab";
 import FaqSection from "@/components/containers/faq/vpsfaq";
 import Testimonial from "@/components/containers/support/Testimonial";
 import Brand from "@/components/containers/support/Brand";
@@ -17,6 +17,8 @@ import CustomCursor from "@/components/layout/CustomCursor";
 import CloudVpsPlans from "@/components/containers/CloudVpspalns/CloudVpsPlans";
 import CloudWhychoose from "@/components/containers/CloudVpspalns/CloudVpsWhyChoose";
 import CloudVpsHero from "@/components/containers/CloudVpspalns/CloudVpsHero";
+import DataCenter from "@/components/DataCenter/DataCenter";
+
 
 
 const page = () => {
@@ -38,7 +40,8 @@ const page = () => {
       <CloudVpsHero />
       <HostingFeatureTwo />
       <CloudWhychoose />
-      <HostingTab />
+      {/* <HostingTab /> */}
+        <DataCenter />
       <FaqSection />
       <Testimonial />
       <Brand />

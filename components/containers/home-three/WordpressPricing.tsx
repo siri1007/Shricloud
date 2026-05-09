@@ -1059,11 +1059,21 @@ const WordpressPricing = () => {
                       ₹99<sup>/ Month</sup>
                     </h2>
                   </div>
-                  <div className="pricing-button">
-                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
+
+
+
+
+ <div className="pricing-button">
+                    <Link href="https://my.shricloud.com/?cmd=cart&action=add&id=48&promocode=SALE50%OFF" className="theme-btn">
                       Get Started Now
                     </Link>
                   </div>
+                  
+                  {/* <div className="pricing-button">
+                    <Link href="https://my.shricloud.com/index.php?/cart/&step=1" className="theme-btn">
+                      Get Started Now
+                    </Link>
+                  </div> */}
 
                   <ul className="pricing-list">
                     <li className={styles["tooltip-item"]}>

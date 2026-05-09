@@ -72,7 +72,7 @@ const PricingHome = () => {
                       <h3>Startup</h3>
                       {/* <p> ₹999/mo</p> */}
                     </div>
-                    <h2>$₹999/mo</h2>
+                    <h2>₹999/mo</h2>
                   </div>
                   <ul className="pricing-list">
                     <li>
@@ -296,7 +296,7 @@ const PricingHome = () => {
                       <h3>Startup</h3>
                       {/* <p>Collaboratively formulate</p> */}
                     </div>
-                    <h2>$₹999/mo</h2>
+                    <h2>₹999/mo</h2>
                   </div>
                   <ul className="pricing-list">
                     <li>
@@ -440,7 +440,7 @@ const PricingHome = () => {
                       <h3>Expand</h3>
                       {/* <p>Collaboratively formulate</p> */}
                     </div>
-                    <h2>₹2599</h2>
+                    <h2>₹2599/mo</h2>
                   </div>
                 <ul className="pricing-list">
                     <li>
@@ -499,20 +499,7 @@ const PricingHome = () => {
             </div>
           </div>
         </div>
-        <div
-          className="pricing-title "
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-delay="400"
-        >
-          <p>
-            Cost-effective hosting that delivers secure, reliable
-            performance.{" "}
-          </p>
-          <Link href="pricing" className="theme-btn">
-            See all plan & details
-          </Link>
-        </div>
+        
       </div>
     </section>
   );

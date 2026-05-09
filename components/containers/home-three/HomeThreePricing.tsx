@@ -867,7 +867,13 @@ const HomePricing = () => {
                       <span className={styles.oldPrice}>₹299 /mo</span>
                     </h4> */}
                     <h2>
-                      ₹89 <sup>/ Month</sup>
+                    
+
+                    
+                      ₹299 <sup>/ Month</sup>
+                   
+
+
                     </h2>
                   </div>
                   {/* <div className="pricing-button">

@@ -16,23 +16,28 @@ import HostingHero from "@/components/containers/home/HostingHero";
 import AboutTeam from "@/components/containers/about/AboutTeam";
 import HostingBenefits from "@/components/containers/home/HostingBenefits";
 // import Testimonial from "@/components/containers/support/Testimonial";
-
-
+import DataCenter from "@/components/DataCenter/DataCenter";
+// import Testimonial from "@/components/containers/support/Testimonial";
+import Brand from "@/components/containers/support/Brand";
 const page = () => {
   return (
     <>
       <Header />
       <Banner />
+         <AboutTeam />
       {/* <DomainSection /> */}
       <HostingHome />
-        <AboutTeam />
+     
       <HomeThreePricing />
       <HostingHero />
         <HostingBenefits/>
     
-        <HomeTestimonial />
+     
       
        <FaqSection />
+         <DataCenter />
+      <HomeTestimonial />
+      <Brand />
     
   
      

@@ -4,9 +4,15 @@ import ScrollTop from "./ScrollTop";
 
 import one from "@/public/img/visa-logo.png";
 import two from "@/public/img/mastercard-logo.png";
-import three from "@/public/img/payoneer-logo.png";
+// import three from "@/public/img/payoneer-logo.png";
 import four from "@/public/img/affirm-logo.png";
 import shricloudwhitelogo from "@/public/img/logo/shricloud logo white 186x35.svg";
+
+// import upi from"@/public/img/upi-icon.png"
+import upi from "@/public/img/upi.png";
+import paypal from "@/public/img/Paypal-Logo.jpeg";
+
+import amex from "@/public/img/amex.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -25,10 +31,13 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <Image src={shricloudwhitelogo} alt="logo-img" 
-                  
-                        width={244} // increase this
-                        height={60}priority />
+                    <Image
+                      src={shricloudwhitelogo}
+                      alt="logo-img"
+                      width={244} // increase this
+                      height={60}
+                      priority
+                    />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -37,30 +46,44 @@ const Footer = () => {
                     through secure, dependable, and budget-friendly web hosting
                     solutions.
                   </p>
-  <ul
-  className="brand-logo"
-  style={{ marginTop: "50px" }}
->
-              <li>
-                <Image src={one} alt="img" priority />
-              </li>
-              <li>
-                <Link href="contact">
-                  <Image src={two} alt="img" priority />
-                </Link>
-              </li>
-              <li>
-                <Link href="contact">
-                  <Image src={three} alt="img" priority />
-                </Link>
-              </li>
-              <li>
-                <Link href="contact">
-                  <Image src={four} alt="img" priority />
-                </Link>
-              </li>
-            </ul>
 
+                  <ul className="brand-logo" style={{ marginTop: "50px" }}>
+                    <li>
+                      <Image src={one} alt="img" priority />
+                    </li>
+                    <li>
+                      <Image src={two} alt="img" priority />
+                    </li>
+                    <li>
+                      <Image
+                        src={upi}
+                        alt="img"
+                        priority
+                        style={{ width: "40px", height: "15px" }}
+                      />
+                    </li>
+
+                    <li>
+                      <Image
+                        src={paypal}
+                        alt="img"
+                        priority
+                        style={{ width: "40px", height: "15px" }}
+                      />
+                    </li>
+
+                    
+                    <li>
+                      <Image
+                        src={amex}
+                        alt="img"
+                        priority
+                        style={{ width: "40px", height: "15px" }}
+                      />
+                    </li>
+
+                 
+                  </ul>
 
                   {/* <ul className="contact-info">
                     <li>
@@ -113,8 +136,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-xl-2 col-lg-4 col-md-3 ps-lg-3 ">
-
-               <div className="single-footer-widget style-margin">
+              <div className="single-footer-widget style-margin">
                 <div className="widget-head">
                   <h3>Hosting</h3>
                 </div>
@@ -122,7 +144,7 @@ const Footer = () => {
                   <li>
                     <Link href="Wordpress-cloud-Hosting">
                       <i className="fa-regular fa-chevrons-right"></i>
-             Premium Cloud
+                      Premium Cloud
                     </Link>
                   </li>
                   <li>
@@ -131,18 +153,14 @@ const Footer = () => {
                       Reseller Hosting
                     </Link>
                   </li>
+
                   <li>
-                    <Link href="vps-hosting">
+                    <Link href="Elite-cloud">
                       <i className="fa-regular fa-chevrons-right"></i>
-                      VPS Hosting
+                      Elite Cloud
                     </Link>
                   </li>
-                  <li>
-                    <Link href="cloud-hosting">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Cloud Hosting
-                    </Link>
-                  </li>
+
                   <li>
                     <Link href="dedicated-hosting">
                       <i className="fa-regular fa-chevrons-right"></i>
@@ -151,17 +169,23 @@ const Footer = () => {
                   </li>
 
                   <li>
+                    <Link href="vps-hosting">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      VPS Hosting
+                    </Link>
+                  </li>
+
+                  <li>
                     <Link href="N8n-hosting">
                       <i className="fa-regular fa-chevrons-right"></i>
-                     N8n-Hosting
+                      N8n-Hosting
                     </Link>
                   </li>
                 </ul>
               </div>
-              
             </div>
 
-  <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
+            <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <h3>Services</h3>
@@ -201,16 +225,12 @@ const Footer = () => {
               </div>
             </div>
 
-          <div className="col-xl-2 col-lg-4 col-md-3 ps-lg-4 ">
-            <div className="single-footer-widget">
-                 <div className="widget-head">
+            <div className="col-xl-2 col-lg-4 col-md-3 ps-lg-4 ">
+              <div className="single-footer-widget">
+                <div className="widget-head">
                   <h3>Company</h3>
                 </div>
                 <ul className="list-area">
-
-
-
-
                   <li>
                     <Link href="about">
                       <i className="fa-regular fa-chevrons-right"></i>
@@ -243,7 +263,6 @@ const Footer = () => {
                     </Link>
                   </li>
 
-                  
                   <li>
                     <Link href="cookie-policy">
                       <i className="fa-regular fa-chevrons-right"></i>
@@ -251,20 +270,14 @@ const Footer = () => {
                     </Link>
                   </li>
 
-                  
-                    <li>
-
-                                <Link 
-                                href="contact">
-                                     <i className="fa-regular fa-chevrons-right"></i>Contact Us</Link>
-                              </li>
-
-
+                  <li>
+                    <Link href="contact">
+                      <i className="fa-regular fa-chevrons-right"></i>Contact Us
+                    </Link>
+                  </li>
                 </ul>
-              </div> 
+              </div>
             </div>
-
-           
 
             <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
               <div className="single-footer-widget">
@@ -316,18 +329,17 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-
         <div className="container">
-  <div
-    className="footer-wrapper d-flex align-items-center justify-content-center"
-    style={{ textAlign: "center" }}
-  >
-    <p>
-      &copy; All Copyright {currentYear} by{" "}
-      <Link href="/">ShriCloud Pvt Ltd. All rights reserved.</Link>
-    </p>
-  </div>
-</div>
+          <div
+            className="footer-wrapper d-flex align-items-center justify-content-center"
+            style={{ textAlign: "center" }}
+          >
+            <p>
+              &copy; All Copyright {currentYear} by{" "}
+              <Link href="/">ShriCloud Pvt Ltd. All rights reserved.</Link>
+            </p>
+          </div>
+        </div>
         <ScrollTop />
       </div>
     </footer>

@@ -19,7 +19,7 @@ const HomeThreeAbout = () => {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="about-image-items">
-                  <div className="about-sub">Successful Hosting 25k+</div>
+                  {/* <div className="about-sub">Successful Hosting 25k+</div> */}
                   <div className="shape-image">
                     <Image src={one} alt="img" priority />
                   </div>
@@ -63,7 +63,7 @@ const HomeThreeAbout = () => {
                     >
                       <h2>
                         <span className="count">
-                          <Counter value={50} />
+                          <Counter value={10} />
                         </span>
                         k
                       </h2>

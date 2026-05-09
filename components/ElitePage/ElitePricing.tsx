@@ -116,6 +116,7 @@ const ElitePricing = () => {
                       ₹1759 <sup>/ Month</sup>
                     </h2>
                   </div>
+
                   <div className="pricing-button">
                     <Link
                       href="https://my.shricloud.com/?cmd=cart&action=add&id=21&promocode=SALE35%OFF"
@@ -1287,9 +1288,11 @@ const ElitePricing = () => {
                       ₹714<sup>/ Month</sup>
                     </h2>
                   </div>
+                  
                   <div className="pricing-button">
                     <Link
                       href="https://my.shricloud.com/?cmd=cart&action=add&id=21&promocode=SALE35%OFF"
+                        className="theme-btn"
                     >
                       Get Started Now
                     </Link>
@@ -1995,6 +1998,7 @@ const ElitePricing = () => {
                   <div className="pricing-button">
                     <Link
                       href="https://my.shricloud.com/?cmd=cart&action=add&id=23&promocode=SALE35%OFF"
+                        className="theme-btn"
                     >
                       Get Started Now
                     </Link>
