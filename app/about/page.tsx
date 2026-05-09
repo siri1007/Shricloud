@@ -8,6 +8,7 @@ import HomeFourTestimonial from "@/components/containers/home-four/HomeFourTesti
 import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
  import DataCenter from "@/components/DataCenter/DataCenter";
+import Testimonial from "@/components/containers/support/Testimonial";
 
 // import HomeTwoLocation from "@/components/containers/home-two/HomeTwoLocation";
 
@@ -23,7 +24,8 @@ const page = () => {
        <DataCenter />
       <HomeFourChooseTwo />
       
-      <HomeFourTestimonial />
+      <Testimonial/>
+      {/* <HomeFourTestimonial /> */}
        {/* <HomeTwoLocation /> */}
 
 

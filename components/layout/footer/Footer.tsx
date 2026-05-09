@@ -1,11 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import ScrollTop from "./ScrollTop";
-import logo from "@/public/img/logo/white-logo.svg";
+
 import one from "@/public/img/visa-logo.png";
 import two from "@/public/img/mastercard-logo.png";
 import three from "@/public/img/payoneer-logo.png";
 import four from "@/public/img/affirm-logo.png";
+import shricloudwhitelogo from "@/public/img/logo/shricloud logo white 186x35.svg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,7 +15,7 @@ const Footer = () => {
     <footer
       className="footer-section fix bg-cover"
       style={{
-        backgroundImage: "url(/img/section-bg.jpg)",
+        backgroundImage: "url(/img/hero/hero-bg-1.jpg)",
       }}
     >
       <div className="footer-widgets-wrapper">
@@ -24,7 +25,10 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <Image src={logo} alt="logo-img" priority />
+                    <Image src={shricloudwhitelogo} alt="logo-img" 
+                  
+                        width={244} // increase this
+                        height={60}priority />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -33,7 +37,32 @@ const Footer = () => {
                     through secure, dependable, and budget-friendly web hosting
                     solutions.
                   </p>
-                  <ul className="contact-info">
+  <ul
+  className="brand-logo"
+  style={{ marginTop: "50px" }}
+>
+              <li>
+                <Image src={one} alt="img" priority />
+              </li>
+              <li>
+                <Link href="contact">
+                  <Image src={two} alt="img" priority />
+                </Link>
+              </li>
+              <li>
+                <Link href="contact">
+                  <Image src={three} alt="img" priority />
+                </Link>
+              </li>
+              <li>
+                <Link href="contact">
+                  <Image src={four} alt="img" priority />
+                </Link>
+              </li>
+            </ul>
+
+
+                  {/* <ul className="contact-info">
                     <li>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +108,7 @@ const Footer = () => {
                         info@example.com
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -214,6 +243,22 @@ const Footer = () => {
                     </Link>
                   </li>
 
+                  
+                  <li>
+                    <Link href="cookie-policy">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Cookie Policy
+                    </Link>
+                  </li>
+
+                  
+                    <li>
+
+                                <Link 
+                                href="contact">
+                                     <i className="fa-regular fa-chevrons-right"></i>Contact Us</Link>
+                              </li>
+
 
                 </ul>
               </div> 
@@ -271,34 +316,18 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
+
         <div className="container">
-          <div className="footer-wrapper d-flex align-items-center justify-content-between">
-            <p>
-              &copy; All Copyright {currentYear} by{" "}
-              <Link href="/">Hostech</Link>
-            </p>
-            <ul className="brand-logo">
-              <li>
-                <Image src={one} alt="img" priority />
-              </li>
-              <li>
-                <Link href="contact">
-                  <Image src={two} alt="img" priority />
-                </Link>
-              </li>
-              <li>
-                <Link href="contact">
-                  <Image src={three} alt="img" priority />
-                </Link>
-              </li>
-              <li>
-                <Link href="contact">
-                  <Image src={four} alt="img" priority />
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <div
+    className="footer-wrapper d-flex align-items-center justify-content-center"
+    style={{ textAlign: "center" }}
+  >
+    <p>
+      &copy; All Copyright {currentYear} by{" "}
+      <Link href="/">ShriCloud Pvt Ltd. All rights reserved.</Link>
+    </p>
+  </div>
+</div>
         <ScrollTop />
       </div>
     </footer>

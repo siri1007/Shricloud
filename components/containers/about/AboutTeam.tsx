@@ -22,7 +22,7 @@ const AboutTeam = () => {
   return (
    <section className={`team-section fix section-padding ${styles.blackBg}`}>
       <div className="container">
-        <div className="section-title text-center">
+        {/* <div className="section-title text-center">
           <span
             className="style-border "
            
@@ -38,7 +38,7 @@ const AboutTeam = () => {
           <p >
          Our company was founded in 2020. We work daily to become better and we are ready to share best practices.
           </p>
-        </div>
+        </div> */}
 
 
 

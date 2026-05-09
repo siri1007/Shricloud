@@ -72,7 +72,7 @@ const HomeThreeAbout = () => {
                     <div
                       className="counter-items ps-0 "
                      
-                    >
+                      >
                       <h2>
                         <span className="count">
                           <Counter value={98} />
@@ -81,25 +81,18 @@ const HomeThreeAbout = () => {
                       </h2>
                       <h6>Uptime Guarantee</h6>
                     </div>
-                    <div
-                      className="video-thumb "
-                     
-                    >
-                      <Image src={four} alt="video-img" />
-                      <div className="video-box">
-                        <span
-                          className="button-text "
-                        
-                        >
-                          <a
-                            onClick={() => setOpen(true)}
-                            className="video-btn ripple video-popup"
-                          >
-                            <i className="fa-solid fa-play"></i>
-                          </a>
-                        </span>
-                      </div>
-                    </div>
+
+                   <div className="counter-items ps-0">
+  <h2>
+    <span className="count">
+      <Counter value={24} />
+    </span>
+    /7
+  </h2>
+  <h6>Expert Support Available</h6>
+</div>
+
+                  
                   </div>
                 </div>
               </div>
