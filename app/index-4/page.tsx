@@ -35,3 +35,12 @@
 // };
 
 // export default page;
+
+
+export default function Page() {
+  return (
+    <div>
+      Index 4 Page
+    </div>
+  );
+}
