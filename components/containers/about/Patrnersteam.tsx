@@ -20,27 +20,26 @@ import cloudlinux from "@/public/img/partners/cloudlinux.png";
 import DirectAdminLogo from "@/public/img/partners/DirectAdminLogo.png";
 const AboutTeam = () => {
   return (
-   <section className={`team-section fix section-padding ${styles.blackBg}`}>
+   <section className={`team-section fix section-padding ${styles.blackBgg}`}>
       <div className="container">
 
 
-             {/* <div className="section-title text-center">
+             <div className="section-title text-center">
           <span
             className="style-border "
            
           >
           partnership
           </span>
-          <h2
-            className="mb-3 "
-           
-          >
-            Meet our partners
-          </h2>
+        <h2
+  className="mb-3"
+>
+  Meet our partners
+</h2>
           <p >
          Our company was founded in 2020. We work daily to become better and we are ready to share best practices.
           </p>
-        </div> */}
+        </div>
        
 
 

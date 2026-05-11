@@ -66,12 +66,7 @@ const ChooseUs = () => {
     <section className="choose-us-section fix section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <span
-            className="style-border "
-            // data-aos-duration="800"
-             >
-            our Support
-          </span>
+          
           <h2 >
             our Premium Support
           </h2>

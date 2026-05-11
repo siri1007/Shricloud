@@ -11,6 +11,21 @@ import CustomCursor from "@/components/layout/CustomCursor";
 
 import TermsOfService from "@/components/TermsOfService/TermsOfService";
 
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms Of Service",
+
+  description:
+    "",
+
+  keywords: [
+    "",
+   
+  ],
+};
+
 const page = () => {
   return (
     <>

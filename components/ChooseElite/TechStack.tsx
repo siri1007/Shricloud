@@ -40,13 +40,13 @@ import styles from "./techstack.module.scss";
 const techIcons = [
   "/techstack/django.png",
   "/techstack/php.png",
-  "/techstack/mongodb.png",
   "/techstack/python.png",
   "/techstack/react.png",
   "/techstack/node.png",
-  "/techstack/aws.png",
-  "/techstack/docker.png",
+  // "/techstack/aws.png",
+  "/techstack/bootstrap.png",
 ];
+
 
 const TechStack: React.FC = () => {
   return (

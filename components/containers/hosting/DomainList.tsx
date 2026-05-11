@@ -20,7 +20,7 @@ const DomainList = () => {
   return (
     <section className="domain-list-section fix section-padding pt-0">
       <div className="container">
-        <div className="section-title text-center pb-md-3">
+        <div className="section-title text-center pb-md-2">
           {/* <span
             className="style-border "
             data-aos="fade-up"
@@ -38,9 +38,9 @@ const DomainList = () => {
           </p> */}
 
         </div>
-        <div className="row g-0">
+      <div className="row g-0 justify-content-center align-items-center">
           <div
-            className="col-xl-3 col-lg-4 col-md-6 "
+            className="col-xl-2 col-lg-4 col-md-6 "
            
           >
             {/* <div className="domain-list-items">
@@ -94,7 +94,7 @@ const DomainList = () => {
 
           </div>
           <div
-            className="col-xl-3 col-lg-4 col-md-6 "
+            className="col-xl-2 col-lg-4 col-md-6 "
             
           >
             <div className="domain-list-items">
@@ -133,7 +133,7 @@ const DomainList = () => {
             </div>
           </div>
           <div
-            className="col-xl-3 col-lg-4 col-md-6 "
+            className="col-xl-2 col-lg-4 col-md-6 "
            
           >
             <div className="domain-list-items">
@@ -168,7 +168,7 @@ const DomainList = () => {
             </div>
           </div>
           <div
-            className="col-xl-3 col-lg-4 col-md-6 "
+            className="col-xl-2 col-lg-4 col-md-6 "
             
           >
             <div className="domain-list-items">

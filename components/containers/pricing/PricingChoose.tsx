@@ -9,12 +9,7 @@ const PricingChoose = () => {
     <section className="choose-us-section fix section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <span
-            className="style-bg "
-           
-          >
-            Why Choose Us
-          </span>
+          
           <h2 >
             Why Choose Shricloud
           </h2>

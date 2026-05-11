@@ -36,7 +36,7 @@ const VpsBanner = ({ scrollToPricing }: EliteBannerProps) => {
             <div className="hero-content">
               <span className="sub-text-2 ">
                 <Image src={five} alt="img" priority className="me-2" />
-                VPS Cloud Starter Plan – Just $99/month (12 Months)
+                VPS Cloud 
               </span>
               <h1>Fully Managed VPS Cloud Hosting</h1>
               <div className="hero-list-items " aria-errormessage=".5s">

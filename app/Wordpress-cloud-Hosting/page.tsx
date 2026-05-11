@@ -1,48 +1,91 @@
 
 
-"use client";
+// "use client";
 
-import { useRef } from "react";
+// import type { Metadata } from "next";
 
-import Header from "@/components/layout/header/Header";
-import PricingChoose from "@/components/containers/pricing/PricingChoose";
-import Testimonial from "@/components/containers/support/Testimonial";
-import Brand from "@/components/containers/support/Brand";
-import Footer from "@/components/layout/footer/Footer";
-import CustomCursor from "@/components/layout/CustomCursor";
-import DataCenter from "@/components/DataCenter/DataCenter";
-import WordpressPricing from "@/components/containers/home-three/WordpressPricing";
-import WordpressBanner from "@/components/layout/banner/WordpressBanner";
-import StackCards from "@/components/StackCards/StackCards";
-import FaqSection from "@/components/containers/faq/WpFAQSection";
+// export const metadata: Metadata = {
+//   title: "WordPress Hosting",
 
-const Page = () => {
-  const pricingRef = useRef<HTMLDivElement | null>(null);
+//   description:
+//     "Fast and secure WordPress hosting with 99.9% uptime and high performance servers.",
 
-  const scrollToPricing = () => {
-    pricingRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
+//   keywords: [
+//     "wordpress hosting",
+//     "managed wordpress hosting",
+//     "cheap wordpress hosting",
+//     "wordpress servers",
+//   ],
+// };
 
-  return (
-    <>
-      <Header />
+// import { useRef } from "react";
 
-      <WordpressBanner scrollToPricing={scrollToPricing} />
+// import Header from "@/components/layout/header/Header";
+// import PricingChoose from "@/components/containers/pricing/PricingChoose";
+// import Testimonial from "@/components/containers/support/Testimonial";
+// import Brand from "@/components/containers/support/Brand";
+// import Footer from "@/components/layout/footer/Footer";
+// import CustomCursor from "@/components/layout/CustomCursor";
+// import DataCenter from "@/components/DataCenter/DataCenter";
+// import WordpressPricing from "@/components/containers/home-three/WordpressPricing";
+// import WordpressBanner from "@/components/layout/banner/WordpressBanner";
+// import StackCards from "@/components/StackCards/StackCards";
+// import FaqSection from "@/components/containers/faq/WpFAQSection";
 
-      <div ref={pricingRef}>
-        <WordpressPricing />
-      </div>
+// const Page = () => {
+//   const pricingRef = useRef<HTMLDivElement | null>(null);
 
-      <PricingChoose />
-      <StackCards />
-      <FaqSection />
-      <DataCenter />
-      <Testimonial />
-      <Brand />
-      <Footer />
-      <CustomCursor />
-    </>
-  );
+//   const scrollToPricing = () => {
+//     pricingRef.current?.scrollIntoView({ behavior: "smooth" });
+//   };
+
+//   return (
+//     <>
+//       <Header />
+
+//       <WordpressBanner scrollToPricing={scrollToPricing} />
+
+//       <div ref={pricingRef}>
+//         <WordpressPricing />
+//       </div>
+
+//       <PricingChoose />
+//       <StackCards />
+//       <FaqSection />
+//       <DataCenter />
+//       <Testimonial />
+//       <Brand />
+//       <Footer />
+//       <CustomCursor />
+//     </>
+//   );
+// };
+
+// export default Page;
+
+
+
+
+
+
+import type { Metadata } from "next";
+import WordpressPageClient from "./WordpressPageClient";
+
+export const metadata: Metadata = {
+  title: "Best WordPress Hosting in India - Starting at ₹99",
+
+  description:
+    "Speed, Security, and Scale: Included with the best WordPress Hosting by AWS Servers.",
+
+  keywords: [
+    "shricloud",
+    " Best Wordpress Hosting",
+    "managed wordpress hosting",
+    "cheap wordpress hosting",
+    "wordpress servers",
+  ],
 };
 
-export default Page;
+export default function Page() {
+  return <WordpressPageClient />;
+}

@@ -5,6 +5,21 @@ import CustomCursor from "@/components/layout/CustomCursor";
 
 import AffiliatePolicy from "@/components/AffiliatePolicy/AffiliatePolicy"
 
+
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Affiliate Policy",
+
+  description:
+    "",
+
+  keywords: [
+    "",
+   
+  ],
+};
 const page = () => {
   return (
     <>

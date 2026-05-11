@@ -43,10 +43,7 @@ export default function CloudVpsHero() {
             </div>
           </div>
 
-          <div className={styles.actions}>
-            <button className={styles.primary}>Deploy now →</button>
-            <button className={styles.secondary}>View pricing</button>
-          </div>
+          
         </div>
 
         {/* RIGHT CONTENT */}

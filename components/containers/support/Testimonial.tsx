@@ -103,7 +103,7 @@ Great pricing and performance make it a top choice today.
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
-                    <i className="fa-regular fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
                   </div>
                   <p>
                   ShriCloud’s support team is always helpful and responsive.
@@ -172,7 +172,7 @@ I’m very happy with their hosting and highly recommend it.
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
-                    <i className="fa-regular fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
                   </div>
                   <p>
                   I am using premium web hosting  for my job 

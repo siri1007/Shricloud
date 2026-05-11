@@ -27,12 +27,12 @@ const ResellerBanner = () => {
                
               >
                 <Image src={five} alt="img" priority className="me-2" />
-                Reseller Hosting Plan - 12 months for $29/month
+           CLOUD BASED RESELLER HOSTING
               </span>
               <h1
                 
               >
-                Reseller Hosting Windows & Linux
+               Best Reseller Hosting Solutions
               </h1>
               <div
                 className="hero-list-items "

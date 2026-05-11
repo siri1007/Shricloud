@@ -1,37 +1,23 @@
-import Header from "@/components/layout/header/Header";
-import N8nBanner from "@/components/layout/banner/N8nBanner";
 
-import HomeFourFeature from "@/components/containers/home-four/HomeFourFeature";
-import Testimonial from "@/components/containers/support/Testimonial";
-import Brand from "@/components/containers/support/Brand";
-import NnFaq from "@/components/containers/faq/NnFaq";
-import Footer from "@/components/layout/footer/Footer";
-import CustomCursor from "@/components/layout/CustomCursor";
-// import NnPricing from "@/components/NnPage/NnPricing;
-import NnPricing from "@/components/NnPage/NnPricing";
-import Nnservices from "@/components/NnPage/Nnservices";
-import AutomationSection from "@/components/NnPage/AutomationSection";
 
-const page = () => {
-  return (
-    <>
-      <Header />
-      <N8nBanner />
-         <NnPricing />
-      {/* <HostingFeatureThree /> */}
-      {/* <HostingPricing /> */}
-      {/* <NnPricing /> */}
-        <Nnservices />
-      {/* <HomeFourFeature /> */}
-      <AutomationSection />
-       <NnFaq />
-      <Testimonial />
-      <Brand />
-      {/* <NnFaq /> */}
-      <Footer />
-      <CustomCursor />
-    </>
-  );
+import type { Metadata } from "next";
+import  N8nPageClient from "./N8nPageClient";
+
+export const metadata: Metadata = {
+  title: "Self-Hosted n8n VPS Plans | Fast, Secure & Unlimited Workflows",
+
+  description:
+    "Host n8n on your own VPS with full root access  Unlimited workflows",
+
+  keywords: [
+    "n8n hosting",
+    " n8n self hosted hosting",
+    "n8n hosting unlimited workflows",
+    "n8n hosting vs Zapier hosting",
+    "how to self host n8n on VPS",
+  ],
 };
 
-export default page;
+export default function Page() {
+  return <N8nPageClient />;
+}

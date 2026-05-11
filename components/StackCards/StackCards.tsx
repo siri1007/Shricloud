@@ -37,10 +37,9 @@ export default function StackCards() {
       
       {/* 🔥 TOP HEADING SECTION */}
       <div className={styles.header}>
-        <h1>Build, launch, and scale your website — all in one place</h1>
+        <h1>Build, launch, and scale your website </h1>
         <p>
-          From domains and hosting to business email and AI-powered tools —
-          everything you need to grow your online presence effortlessly.
+          From domains and hosting to business email and AI-powered tools
         </p>
       </div>
 

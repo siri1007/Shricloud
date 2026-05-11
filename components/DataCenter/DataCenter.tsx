@@ -61,7 +61,7 @@ const DataCenter = () => {
 
         <div className={styles.counter}>
           <h2>10+</h2>
-          <p>Team Members (as of 2025)</p>
+          <p>Team Members (as of 2026)</p>
         </div>
 
         <div className={styles.counter}>

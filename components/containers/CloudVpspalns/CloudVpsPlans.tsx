@@ -257,7 +257,7 @@ export default function CloudVpsPlans() {
   href={plan.url}
   className={styles.button}
 >
-  Add To Cart
+ Get started
 </a>
 {/*           
           

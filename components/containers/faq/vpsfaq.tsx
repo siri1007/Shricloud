@@ -15,7 +15,7 @@ type FAQ = {
 const faqs: FAQ[] = [
   {
     question:
-      "What does managed VPS hosting entail, and how does it benefit my business with Shricloud?",
+      "What does managed VPS hosting , and how does it benefit my business with Shricloud?",
     answer:
       "Managed VPS hosting with SiteCountry takes the technical burden off your shoulders by handling everything behind the scenes—server setup, updates, security maintenance, backups, and software configuration. Instead of worrying about server management, you can dedicate your time to building and expanding your business.",
     icon: <FiZap />,

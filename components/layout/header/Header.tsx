@@ -262,7 +262,7 @@ const Header = () => {
                                               Reseller Hosting
                                             </Link> */}
                                           </h6>
-                                          <p>Great Value Plans</p>
+                                          <p>  Start Hosting Business</p>
                                         </div>
                                       </div>
                                     </div>
@@ -295,10 +295,10 @@ const Header = () => {
                                         <div className="content">
                                           <h6>
                                             <Link href="dedicated-hosting">
-                                              Dedicated Hosting
+                                              Dedicated Servers
                                             </Link>
                                           </h6>
-                                          <p>High Power & Reliability</p>
+                                          <p>A Bare Metal Servers</p>
                                         </div>
                                       </div>
                                     </div>
@@ -942,7 +942,7 @@ const Header = () => {
                                 </a>
                               </li>
 
-                              <li>
+                              {/* <li>
                                 <a
                                   href="https://www.shricloud.com/blog/"
                                   style={{
@@ -954,7 +954,7 @@ const Header = () => {
                                   <i className="fas fa-blog"></i>
                                   <span>Blog</span>
                                 </a>
-                              </li>
+                              </li> */}
                             </ul>
                           </li>
 

@@ -116,7 +116,7 @@ const HostingFeatureTwo = () => {
               <div className="content">
                 <h3>Money-Back Guarantee</h3>
                 <p>
-                 Try our services risk-free with a 30-day money-back guarantee, giving you complete peace of mind.
+                 Try our services risk-free with a 7-day money-back guarantee, giving you complete peace of mind.
                 </p>
               </div>
             </div>

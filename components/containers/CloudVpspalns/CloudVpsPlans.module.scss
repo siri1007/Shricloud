@@ -193,14 +193,17 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-  margin-top: 50px;
+  gap: 14px;
+  // margin-top: 50px;
+  // border: 1px solid #000;
+  width:1200px;
+  margin: 50px auto;
 }
 
 .card {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
-  padding: 28px;
+  padding: 18px;
   position: relative;
   transition: all 0.3s ease;
 }
