@@ -5,7 +5,12 @@ import five from "@/public/img/hero/activity.png";
 
 import dedicatedbanner from "@/public/img/dedicatedbanner.png"
 import styles from "./wordpressBanner.module.scss";
-const DedicatedBanner = () => {
+
+type WordpressBannerProps = {
+  scrollToPricing: () => void;
+};
+
+const DedicatedBanner = ({ scrollToPricing }: WordpressBannerProps) => {
   return (
     <section
       className="hero-section hero-1 style-hosting bg-cover fix"
@@ -34,18 +39,23 @@ const DedicatedBanner = () => {
               
               >
                 <Image src={five} alt="img" priority className="me-2" />
-                Dedicated Starter Plan - 12 months for $99/month
+               Dedicated Server Solutions
               </span>
               <h1
             
-              >
-                Managed Dedicated Server Hosting
+              >  The Server is Yours. Entirely.
+
               </h1>
-              <div
+<p style={{ color: "#fff", marginBottom: "40px" }}>
+  Dedicated hardware, root-level control, and performance that never wavers.
+</p>
+
+
+              {/* <div
                 className="hero-list-items "
              
                 aria-errormessage=".5s"
-              >
+               >
                 <ul className="hero-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
@@ -66,14 +76,10 @@ const DedicatedBanner = () => {
                     30-day money back guarantee
                   </li>
                 </ul>
-              </div>
-              <Link
-                href="pricing"
-                className="theme-btn bg-color-2 "
-               
-              >
-                view plan <i className="fas fa-long-arrow-alt-right"></i>
-              </Link>
+              </div> */}
+              <button onClick={scrollToPricing} className={styles.ctaBtn}>
+              View Plans →
+            </button>
             </div>
           </div>
           <div className={styles.Dedicatedwrapper}>

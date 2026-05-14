@@ -33,8 +33,7 @@ const N8nBanner = () => {
               >
                 Build, Run, and Scale
  <br />
-                AI Workflows — On
-Your Own Terms
+                AI Workflows 
               </h1>
               <div
                 className="hero-list-items "
@@ -58,13 +57,21 @@ Your Own Terms
                 </ul>
                 
               </div>
-              <Link
+              {/* <Link
                 href="pricing"
                 className="theme-btn bg-color-2 "
                
               >
                 view plan <i className="fas fa-long-arrow-alt-right"></i>
-              </Link>
+              </Link> */}
+
+              <Link
+  href="pricing"
+  className="theme-btn bg-color-2"
+  style={{ backgroundColor: "#0E3CD8" }}
+>
+  view plan <i className="fas fa-long-arrow-alt-right"></i>
+</Link>
             </div>
           </div>
           <div
@@ -73,7 +80,7 @@ Your Own Terms
             {/* <div className="hero-image">
               <Image src={six} alt="img" priority />
             </div> */}
-            <div className="hero-image" style={{ marginLeft: "-190px" }}>
+            <div className="hero-image" style={{ marginLeft: "-375px" }}>
   <Image src={six} alt="img" priority />
 </div>
           </div>

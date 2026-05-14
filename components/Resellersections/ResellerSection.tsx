@@ -41,10 +41,10 @@ export default function ResellerSection() {
             ))}
           </ul>
 
-          <div className={styles.footerNote}>
+          {/* <div className={styles.footerNote}>
             <span className={styles.dot}></span>
             Premium Cloud Hosting Infrastructure
-          </div>
+          </div> */}
         </div>
 
       </div>

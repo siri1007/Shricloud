@@ -8,7 +8,7 @@ import three from "@/public/img/pricing/icon-1.png";
 import four from "@/public/img/pricing/pricing-shape.png";
 
 const PricingHome = () => {
-  const [tab, setTab] = useState(0);
+  const [tab, setTab] = useState(1);
 
   return (
     <section className="pricing-section fix section-padding section-bg">
@@ -16,8 +16,9 @@ const PricingHome = () => {
         <div className="section-title text-center">
           <span className="style-border ">Pricing Plans</span>
           <h2>
-            Get the More Powerful With Hostech <br /> Website Hosting Plans
+           Choose your reseller hosting plan
           </h2>
+          <p>Select a reseller hosting plan tailored to your requirements and <br></br>budget for an enhanced hosting experience. </p>
         </div>
         <div className="pricing-tab-header">
           <div className="arrow-shape">
@@ -47,14 +48,20 @@ const PricingHome = () => {
               </a>
             </li>
           </ul>
-          <div className="save-text">Save 25%</div>
+          <div className="save-text">Save 50%</div>
         </div>
         <div className="tab-content">
-          <div
+          {/* <div
             id="monthly"
             className={`tab-pane fade ${tab === 0 ? " show active " : " "}`}
             role="tabpanel"
-          >
+          > */}
+
+          <div
+  id="monthly"
+  className={`tab-pane ${tab === 0 ? "show active" : "d-none"}`}
+  role="tabpanel"
+>
             <div className="row">
               <div className="col-xl-4 col-lg-6 col-md-6 ">
                 <div className="pricing-card-items responsive-pricing-style">
@@ -274,11 +281,18 @@ const PricingHome = () => {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             id="yearly"
             className={`tab-pane fade ${tab === 1 ? " show active " : " "}`}
             role="tabpanel"
-          >
+          > */}
+
+
+          <div
+  id="yearly"
+  className={`tab-pane ${tab === 1 ? "show active" : "d-none"}`}
+  role="tabpanel"
+>
             <div className="row">
               <div className="col-xl-4 col-lg-6 col-md-6">
                 <div className="pricing-card-items responsive-pricing-style">

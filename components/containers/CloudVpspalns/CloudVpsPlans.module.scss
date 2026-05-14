@@ -1,171 +1,4 @@
 
-
-
-
-
-// // --------
-
-
-
-// .wrapper {
-// //   background: #020617;
-//   padding: 80px 40px;
-//   text-align: center;
-//   color: black;
-// }
-
-// .title {
-//   font-size: 48px;
-//   font-weight: 700;
-
-//   span {
-//     color: #384BFF;
-//   }
-// }
-
-// .subtitle {
-//   margin-top: 12px;
-//   color: #94a3b8;
-//   line-height: 1.6;
-// }
-
-// .grid {
-//   display: grid;
-//   grid-template-columns: repeat(4, 1fr);
-//   gap: 24px;
-//   margin-top: 50px;
-// }
-
-// .card {
-// //   background: #020617;
-//   border: 1px solid rgba(255, 255, 255, 0.08);
-//   border-radius: 16px;
-//   padding: 28px;
-//   position: relative;
-//   transition: all 0.3s ease;
-// //   color:#fff;
-// }
-
-// .card:hover {
-//   border-color: #384BFF;
-//   transform: translateY(-6px);
-// }
-
-// .popular {
-//   border: 1px solid #384BFF;
-// }
-
-// .badge {
-//   position: absolute;
-//   top: 16px;
-//   right: 16px;
-//   background: #384BFF;
-//   font-size: 12px;
-//   padding: 4px 10px;
-//   border-radius: 6px;
-// }
-
-// .planName {
-//   font-size: 20px;
-//   margin-bottom: 20px;
-// }
-
-// .price {
-//   font-size: 42px;
-//   font-weight: 700;
-// }
-
-// .per {
-//   font-size: 14px;
-//   color: #94a3b8;
-// }
-
-// .button {
-//   margin: 20px 0;
-//   width: 100%;
-//   padding: 12px;
-//   border-radius: 8px;
-//   border: 1px solid #384BFF;
-//   background: transparent;
-//   color: black;
-//   cursor: pointer;
-//   transition: 0.3s;
-// }
-
-// .button:hover {
-//   background: #384BFF;
-// }
-
-// .features {
-//   list-style: none;
-//   padding: 0;
-//   margin-top: 20px;
-// }
-
-// .featureItem {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   margin-bottom: 14px;
-//   position: relative;
-// }
-
-// .left {
-//   display: flex;
-//   align-items: center;
-//   gap: 8px;
-// }
-
-// .check {
-//   color: #384BFF;
-//   font-size: 14px;
-// }
-
-// .infoWrapper {
-//   position: relative;
-// }
-
-// .info {
-//   width: 18px;
-//   height: 18px;
-//   background: rgba(255, 255, 255, 0.1);
-//   border-radius: 50%;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   font-size: 12px;
-//   cursor: pointer;
-// }
-
-// .tooltip {
-//   position: absolute;
-//   bottom: 28px;
-//   right: 0;
-//   background: #384BFF;
-//   padding: 8px 10px;
-//   border-radius: 6px;
-//   color:white;
-//   font-size: 12px;
-//   white-space: nowrap;
-// //   border: 1px solid #384BFF;
-//   z-index: 10;
-// }
-
-// /* Responsive */
-
-// @media (max-width: 1024px) {
-//   .grid {
-//     grid-template-columns: repeat(2, 1fr);
-//   }
-// }
-
-// @media (max-width: 600px) {
-//   .grid {
-//     grid-template-columns: 1fr;
-//   }
-// }
-
-
 // --
 
 
@@ -229,14 +62,11 @@
 }
 
 .planName {
-  font-size: 20px;
+  font-size: 35px;
   margin-bottom: 20px;
 }
 
-.price {
-  font-size: 42px;
-  font-weight: 700;
-}
+
 
 .per {
   font-size: 14px;
@@ -342,4 +172,33 @@
   .grid {
     grid-template-columns: 1fr;
   }
+}
+
+
+
+.price {
+  font-size: 26px; // decreased size
+  font-weight: 700;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  line-height: 1;
+}
+
+.currency {
+  font-size: 14px;
+  position: relative;
+  top: 2px; // moves ₹ slightly upward
+}
+
+.amount {
+  font-size: 26px;
+}
+
+.per {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-left: 4px;
+  align-self: flex-end;
 }

@@ -6,7 +6,7 @@
   z-index: 9999;
 }
 
-.header-top {
+.header-to {
   background: rgb(43 91 237);
   padding: 4px 0;
   font-size: 14px;
@@ -252,10 +252,13 @@
           &.has-menu-home {
             width: 350px;
             left: -50%;
+           
           }
 
           &.has-menu-hosting {
             width: 570px;
+            left: 125px;
+            
           }
         }
 

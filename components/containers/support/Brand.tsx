@@ -60,10 +60,16 @@ const Brand = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="swiper-slide">
-                <div className="brand-img center">
-                  <Image src={two} alt="img" priority />
-                </div>
-              </div>
+  <div className="brand-img center">
+    <Image
+      src={two}
+      alt="img"
+      width={156}
+      height={56}
+      priority
+    />
+  </div>
+</div>
             </SwiperSlide>
             {/* <SwiperSlide>
               <div className="swiper-slide">
@@ -75,7 +81,13 @@ const Brand = () => {
             <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
-                  <Image src={four} alt="img" priority />
+                 <Image
+      src={four}
+      alt="img"
+      width={156}
+      height={56}
+      priority
+    />
                 </div>
               </div>
             </SwiperSlide>
@@ -95,10 +107,16 @@ const Brand = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="swiper-slide">
-                <div className="brand-img center">
-                  <Image src={two} alt="img" priority />
-                </div>
-              </div>
+  <div className="brand-img center">
+    <Image
+      src={two}
+      alt="img"
+      width={156}
+      height={56}
+      priority
+    />
+  </div>
+</div>
             </SwiperSlide>
             {/* <SwiperSlide>
               <div className="swiper-slide">
@@ -110,7 +128,13 @@ const Brand = () => {
             <SwiperSlide>
               <div className="swiper-slide">
                 <div className="brand-img center">
-                  <Image src={four} alt="img" priority />
+                 <Image
+      src={four}
+      alt="img"
+      width={156}
+      height={56}
+      priority
+    />
                 </div>
               </div>
             </SwiperSlide>

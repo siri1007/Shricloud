@@ -11,14 +11,14 @@ export default function SupportSection() {
       <div className={styles.container}>
         {/* LEFT SIDE */}
         <div className={styles.left}>
-          <div className={styles.badge}>
+          {/* <div className={styles.badge}>
             <span className={styles.dot}></span>
             Experts online now
-          </div>
+          </div> */}
 
           <h2 className={styles.title}>
-            Need Help With <br></br>
-            <span>Hosting?</span>
+            Need Help With   <span>Hosting?</span>
+           
           </h2>
 
           <p className={styles.description}>
@@ -26,7 +26,7 @@ export default function SupportSection() {
             no wait times, no tickets, just fast solutions.
           </p>
 
-          <div className={styles.features}>
+          {/* <div className={styles.features}>
             <div className={styles.feature}>
               <i className="fa-regular fa-clock"></i>
               <span>Avg. reply &lt; 2 min</span>
@@ -36,7 +36,7 @@ export default function SupportSection() {
               <i className="fa-regular fa-comments"></i>
               <span>Live chat & tickets</span>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* CENTER LINE */}
@@ -44,19 +44,24 @@ export default function SupportSection() {
 
         {/* RIGHT SIDE */}
         <div className={styles.right}>
-          <button className={styles.primaryBtn}>
-            <i className="fa-regular fa-message"></i>
-            Start Live Chat
-          </button>
+         <a
+  href="https://www.shricloud.com/starter-cloud/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={styles.primaryBtn}
+>
+  <i className="fa-regular fa-message"></i>
+  Get Started
+</a>
 
-          <button className={styles.secondaryBtn}>
+          {/* <button className={styles.secondaryBtn}>
             <i className="fa-solid fa-headphones"></i>
             Contact Support
-          </button>
+          </button> */}
 
-          <p className={styles.responseText}>
+          {/* <p className={styles.responseText}>
             Typical response in under 2 minutes
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

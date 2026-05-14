@@ -52,7 +52,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 70px;
+  // gap: 70px;
+  padding: 0 80px;
+
 }
 
 .left {
@@ -92,7 +94,7 @@
   margin-bottom: 24px;
 
   span {
-    color: #4559e0;
+    color: #113FDD;
   }
 }
 
@@ -106,7 +108,7 @@
 .features {
   display: flex;
   align-items: center;
-  gap: 40px;
+  // gap: 40px;
   margin-top: 42px;
 }
 

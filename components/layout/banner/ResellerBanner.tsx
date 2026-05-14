@@ -8,7 +8,12 @@ import resellerBanner from "@/public/img/resellerBanner.png";
 
 import styles from "./wordpressBanner.module.scss";
 
-const ResellerBanner = () => {
+
+type WordpressBannerProps = {
+  scrollToPricing: () => void;
+};
+
+const ResellerBanner = ({ scrollToPricing }: WordpressBannerProps) => {
   return (
     <section
       className="hero-section hero-1 style-hosting bg-cover fix"
@@ -42,31 +47,27 @@ const ResellerBanner = () => {
                 <ul className="hero-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    Lifetime Free Wildcard SLL certificate
+                   Custom Branded Nameservers
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    24/7 Chat, call & Ticket Support
+                   24/7 Expert Reseller Support
                   </li>
                 </ul>
                 <ul className="hero-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    Free Domain 2 Years Billing
+                  Free WHM & cPanel Access
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    30-day money back guarantee
+                  High-Performance Cloud Infrastructure
                   </li>
                 </ul>
               </div>
-              <Link
-                href="pricing"
-                className="theme-btn bg-color-2 "
-              
-              >
-                view plan <i className="fas fa-long-arrow-alt-right"></i>
-              </Link>
+               <button onClick={scrollToPricing} className={styles.ctaBtn}>
+              View Plans →
+            </button>
             </div>
           </div>
 

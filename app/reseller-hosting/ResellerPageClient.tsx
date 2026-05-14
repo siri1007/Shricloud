@@ -1,3 +1,9 @@
+
+"use client";
+
+
+import { useRef } from "react";
+
 import Header from "@/components/layout/header/Header";
 import ResellerBanner from "@/components/layout/banner/ResellerBanner";
 import PricingHome from "@/components/containers/home/PricingHome";
@@ -12,13 +18,23 @@ import ResellerHostingplan from "@/components/Resellersections/ResellerSection";
 import HostingEnterprise from "@/components/Resellersections/HostingEnterprise";
 
 const page = () => {
+
+   const pricingRef = useRef<HTMLDivElement | null>(null);
+  
+    const scrollToPricing = () => {
+      pricingRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
+  
   return (
     <>
       <Header />
-      <ResellerBanner />
+      <ResellerBanner  scrollToPricing={scrollToPricing}   />
 
    
-      <PricingHome />
+    <div ref={pricingRef}>
+       <PricingHome  />
+      </div>
+      {/* <PricingHome  ref={pricingRef}/> */}
 
           <ResellerHostingplan />
 

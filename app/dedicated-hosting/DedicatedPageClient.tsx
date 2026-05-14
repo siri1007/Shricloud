@@ -5,6 +5,10 @@
 
 
 
+
+
+import { useRef } from "react";
+
 import Header from "@/components/layout/header/Header";
 import DedicatedBanner from "@/components/layout/banner/DedicatedBanner";
 
@@ -21,19 +25,30 @@ import DedicatedPricing from "@/components/containers/Dedicatedpage/DedicatedPri
 
 const page = () => {
 
+  const pricingRef = useRef<HTMLDivElement | null>(null);
+    
+      const scrollToPricing = () => {
+        pricingRef.current?.scrollIntoView({ behavior: "smooth" });
+      };
+
   return (
     <>
       <Header />
       
- <DedicatedBanner />
+ <DedicatedBanner  scrollToPricing={scrollToPricing}   />
       
-        <DedicatedPricing />
+        
+
+         <div ref={pricingRef}>
+       <DedicatedPricing />
+      </div>
+          <IncludedSection />
       <DedicatedFaq />
-       <HostingChoose />
+       {/* <HostingChoose /> */}
 
       {/* <HomeThreePricing /> */}
       {/* <HomeHostingTwo /> */}
-  <IncludedSection />
+
       
  <Testimonial />
     <Brand />

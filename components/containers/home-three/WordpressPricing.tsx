@@ -621,7 +621,7 @@ const WordpressPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        100 Websites
+                        50 Websites
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -1047,7 +1047,7 @@ const WordpressPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        300 Websites
+                        100 Websites
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -1909,7 +1909,7 @@ const WordpressPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        100 Websites
+                        50 Websites
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>
@@ -2327,7 +2327,7 @@ const WordpressPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>
-                        300 Websites
+                        100 Websites
                       </span>
 
                       <div className={styles["tooltip-wrapper"]}>

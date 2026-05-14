@@ -47,7 +47,12 @@ const Footer = () => {
                     solutions.
                   </p>
 
-                  <ul className="brand-logo" style={{ marginTop: "50px" }}>
+                   <h3>Payment Methods</h3>
+
+
+
+                  <ul className="brand-logo" style={{ marginTop: "10px" }}>
+                   
                     <li>
                       <Image src={one} alt="img" priority />
                     </li>
@@ -282,22 +287,75 @@ const Footer = () => {
             <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h3>Help</h3>
+                  <h3>Support</h3>
                 </div>
                 <ul className="list-area">
-                  <li>
+                  {/* <li>
                     <Link href="/">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Support
                     </Link>
-                  </li>
+                  </li> */}
+
+                  
                   <li>
                     <Link href="https://shricloud.com/kb/">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Knowledge Base
                     </Link>
                   </li>
+
+
+
                   <li>
+                    <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=1">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                      Technical
+                    </Link>
+                  </li>
+
+
+                    <li>
+                    <Link href="
+                  https://my.shricloud.com/index.php?/tickets/new/">
+                      <i className="fa-regular fa-chevrons-right"></i>
+Sales                    </Link>
+                  </li>
+
+
+
+
+       <li>
+                    <Link href="
+                  https://my.shricloud.com/index.php?/tickets/new/&dept_id=2">
+                      <i className="fa-regular fa-chevrons-right"></i>
+Migration                    </Link>
+                  </li>
+
+
+   <li>
+                    <Link href="
+                 https://my.shricloud.com/index.php?/tickets/new/&dept_id=3">
+                      <i className="fa-regular fa-chevrons-right"></i>
+Billing                    </Link>
+                  </li>
+
+
+
+
+
+
+
+                  <li>
+                    <Link href="
+                  https://my.shricloud.com/index.php?/tickets/new/&dept_id=5">
+                      <i className="fa-regular fa-chevrons-right"></i>
+                    Affiliate
+                    </Link>
+                  </li>
+
+
+                  {/* <li>
                     <Link href="https://tawk.to/chat/65cb0abb8d261e1b5f5f80c0/1hmgi3rb6">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Live Chat
@@ -314,14 +372,9 @@ const Footer = () => {
                       <i className="fa-regular fa-chevrons-right"></i>
                       Client Login
                     </Link>
-                  </li>
+                  </li> */}
 
-                  <li>
-                    <Link href="https://www.shricloud.com/blog/">
-                      <i className="fa-regular fa-chevrons-right"></i>
-                      Blog
-                    </Link>
-                  </li>
+                 
                 </ul>
               </div>
             </div>

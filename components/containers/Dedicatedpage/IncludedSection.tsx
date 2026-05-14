@@ -50,10 +50,10 @@ export default function IncludedSection() {
 
         <div className={styles.topRow}>
           <h2>
-            Included with Every <br /> Dedicated Hosting Plan
+            Included with Every <br /> Dedicated Server Plan
           </h2>
 
-          <button className={styles.cta}>Dedicated Servers ↗</button>
+          {/* <button className={styles.cta}>Dedicated Servers ↗</button> */}
         </div>
       </div>
 
@@ -65,7 +65,7 @@ export default function IncludedSection() {
               item.highlight ? styles.highlight : ""
             }`}
           >
-            <span className={styles.number}>{item.id}</span>
+            {/* <span className={styles.number}>{item.id}</span> */}
 
             <div className={styles.icon}>{item.icon}</div>
 
