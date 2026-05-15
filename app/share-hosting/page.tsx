@@ -3,7 +3,7 @@ import BannerShared from "@/components/layout/banner/BannerShared";
 import PricingChoose from "@/components/containers/pricing/PricingChoose";
 import HomeThreePricing from "@/components/containers/home-three/HomeThreePricing";
 import HomeFourHosting from "@/components/containers/home-four/HomeFourHosting";
-import HomeTwoCta from "@/components/containers/home-two/HomeTwoCta";
+// import HomeTwoCta from "@/components/containers/home-two/HomeTwoCta";
 import FaqSection from "@/components/containers/faq/FaqSection";
 import Testimonial from "@/components/containers/support/Testimonial";
 import Brand from "@/components/containers/support/Brand";
@@ -18,7 +18,7 @@ const page = () => {
       <PricingChoose />
       <HomeThreePricing />
       <HomeFourHosting />
-      <HomeTwoCta />
+      {/* <HomeTwoCta /> */}
       <FaqSection />
       <Testimonial />
       <Brand />

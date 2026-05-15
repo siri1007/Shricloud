@@ -1,6 +1,6 @@
 import Header from "@/components/layout/header/Header";
 import BannerCommon from "@/components/layout/banner/BannerCommon";
-import HomeFourBrand from "@/components/containers/home-four/HomeFourBrand";
+// import HomeFourBrand from "@/components/containers/home-four/HomeFourBrand";
 import HomeFourChoose from "@/components/containers/home-four/HomeFourChoose";
 import ServiceHosting from "@/components/containers/service/ServiceHosting";
 import FaqSection from "@/components/containers/faq/FaqSection";
@@ -12,7 +12,7 @@ const page = () => {
     <>
       <Header />
       <BannerCommon title="Services" />
-      <HomeFourBrand />
+      {/* <HomeFourBrand /> */}
       <HomeFourChoose />
       <ServiceHosting />
       <FaqSection />
