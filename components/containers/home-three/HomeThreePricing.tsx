@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import styles from "./HomeThreePricing.module.scss";
+import styles from "./HomeThreepricing.module.scss";
 
 const HomeThreePricing = () => {
   const [tab, setTab] = useState(1);
