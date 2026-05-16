@@ -1,11 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import google from "@/public/img/sign/google.png";
-import facebook from "@/public/img/sign/fb.png";
-import one from "@/public/img/sign/login.png";
-import two from "@/public/img/sign/create.png";
+
 
 const Topbar = () => {
   

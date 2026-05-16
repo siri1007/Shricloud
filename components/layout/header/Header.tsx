@@ -106,7 +106,7 @@ const Header = () => {
                         src={shricloudwhitelogo}
                         alt="logo-img"
                         width={244} // increase this
-                        height={60} // adjust proportion
+                        height={40} // adjust proportion
                         priority
                       />
                     </Link>
@@ -388,15 +388,15 @@ const Header = () => {
 
                           {/* Hosting Mobile menu end */}
 
-                          <li>
-                            <Link href="domain">Domain</Link>
-                          </li>
+                         <li style={{ marginRight: "-10px" }}>
+  <Link href="domain">Domain</Link>
+</li>
 
                           <li className="has-dropdown menu-thumb">
-                            <Link href="/">
+                            {/* <Link href="/">
                               All Services
                               <i className="fas fa-angle-down"></i>
-                            </Link>
+                            </Link> */}
                             <ul className="submenu has-homemenu">
                               <li className="border-none">
                                 <div className="homemenu-items">

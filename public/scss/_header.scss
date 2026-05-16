@@ -6,8 +6,9 @@
   z-index: 9999;
 }
 
-.header-to {
-  background: rgb(43 91 237);
+.header-top {
+  // background: rgb(43 91 237);
+  background: rgb(35 84 228 / 58%);
   padding: 4px 0;
   font-size: 14px;
 
@@ -257,7 +258,7 @@
 
           &.has-menu-hosting {
             width: 570px;
-            left: 125px;
+            left: -87px;
             
           }
         }

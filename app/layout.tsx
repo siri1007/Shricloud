@@ -47,6 +47,8 @@
 import type { Metadata } from "next";
 import "@/public/scss/main.scss";
 import InitAnimations from "@/components/layout/InitAnimations";
+import WhatsAppChat from "@/components/Whatsapp/WhatsAppChat";
+// import TermsOfService from "@/components/TermsOfService/TermsOfService";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://shricloud.com"),
@@ -73,6 +75,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+
+            <WhatsAppChat />
         <InitAnimations />
       </body>
     </html>

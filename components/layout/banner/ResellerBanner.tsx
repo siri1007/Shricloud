@@ -57,7 +57,7 @@ const ResellerBanner = ({ scrollToPricing }: WordpressBannerProps) => {
                 <ul className="hero-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                  Free WHM & cPanel Access
+                Control Panel Access
                   </li>
                   <li>
                     <i className="fa-solid fa-check"></i>

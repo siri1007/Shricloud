@@ -193,7 +193,7 @@ const Footer = () => {
             <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-4 ">
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h3>Services</h3>
+                  <h3>Quick Links</h3>
                 </div>
                 <ul className="list-area">
                   <li>

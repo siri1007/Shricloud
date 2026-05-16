@@ -52,7 +52,7 @@ import type { Metadata } from "next";
 
 import Header from "@/components/layout/header/Header";
 import BannerCommon from "@/components/layout/banner/BannerCommon";
-// import HomeThreeAbout from "@/components/containers/home-three/HomeThreeAbout";
+import HomeThreeAbout from "@/components/containers/home-three/HomeThreeAbout";
 import AboutFeature from "@/components/containers/about/AboutFeature";
 import PartnersTeam from "@/components/containers/about/Patrnersteam";
 
@@ -83,7 +83,7 @@ export default function Page() {
 
       <BannerCommon title="About Us" />
 
-      {/* <HomeThreeAbout /> */}
+      <HomeThreeAbout />
 
       <AboutFeature />
 

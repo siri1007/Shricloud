@@ -13,32 +13,27 @@ import vps from "@/public/img/menu-icon/vps-host.png";
 
 const HostingHome = () => {
   return (
-  <section
-  className="hosting-section fix section-padding pt-0"
-  style={{ marginTop: "80px" }}
->
+    <section
+      className="hosting-section fix section-padding pt-0"
+      style={{ marginTop: "80px" }}
+    >
       <div className="container">
         <div className="section-title-area">
           <div className="section-title">
-            <span>
-              Best hosting
-            </span>
-            <h2 >
-              Discover Most Powerful Web <br /> Hosting Features
-            </h2>
+          <h2 style={{ fontWeight: "500" }}>
+  Hosting Packages for Everyone <br />
+</h2>
           </div>
-          <Link
+          {/* <Link
             href="vps-hosting"
             className="theme-btn "
           
           >
             Explore More <i className="fas fa-long-arrow-alt-right"></i>
-          </Link>
+          </Link> */}
         </div>
         <div className="row">
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 "
-          >
+          <div className="col-xl-4 col-lg-6 col-md-6 ">
             <div
               className="hosting-inner-items responsive-style"
               style={{
@@ -46,28 +41,86 @@ const HostingHome = () => {
               }}
             >
               <div className="icon">
-                        <Image
-    src={Wordpressicon}
-    alt="img"
-    priority
-    style={{ width: "40px", height: "auto" }}
-  />
+                <Image
+                  src={Wordpressicon}
+                  alt="img"
+                  priority
+                  style={{ width: "40px", height: "auto" }}
+                />
               </div>
               <div className="content">
                 <h3>
-                  <Link href="Wordpress-cloud-Hosting">WordPress  Hosting</Link>
+                  <Link href="Wordpress-cloud-Hosting">WordPress Hosting</Link>
                 </h3>
                 <p>
-                 
-The perfect hosting package for everyone — ideal for WordPress blogs, business websites, and portfolio sites.
+                  The perfect hosting package for everyone — ideal for WordPress
+                  blogs, business websites, and portfolio sites.
                 </p>
               </div>
             </div>
           </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 "
-           
-          >
+
+
+
+           <div className="col-xl-4 col-lg-6 col-md-6 ">
+            <div
+              className="hosting-inner-items responsive-style"
+              style={{
+                backgroundImage: "url(/img/hosting/card-bg.png)",
+              }}
+            >
+               <div className="icon">
+                <Image
+                  src={Elite}
+                  alt="img"
+                  priority
+                  style={{ width: "40px", height: "auto" }}
+                />
+                  </div>
+              
+              <div className="content">
+                <h3>
+                  <Link href="Elite-cloud"> Elite Cloud</Link>
+                </h3>
+                <p>
+                  Perfect for hosting ecommerce websites, high-traffic blogs,
+                  and hosting several websites together with ease.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+  <div className="col-xl-4 col-lg-6 col-md-6 ">
+            <div
+              className="hosting-inner-items responsive-style"
+              style={{
+                backgroundImage: "url(/img/hosting/card-bg.png)",
+              }}
+            >
+              <div className="icon">
+                <Image
+                  src={vps}
+                  alt="img"
+                  priority
+                  style={{ width: "40px", height: "auto" }}
+                />
+              </div>
+              <div className="content">
+                <h3>
+                  <Link href="vps-hosting"> VPS Hosting</Link>
+                </h3>
+                <p>
+                  Managed Cloud VPS packages powered by KVM virtualization,
+                  featuring Dedicated resources and a Dedicated IP address.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="col-xl-4 col-lg-6 col-md-6 ">
             <div
               className="hosting-inner-items responsive-style"
               style={{
@@ -79,49 +132,46 @@ The perfect hosting package for everyone — ideal for WordPress blogs, business
               </div>
               <div className="content">
                 <h3>
-                  <Link href="reseller-hosting"> Reseller  Hosting</Link>
+                  <Link href="reseller-hosting"> Reseller Hosting</Link>
                 </h3>
                 <p>
-                 
-A complete beginner-friendly package to build your web hosting business with minimum investment.
+                  A complete beginner-friendly package to build your web hosting
+                  business with minimum investment.
                 </p>
               </div>
             </div>
           </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 "
-           
-          >
+          {/* <div className="col-xl-4 col-lg-6 col-md-6 ">
             <div
               className="hosting-inner-items responsive-style"
               style={{
                 backgroundImage: "url(/img/hosting/card-bg.png)",
               }}
             >
-              <div className="icon">
+               <div className="icon">
                 <Image
-    src={Elite}
-    alt="img"
-    priority
-    style={{ width: "40px", height: "auto" }}
-  />
-              </div>
+                  src={Elite}
+                  alt="img"
+                  priority
+                  style={{ width: "40px", height: "auto" }}
+                />
+                  </div>
+              
               <div className="content">
                 <h3>
-                  <Link href="Elite-cloud">    Elite Cloud</Link>
+                  <Link href="Elite-cloud"> Elite Cloud</Link>
                 </h3>
                 <p>
-                  
-
-Perfect for hosting ecommerce websites, high-traffic blogs, and hosting several websites together with ease.
+                  Perfect for hosting ecommerce websites, high-traffic blogs,
+                  and hosting several websites together with ease.
                 </p>
               </div>
             </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 "
-          >
-            
+          </div> */}
+
+
+
+          <div className="col-xl-4 col-lg-6 col-md-6 ">
             <div
               className="hosting-inner-items responsive-style"
               style={{
@@ -136,15 +186,15 @@ Perfect for hosting ecommerce websites, high-traffic blogs, and hosting several 
                   <Link href="dedicated-hosting">Dedicated Hosting</Link>
                 </h3>
                 <p>
-               High-performance Dedicated Bare Metal Servers featuring exclusive hardware, full root access, and a secure single-tenant network
+                  Dedicated bare metal servers with exclusive hardware, full root access, and secure single-tenant network.
                 </p>
               </div>
             </div>
           </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 "
-         
-          >
+
+
+
+          {/* <div className="col-xl-4 col-lg-6 col-md-6 ">
             <div
               className="hosting-inner-items responsive-style"
               style={{
@@ -152,51 +202,55 @@ Perfect for hosting ecommerce websites, high-traffic blogs, and hosting several 
               }}
             >
               <div className="icon">
-                       <Image
-    src={vps}
-    alt="img"
-    priority
-    style={{ width: "40px", height: "auto" }}
-  />
+                <Image
+                  src={vps}
+                  alt="img"
+                  priority
+                  style={{ width: "40px", height: "auto" }}
+                />
               </div>
               <div className="content">
                 <h3>
-                  <Link href="vps-hosting"> VPS  Hosting</Link>
+                  <Link href="vps-hosting"> VPS Hosting</Link>
                 </h3>
                 <p>
-             Managed Cloud VPS packages powered by KVM virtualization, featuring Dedicated resources and a Dedicated IP address.
+                  Managed Cloud VPS packages powered by KVM virtualization,
+                  featuring Dedicated resources and a Dedicated IP address.
                 </p>
               </div>
             </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 "
-           
-          >
+          </div> */}
+
+
+
+          <div className="col-xl-4 col-lg-6 col-md-6 ">
             <div
               className="hosting-inner-items responsive-style"
               style={{
                 backgroundImage: "url(/img/hosting/card-bg.png)",
               }}
-             >
-            <div className="icon">
-  <Image
-    src={n8n}
-    alt="img"
-    priority
-    style={{ width: "40px", height: "auto" }}
-  />
-</div>
+            >
+              <div className="icon">
+                <Image
+                  src={n8n}
+                  alt="img"
+                  priority
+                  style={{ width: "40px", height: "auto" }}
+                />
+              </div>
               <div className="content">
                 <h3>
                   <Link href="N8n-hosting">n8n Hosting</Link>
                 </h3>
                 <p>
-               Power your automation journey with seamless n8n workflow hosting, fast real-time execution, and flexible infrastructure designed for growing businesses
+               Seamless n8n workflow hosting with fast execution and scalable infrastructure for businesses.
                 </p>
               </div>
             </div>
           </div>
+
+
+
         </div>
       </div>
     </section>

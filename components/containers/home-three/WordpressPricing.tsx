@@ -45,7 +45,7 @@ const WordpressPricing = () => {
 
   // PLAN 2 - Business (100 Websites)
   const plan2 = {
-    website: "Host up to 100 websites on this hosting package.",
+    website: "Host up to 50 websites on this hosting package.",
     managedwp: "Fully managed WordPress hosting with automatic optimizations.",
     storage: "100 GB SSD storage for fast website loading and performance.",
     freedomain: "Free domain included for 1 year with this hosting plan.",
@@ -77,7 +77,7 @@ const WordpressPricing = () => {
 
   // PLAN 3 - Enterprise (300 Websites)
   const plan3 = {
-    website: "Host up to 300 websites on this hosting package.",
+    website: "Host up to 100 websites on this hosting package.",
     managedwp: "Fully managed WordPress hosting with automatic optimizations.",
     storage: "300 GB SSD storage for fast website loading and performance.",
     freedomain: "Free domain included for 1 year with this hosting plan.",
@@ -186,10 +186,7 @@ const WordpressPricing = () => {
                     <li className={styles["tooltip-item"]}>
                       <span>
                         <i className="fa-solid fa-check"></i>1 Website
-                        {/* <i
-  className="fa-solid fa-xmark"
-  style={{ color: "#ef4444" }}
-></i>1 Website */}
+                        
                       </span>
                       <div className={styles["tooltip-wrapper"]}>
                         <i className="fa-light fa-circle-question"></i>
@@ -591,6 +588,8 @@ const WordpressPricing = () => {
                       </button>
                     </li>
                   </ul>
+
+
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-6 ">
@@ -787,37 +786,25 @@ const WordpressPricing = () => {
                       </div>
                     </li>
 
-                   
-
                     {/* SHOW MORE */}
 
                     {showMore && (
-
-
-
                       <>
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>
+                            Priority Support
+                          </span>
 
-
-
-                       <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        Priority Support
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {plan2.support}
-                        </div>
-                      </div>
-                    </li>
-
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {plan2.support}
+                            </div>
+                          </div>
+                        </li>
 
                         <h4>Speed & Performance</h4>
-
-
-
 
                         <li className={styles["tooltip-item"]}>
                           <span>
@@ -1140,82 +1127,80 @@ const WordpressPricing = () => {
                       </div>
                     </li>
 
-                     <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Daily Backups
-                          </span>
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Daily Backups
+                      </span>
 
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.backups}
-                            </div>
-                          </div>
-                        </li>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.backups}
+                        </div>
+                      </div>
+                    </li>
 
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Free Cloudflare CDN
-                          </span>
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Free Cloudflare CDN
+                      </span>
 
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.cloudflare}
-                            </div>
-                          </div>
-                        </li>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.cloudflare}
+                        </div>
+                      </div>
+                    </li>
 
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Free Migration
-                          </span>
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Free Migration
+                      </span>
 
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.migration}
-                            </div>
-                          </div>
-                        </li>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.migration}
+                        </div>
+                      </div>
+                    </li>
 
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Powerful Control panel
-                          </span>
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Powerful Control panel
+                      </span>
 
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.controlpanel}
-                            </div>
-                          </div>
-                        </li>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.controlpanel}
+                        </div>
+                      </div>
+                    </li>
 
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Malware Scanning
-                          </span>
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Malware Scanning
+                      </span>
 
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.malware}
-                            </div>
-                          </div>
-                        </li>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.malware}
+                        </div>
+                      </div>
+                    </li>
 
                     {/* SHOW MORE */}
 
                     {showMore && (
                       <>
-                       
-
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
@@ -1903,7 +1888,7 @@ const WordpressPricing = () => {
                       Get Started Now
                     </Link>
                   </div>
-                 <ul className="pricing-list">
+                  <ul className="pricing-list">
                     {/* BASIC FEATURES */}
 
                     <li className={styles["tooltip-item"]}>
@@ -2075,27 +2060,23 @@ const WordpressPricing = () => {
                       </div>
                     </li>
 
-                    
-
                     {/* SHOW MORE */}
 
                     {showMore && (
                       <>
+                        <li className={styles["tooltip-item"]}>
+                          <span>
+                            <i className="fa-solid fa-check"></i>
+                            Priority Support
+                          </span>
 
-                       <li className={styles["tooltip-item"]}>
-                      <span>
-                        <i className="fa-solid fa-check"></i>
-                        Priority Support
-                      </span>
-
-                      <div className={styles["tooltip-wrapper"]}>
-                        <i className="fa-light fa-circle-question"></i>
-                        <div className={styles["tooltip-box"]}>
-                          {plan2.support}
-                        </div>
-                      </div>
-                    </li>
-
+                          <div className={styles["tooltip-wrapper"]}>
+                            <i className="fa-light fa-circle-question"></i>
+                            <div className={styles["tooltip-box"]}>
+                              {plan2.support}
+                            </div>
+                          </div>
+                        </li>
 
                         <h4>Speed & Performance</h4>
 
@@ -2420,83 +2401,80 @@ const WordpressPricing = () => {
                       </div>
                     </li>
 
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Daily Backups
+                      </span>
 
- <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Daily Backups
-                          </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.backups}
+                        </div>
+                      </div>
+                    </li>
 
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.backups}
-                            </div>
-                          </div>
-                        </li>
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Free Cloudflare CDN
+                      </span>
 
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Free Cloudflare CDN
-                          </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.cloudflare}
+                        </div>
+                      </div>
+                    </li>
 
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.cloudflare}
-                            </div>
-                          </div>
-                        </li>
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Free Migration
+                      </span>
 
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Free Migration
-                          </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.migration}
+                        </div>
+                      </div>
+                    </li>
 
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.migration}
-                            </div>
-                          </div>
-                        </li>
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Powerful Control panel
+                      </span>
 
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Powerful Control panel
-                          </span>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.controlpanel}
+                        </div>
+                      </div>
+                    </li>
 
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.controlpanel}
-                            </div>
-                          </div>
-                        </li>
+                    <li className={styles["tooltip-item"]}>
+                      <span>
+                        <i className="fa-solid fa-check"></i>
+                        Malware Scanning
+                      </span>
 
-                        <li className={styles["tooltip-item"]}>
-                          <span>
-                            <i className="fa-solid fa-check"></i>
-                            Malware Scanning
-                          </span>
-
-                          <div className={styles["tooltip-wrapper"]}>
-                            <i className="fa-light fa-circle-question"></i>
-                            <div className={styles["tooltip-box"]}>
-                              {plan3.malware}
-                            </div>
-                          </div>
-                        </li>
+                      <div className={styles["tooltip-wrapper"]}>
+                        <i className="fa-light fa-circle-question"></i>
+                        <div className={styles["tooltip-box"]}>
+                          {plan3.malware}
+                        </div>
+                      </div>
+                    </li>
 
                     {/* SHOW MORE */}
 
                     {showMore && (
                       <>
-                       
-
                         <li className={styles["tooltip-item"]}>
                           <span>
                             <i className="fa-solid fa-check"></i>
