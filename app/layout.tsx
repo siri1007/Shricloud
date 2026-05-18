@@ -48,6 +48,7 @@ import type { Metadata } from "next";
 import "@/public/scss/main.scss";
 import InitAnimations from "@/components/layout/InitAnimations";
 import WhatsAppChat from "@/components/Whatsapp/WhatsAppChat";
+import TawkChat  from "@/components/TawkChat/TawkChat";
 // import TermsOfService from "@/components/TermsOfService/TermsOfService";
 
 export const metadata: Metadata = {
@@ -77,6 +78,7 @@ export default function RootLayout({
         {children}
 
             <WhatsAppChat />
+               <TawkChat />
         <InitAnimations />
       </body>
     </html>

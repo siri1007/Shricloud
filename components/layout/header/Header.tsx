@@ -116,7 +116,7 @@ const Header = () => {
                         alt="logo-img"
                         priority
                         width={244} // increase this
-                        height={60}
+                        height={40}
                       />
                     </Link>
                   </div>

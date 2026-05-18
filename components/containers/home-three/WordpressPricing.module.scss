@@ -2,8 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
 }
 
+
+.tooltip-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    font-weight: 400 !important;
+  }
+}
 
 
 .tooltip-wrapper {

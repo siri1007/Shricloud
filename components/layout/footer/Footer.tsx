@@ -197,35 +197,43 @@ const Footer = () => {
                 </div>
                 <ul className="list-area">
                   <li>
-                    <Link href="/">
+                    <Link href="https://my.shricloud.com/index.php?/clientarea/">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Login Account
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link href="https://my.shricloud.com/index.php?/signup/">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Register Account
                     </Link>
                   </li>
                   <li>
-                    <Link href="contact">
+                    <Link href="#">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Submit Ticket
                     </Link>
                   </li>
                   <li>
-                    <Link href="support">
+                    <Link href="#">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Support Center
                     </Link>
                   </li>
                   <li>
-                    <Link href="contact">
+                    <Link href="https://tawk.to/chat/65cb0abb8d261e1b5f5f80c0/1hmgi3rb6">
                       <i className="fa-regular fa-chevrons-right"></i>
                       Live Chat
                     </Link>
                   </li>
+
+                  <li>
+                    <Link href="contact">
+                      <i className="fa-regular fa-chevrons-right"></i>Contact Us
+                    </Link>
+                  </li>
+
+                  
                 </ul>
               </div>
             </div>
@@ -275,11 +283,11 @@ const Footer = () => {
                     </Link>
                   </li>
 
-                  <li>
+                  {/* <li>
                     <Link href="contact">
                       <i className="fa-regular fa-chevrons-right"></i>Contact Us
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
