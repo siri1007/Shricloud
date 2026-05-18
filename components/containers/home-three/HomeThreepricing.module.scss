@@ -16,8 +16,8 @@
   }
 
   h2 {
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 500;
     margin-top: 12px;
     color: #111;
     line-height: 1.2;
@@ -52,7 +52,8 @@
   padding: 35px 28px;
   position: relative;
   transition: 0.4s ease;
-  border: 1px solid #ececec;
+  // border: 1px solid #ececec;
+  border:  1px solid var(--border);
   margin-bottom: 30px;
   // height: 100%;
 
@@ -123,7 +124,7 @@
 
   h4 {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 8px;
     color: #111;
   }
@@ -386,5 +387,83 @@
 
   .tooltipBox {
     width: 200px;
+  }
+}
+
+
+.pricingTabWrapper {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto 60px;
+}
+
+.pricingTab {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #dbe1ff;
+  // border: 1px solid #000;
+  border-radius: 60px;
+
+  button {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 16px 38px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    @media (max-width: 767px) {
+      padding: 12px 22px;
+      font-size: 16px;
+    }
+  }
+}
+
+.activeTab {
+  background: #2f49ff !important;
+  color: #fff !important;
+  box-shadow: 0 8px 20px rgba(47, 73, 255, 0.25);
+}
+
+.arrowShape {
+  position: absolute;
+  right: -95px;
+  top: 8px;
+
+  img {
+    width: 95px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  @media (max-width: 767px) {
+    right: -70px;
+
+    img {
+      width: 70px;
+    }
+  }
+}
+
+.saveText {
+  position: absolute;
+  right: -135px;
+  top: 72px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #3b4dff;
+  white-space: nowrap;
+
+  @media (max-width: 767px) {
+    right: -90px;
+    top: 58px;
+    font-size: 15px;
   }
 }

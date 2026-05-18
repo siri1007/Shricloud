@@ -512,31 +512,31 @@
     top: -20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 160px;
+    width: 217px;
 
-    &::before {
-      width: 0px;
-      height: 0px;
-      border-top: 35.5px solid $theme-color;
-      border-right: 28px solid transparent;
-      content: "";
-      left: -13px;
-      position: absolute;
-      bottom: 10.5%;
-      transform: rotate(-39deg);
-    }
+    // &::before {
+    //   width: 0px;
+    //   height: 0px;
+    //   border-top: 35.5px solid $theme-color;
+    //   border-right: 28px solid transparent;
+    //   content: "";
+    //   left: -13px;
+    //   position: absolute;
+    //   bottom: 10.5%;
+    //   transform: rotate(-39deg);
+    // }
 
-    &::after {
-      width: 0;
-      height: 0;
-      border-top: 32.5px solid $theme-color;
-      border-right: 32px solid transparent;
-      content: "";
-      right: -16px;
-      position: absolute;
-      bottom: 13.5%;
-      transform: rotate(135deg);
-    }
+    // &::after {
+    //   width: 0;
+    //   height: 0;
+    //   border-top: 32.5px solid $theme-color;
+    //   border-right: 32px solid transparent;
+    //   content: "";
+    //   right: -16px;
+    //   position: absolute;
+    //   bottom: 13.5%;
+    //   transform: rotate(135deg);
+    // }
   }
 
   ul {

@@ -8,8 +8,12 @@
 
 import { useState } from "react";
 import Link from "next/link";
+// import Image from "next/image";
 import styles from "./HomeThreepricing.module.scss";
+import two from "@/public/img/arrow.png";
 
+import Image from "next/image";
+import arrow from "@/public/img/arrow.png";
 /* ================= TYPES ================= */
 type Feature = {
   title: string;
@@ -302,17 +306,57 @@ const HomeThreePricing = () => {
       <div className="container">
         <div className={styles.sectionTitle}>
           <span>Pricing Plans</span>
-          <h2>Choose Awesome Plan <br /> for your Needs</h2>
+          <h2>
+Choose plan for your business </h2>
+
+<p>Explore our selection of cloud hosting packages that provide the best and most affordable web hosting Plans.</p>
         </div>
 
-        <div className={styles.pricingTab}>
+        {/* <div className={styles.pricingTab}>
           <button onClick={() => setTab(0)} className={tab === 0 ? styles.activeTab : ""}>
             Monthly
           </button>
           <button onClick={() => setTab(1)} className={tab === 1 ? styles.activeTab : ""}>
             Yearly
           </button>
-        </div>
+
+          <div className="save-text">Save 50%</div>
+        </div> */}
+
+
+<div className={styles.pricingTabWrapper}>
+  {/* CURVED ARROW IMAGE */}
+  <div className={styles.arrowShape}>
+    <Image
+      src={arrow}
+      alt="arrow"
+      width={100}
+      height={60}
+      priority
+    />
+  </div>
+
+  {/* TAB BUTTONS */}
+  <div className={styles.pricingTab}>
+    <button
+      onClick={() => setTab(0)}
+      className={tab === 0 ? styles.activeTab : ""}
+    >
+      Monthly
+    </button>
+
+    <button
+      onClick={() => setTab(1)}
+      className={tab === 1 ? styles.activeTab : ""}
+    >
+      Yearly
+    </button>
+  </div>
+
+  {/* SAVE TEXT */}
+  <div className={styles.saveText}>Save 50%</div>
+</div>
+         
 
         <div className="row">
           {plans.map((item, index) => (
