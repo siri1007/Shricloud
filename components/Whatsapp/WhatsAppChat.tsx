@@ -5,7 +5,7 @@ import Image from "next/image";
 import styles from "./WhatsappChat.module.scss";
 
 const WhatsAppChat = () => {
-  const phoneNumber = "919703265434";
+  const phoneNumber = "917416451628";
   const message = "Hi! I want to know more about your services.";
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(

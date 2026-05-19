@@ -128,20 +128,20 @@ import styles from "./N8nPricing.module.scss";
 
 const plans = [
   {
-    title: "Nano",
+    title: "Go",
     price: "₹1,500.00 INR",
     ram: "4GB",
     vcpu: "2",
   },
   {
-    title: "Micro",
+    title: "Boost",
     price: "₹3,000.00 INR",
     ram: "8GB",
     vcpu: "4",
     highlight: true,
   },
   {
-    title: "Mega",
+    title: "Turbo",
     price: "₹5,000.00 INR",
     ram: "16GB",
     vcpu: "8",

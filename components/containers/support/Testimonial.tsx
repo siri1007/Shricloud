@@ -78,7 +78,7 @@ Great pricing and performance make it a top choice today.
                     <div
                       className="client-img bg-cover"
                       style={{
-                        backgroundImage: "url(/img/testimonial/client-3.jpg)",
+                        backgroundImage: "url(/img/testimonial/Client1.png)",
                       }}
                     ></div>
                     <div className="content">
@@ -113,7 +113,7 @@ I’m very happy with their hosting and highly recommend it.
                     <div
                       className="client-img bg-cover"
                       style={{
-                        backgroundImage: "url(/img/testimonial/client-4.jpg)",
+                        backgroundImage: "url(/img/testimonial/client5.png)",
                       }}
                     ></div>
                     <div className="content">
