@@ -483,7 +483,7 @@ I’m very happy with their hosting and highly recommend it.
                     <i className="fa-solid fa-star"></i>
                   </div>
                   <p>
-                   Over the years, my website has never experienced downtime. The support team is always quick to assist with any issues, making this the best choice for web hosting in India.
+                 Over the years, my website has never experienced downtime. The support team is always ready to assist with any issues.
                   </p>
                   <div className="client-info">
                     <div

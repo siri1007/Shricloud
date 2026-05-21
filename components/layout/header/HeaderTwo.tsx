@@ -119,7 +119,7 @@ const HeaderTwo = () => {
                                     </div>
                                     <div className="content">
                                       <h6>
-                                        <Link href="/">Web Hosting</Link>
+                                        <Link href="/">Webbb Hosting</Link>
                                       </h6>
                                       <p>Powerful bare metal server</p>
                                     </div>

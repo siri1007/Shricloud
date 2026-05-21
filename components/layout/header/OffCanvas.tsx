@@ -1,3 +1,5 @@
+// ------------------Navbar styles in Mobile Menu-------------------------
+
 "use client";
 import { useState } from "react";
 import Link from "next/link";
@@ -54,10 +56,12 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <Image src={shricloudlogo} alt="logo-img" priority
-                     width={244} // increase this
-                        height={60} // adjust proportion
-                         />
+                    <Image
+                      src={shricloudlogo}
+                      alt="logo-img"
+                      priority
+                    
+                    />
                   </Link>
                 </div>
                 <div
@@ -77,7 +81,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
               <div className="mobile-menu fix mb-3">
                 <nav className="mean-nav d-block d-xl-none">
                   <ul>
-                    <li>
+                    {/* <li>
                       <a
                         className={`drop ${isSubMenuButton("home")}`}
                         onClick={() => handleSubmenu("home")}
@@ -98,9 +102,9 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                           <Link href="index-4">Hosting Agency</Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
 
-                    <li className="has-dropdown">
+                    {/* <li className="has-dropdown">
                       <a
                         className={`drop ${isSubMenuButton("pages")}`}
                         onClick={() => handleSubmenu("pages")}
@@ -148,7 +152,8 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                           <Link href="error">Error Page</Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
+
                     <li>
                       <a
                         className={`drop ${isSubMenuButton("hosting")}`}
@@ -157,101 +162,125 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                         Hosting
                       </a>
                       <ul className={`submenu ${isSubMenuOpen("hosting")}`}>
-                       <li>
-                                <Link href="Wordpress-cloud-Hosting">
-                                  Premium cloud
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="black-friday"> Elite Cloud</Link>
-                              </li>
-                              <li>
-                                <Link href="reseller-hosting">
-                                  Reseller Cloud
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="wordpress-hosting">
-                                  WordPress Hosting
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="dedicated-hosting">
-                                 
-                                  Dedicated Hosting
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="vps-hosting"> Basic Hosting</Link>
-                              </li>
-                              <li>
-                                <Link href="cloud-hosting">cloud-hosting</Link>
-                              </li>
-                             
+                        <li>
+                          <Link href="Wordpress-cloud-Hosting">
+                            Premium cloud
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link href="Elite-cloud">Elite Cloud</Link>
+                        </li>
+
+                        <li>
+                          <Link href="vps-hosting">Cloud VPS</Link>
+                        </li>
+
+                        <li>
+                          <Link href="reseller-hosting">Reseller Cloud</Link>
+                        </li>
+
+                        <li>
+                          <Link href="dedicated-hosting">
+                            Dedicated Servers
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link href="N8n-hosting">N8n</Link>
+                        </li>
                       </ul>
                     </li>
                     <li>
                       <Link href="domain">Domain</Link>
                     </li>
-                    {/* <li>
-                      <a
-                        className={`drop ${isSubMenuButton("blog")}`}
-                        onClick={() => handleSubmenu("blog")}
-                      >
-                        News
-                      </a>
-                      <ul className={`submenu ${isSubMenuOpen("blog")}`}>
-                        <li>
-                          <Link href="news-grid">News Grid</Link>
-                        </li>
-                        <li>
-                          <Link href="news">News List</Link>
-                        </li>
-                        <li>
-                          <Link href="news-details">News Details</Link>
-                        </li>
-                      </ul>
-                    </li> */}
+
+
                     <li>
                       <a
-                        className={`drop ${isSubMenuButton("help")}`}
-                        onClick={() => handleSubmenu("help")}
+                        className={`drop ${isSubMenuButton("support")}`}
+                        onClick={() => handleSubmenu("support")}
                       >
-                       About 
+                        Support
                       </a>
-                      <ul className={`submenu ${isSubMenuOpen("help")}`}>
+                      <ul className={`submenu ${isSubMenuOpen("support")}`}>
                         <li>
-                           <Link href="about">Company</Link>
-                        </li>
-                        <li>
-                         <Link href="contact">Contact Us</Link>
-                        </li>
-                        <li>
-                           <Link href="/terms-of-service">
-                                  Terms of Service
-                                </Link>
-                        </li>
-                        <li>
-                      <Link href="/cookie-policy">Cookie Policy</Link>
+                          <Link href="https://shricloud.com/kb/">Knowledge Base</Link>
                         </li>
 
-                         <li>
-                  <Link href="/afi">Affiliate Policy</Link>
+
+
+                        <li>
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=1">Technical</Link>
                         </li>
 
-                         <li>
-                     <Link href="/refund-policy">Refund Policy</Link>
+
+
+                        <li>
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/">Sales</Link>
+
+
+
                         </li>
 
 
                         
-                              <li>
-                                <Link href="/privacy-policy">
-                                  Privacy Policy
-                                </Link>
-                              </li>
+                        
+                        <li>
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=2">Migration</Link>
+                        </li>
 
 
+                           
+                        <li>
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=3">Billing</Link>
+                        </li>
+
+
+                            
+                        <li>
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=5">Affiliate</Link>
+                        </li>
+
+                        
+                      </ul>
+                    </li>
+
+
+
+                    <li>
+                      <a
+                        className={`drop ${isSubMenuButton("about")}`}
+                        onClick={() => handleSubmenu("about")}
+                      >
+                        About
+                      </a>
+
+                      <ul className={`submenu ${isSubMenuOpen("about")}`}>
+                        <li>
+                          <Link href="about">Company</Link>
+                        </li>
+                        <li>
+                          <Link href="contact">Contact Us</Link>
+                        </li>
+                        <li>
+                          <Link href="/terms-of-service">Terms of Service</Link>
+                        </li>
+                        <li>
+                          <Link href="/cookie-policy">Cookie Policy</Link>
+                        </li>
+
+                        <li>
+                          <Link href="/afi">Affiliate Policy</Link>
+                        </li>
+
+                        <li>
+                          <Link href="/refund-policy">Refund Policy</Link>
+                        </li>
+
+                        <li>
+                          <Link href="/privacy-policy">Privacy Policy</Link>
+                        </li>
                       </ul>
                     </li>
                   </ul>
@@ -266,7 +295,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <Link target="_blank" href="/">
-                       Hyderabad,India
+                        Hyderabad,India
                       </Link>
                     </div>
                   </li>
@@ -302,8 +331,8 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <Link href="contact" className="theme-btn text-center">
-                    Get A Quote <i className="fa-solid fa-arrow-right-long"></i>
+                  <Link href="https://my.shricloud.com/index.php?/clientarea/" className="theme-btn text-center">
+                   Login <i className="fa-solid fa-arrow-right-long"></i>
                   </Link>
                 </div>
                 <div className="social-icon d-flex align-items-center">

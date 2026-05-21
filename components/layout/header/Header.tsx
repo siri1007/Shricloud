@@ -3,19 +3,10 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Topbar from "./Topbar";
-import one from "@/public/img/menu-icon/web-host.png";
 import two from "@/public/img/menu-icon/host-service.png";
-import three from "@/public/img/menu-icon/host-solut.png";
-import four from "@/public/img/menu-icon/host-agen.png";
-import five from "@/public/img/menu-icon/about.png";
-import six from "@/public/img/menu-icon/black-friday.png";
-import seven from "@/public/img/menu-icon/affiliate.png";
-import eight from "@/public/img/menu-icon/pricing.png";
 import nine from "@/public/img/menu-icon/data-center.png";
-import ten from "@/public/img/menu-icon/service.png";
 import eleven from "@/public/img/menu-icon/team.png";
 import twelve from "@/public/img/menu-icon/error.png";
-import thirteen from "@/public/img/menu-icon/share-host.png";
 import fourteen from "@/public/img/menu-icon/reseller-shost.png";
 import fifteen from "@/public/img/menu-icon/dedicated-host.png";
 import sixteen from "@/public/img/menu-icon/vps-host.png";
@@ -237,8 +228,6 @@ const Header = () => {
                                           </h6>
                                           <p>Top-Selling Solution</p>
                                         </div>
-
-                                        
                                       </div>
                                     </div>
 
@@ -262,7 +251,7 @@ const Header = () => {
                                               Reseller Hosting
                                             </Link> */}
                                           </h6>
-                                          <p>  Start Hosting Business</p>
+                                          <p> Start Hosting Business</p>
                                         </div>
                                       </div>
                                     </div>
@@ -348,7 +337,7 @@ const Header = () => {
 
                           {/* Hosting Mobile menu Start */}
                           <li className="has-dropdown active d-xl-none">
-                            <Link href="team" className="border-none">
+                            <Link href="#" className="border-none">
                               Hosting
                               <i className="fas fa-angle-down"></i>
                             </Link>
@@ -388,15 +377,16 @@ const Header = () => {
 
                           {/* Hosting Mobile menu end */}
 
-                         <li style={{ marginRight: "-10px" }}>
-  <Link href="domain">Domain</Link>
-</li>
+                          <li style={{ marginRight: "-10px" }}>
+                            <Link href="domain">Domain</Link>
+                          </li>
 
-                          <li className="has-dropdown menu-thumb">
-                            {/* <Link href="/">
+                          {/* ---------------All servicess start------------------- */}
+                          {/* <li className="has-dropdown menu-thumb">
+                            <Link href="/">
                               All Services
                               <i className="fas fa-angle-down"></i>
-                            </Link> */}
+                            </Link>
                             <ul className="submenu has-homemenu">
                               <li className="border-none">
                                 <div className="homemenu-items">
@@ -497,44 +487,6 @@ const Header = () => {
                                       </div>
                                     </div>
 
-                                    {/* <div className="col-lg-4">
-                                      <div className="homemenu-list">
-                                        <div className="icon">
-                                          <Image
-                                            src={eight}
-                                            alt="img"
-                                            priority
-                                          />
-                                        </div>
-                                        <div className="content">
-                                          <h6>
-                                            <Link href="pricing">
-                                              Reseller Cloud
-                                            </Link>
-                                          </h6>
-                                          <p>Start hosting business</p>
-                                        </div>
-                                      </div>
-                                    </div> */}
-                                    {/* <div className="col-lg-4">
-                                      <div className="homemenu-list">
-                                        <div className="icon">
-                                          <Image
-                                            src={eight}
-                                            alt="img"
-                                            priority
-                                          />
-                                        </div>
-                                        <div className="content">
-                                          <h6>
-                                            <Link href="pricing-2">
-                                              Dedicated Servers
-                                            </Link>
-                                          </h6>
-                                          <p>Bare Metal Servers</p>
-                                        </div>
-                                      </div>
-                                    </div> */}
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
@@ -578,7 +530,11 @@ const Header = () => {
                                     <div className="col-lg-4">
                                       <div className="homemenu-list">
                                         <div className="icon">
-                                          <Image src={nighteen} alt="img" priority />
+                                          <Image
+                                            src={nighteen}
+                                            alt="img"
+                                            priority
+                                          />
                                         </div>
                                         <div className="content">
                                           <h6>
@@ -610,9 +566,11 @@ const Header = () => {
                                 </div>
                               </li>
                             </ul>
-                          </li>
+                          </li> */}
 
                           {/*   All Services Mobile menu */}
+
+                          {/* ---------------All servicess------------------- */}
 
                           <li className="has-dropdown active d-xl-none">
                             <Link
@@ -979,14 +937,14 @@ const Header = () => {
                                 </Link>
                               </li>
 
-                            
-
                               <li>
                                 <Link href="/cookie-policy">Cookie Policy</Link>
                               </li>
 
                               <li>
-                                <Link href="/affiliate-policy">Affiliate Policy</Link>
+                                <Link href="/affiliate-policy">
+                                  Affiliate Policy
+                                </Link>
                               </li>
 
                               {/* <li>
