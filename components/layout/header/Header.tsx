@@ -377,7 +377,7 @@ const Header = () => {
 
                           {/* Hosting Mobile menu end */}
 
-                          <li style={{ marginRight: "-10px" }}>
+                          <li >
                             <Link href="domain">Domain</Link>
                           </li>
 
