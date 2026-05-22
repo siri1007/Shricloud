@@ -80,3 +80,138 @@
 //   height: auto;
 // }
 
+
+
+/* =========================
+   MOBILE (0px - 599px)
+========================= */
+@media screen and (max-width: 599px) {
+
+  .partnerMarquee {
+    margin-top: -10px;
+    padding: 10px 0;
+  }
+
+  .partnerMarquee .marqueeTrack {
+    animation: marqueeScroll 18s linear infinite;
+  }
+
+  .partnerMarquee .marqueeContent {
+    gap: 40px;
+  }
+
+  .partnerMarquee .marqueeContent img {
+    width: 90px;
+    height: 55px;
+  }
+
+  .blackBg {
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .blackBg h2 {
+    font-size: 28px;
+  }
+
+  .blackBg p,
+  .blackBg span {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .blackBgg {
+    padding: 30px 15px;
+  }
+}
+
+/* =========================
+   TABLET (600px - 991px)
+========================= */
+@media screen and (min-width: 600px) and (max-width: 991px) {
+
+  .partnerMarquee {
+    margin-top: -20px;
+    padding: 15px 0;
+  }
+
+  .partnerMarquee .marqueeTrack {
+    animation: marqueeScroll 22s linear infinite;
+  }
+
+  .partnerMarquee .marqueeContent {
+    gap: 55px;
+  }
+
+  .partnerMarquee .marqueeContent img {
+    width: 120px;
+    height: 75px;
+  }
+
+  .blackBg {
+    height: auto;
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  .blackBg h2 {
+    font-size: 34px;
+  }
+
+  .blackBg p,
+  .blackBg span {
+    font-size: 15px;
+  }
+
+  .blackBgg {
+    padding: 40px 20px;
+  }
+}
+
+/* =========================
+   LAPTOP (992px - 1199px)
+========================= */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .partnerMarquee .marqueeContent {
+    gap: 65px;
+  }
+
+  .partnerMarquee .marqueeContent img {
+    width: 135px;
+    height: 85px;
+  }
+
+  .blackBg {
+    height: 180px;
+    padding: 40px;
+  }
+
+  .blackBg h2 {
+    font-size: 38px;
+  }
+
+  .blackBgg {
+    padding: 50px 30px;
+  }
+}
+
+/* =========================
+   DESKTOP (1200px and up)
+========================= */
+@media screen and (min-width: 1200px) {
+
+  .partnerMarquee .marqueeContent {
+    gap: 80px;
+  }
+
+  .partnerMarquee .marqueeContent img {
+    width: 150px;
+    height: 95px;
+  }
+
+  .blackBg {
+    height: 200px;
+  }
+}

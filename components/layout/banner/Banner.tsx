@@ -1,12 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import one from "@/public/img/hero/hero-1-circle-left.png";
-// import two from "@/public/img/hero/hero-1-circle-right.png";
-// import three from "@/public/img/hero/hero-1-dot-left.png";
-// import four from "@/public/img/hero/hero-1-dot-right.png";
 import five from "@/public/img/hero/activity.png";
-import six from "@/public/img/hero/author-img.png";
 import seven from "@/public/img/hero/hero-llustration.png";
+// import Mediaqueries from "@/components/layout/banner/Bannermediaqueries.module.scss";
 
 const Banner = () => {
   return (
@@ -20,125 +17,72 @@ const Banner = () => {
         <Image src={one} alt="shape-img" />
       </div>
 
-      {/* <div className="circle-shape-right">
-        <Image src={two} alt="shape-img" />
-      </div> */}
-
-      {/* <div className="dot-left">
-        <Image src={three} alt="img" priority />
-      </div> */}
-      {/* <div className="dot-right">
-        <Image src={four} alt="img" priority />
-      </div> */}
-      {/* <div className="hero-social">
-        <span>Follow on</span>
-        <Link href="/">
-          <i className="fab fa-facebook-f"></i>
-        </Link>
-        <Link href="/">
-          <i className="fab fa-twitter"></i>
-        </Link>
-        <Link href="/">
-          <i className="fa-brands fa-linkedin-in"></i>
-        </Link>
-        <Link href="/">
-          <i className="fa-brands fa-youtube"></i>
-        </Link>
-      </div> */}
+     
       <div className="container">
         <div className="row g-4 justify-content-between">
           <div className="col-lg-6">
             <div className="hero-content">
-              <span
-                className="sub-text "
-               
-              >
+              <span className="sub-text ">
                 <Image src={five} alt="img" priority className="me-2" />
                 Everything You Need to Create a Website
               </span>
-              <h1
-               
+              <h1>Upgrade To Shricloud Cloud Hosting Today</h1>
+
+              <h6
+                style={{
+                  fontSize: "16px",
+                  lineHeight: "28px",
+                  color: "#ffffff",
+                  marginTop: "18px",
+                }}
               >
-                Upgrade To Shricloud  Cloud Hosting Today
-              </h1>
+                <div
+                  style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                >
+                  <span style={{ color: "#FFA31A", fontSize: "18px" }}>✔</span>
+                  <span>
+                    <strong>Domain:</strong> Free.
+                  </span>
+                </div>
 
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "10px",
+                    marginTop: "10px",
+                  }}
+                >
+                  <span style={{ color: "#FFA31A", fontSize: "18px" }}>✔</span>
+                  <span>
+                    <strong>Migration:</strong> Seamless.
+                  </span>
+                </div>
 
-             <h6
-  style={{
-    fontSize: "16px",
-    lineHeight: "28px",
-    color: "#ffffff",
-    marginTop: "18px",
-  }}
->
-  <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-    <span style={{ color: "#FFA31A", fontSize: "18px" }}>✔</span>
-    <span>
-      <strong>Domain:</strong> Free.
-    </span>
-  </div>
-
-  <div
-    style={{
-      display: "flex",
-      alignItems: "center",
-      gap: "10px",
-      marginTop: "10px",
-    }}
-  >
-    <span style={{ color: "#FFA31A", fontSize: "18px" }}>✔</span>
-    <span>
-      <strong>Migration:</strong> Seamless.
-    </span>
-  </div>
-
-  <div
-    style={{
-      display: "flex",
-      alignItems: "center",
-      gap: "10px",
-      marginTop: "10px",
-    }}
-  >
-    <span style={{ color: "#FFA31A", fontSize: "18px" }}>✔</span>
-    <span>
-      <strong>Support:</strong> Constant.
-    </span>
-  </div>
-</h6>
-
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "10px",
+                    marginTop: "10px",
+                  }}
+                >
+                  <span style={{ color: "#FFA31A", fontSize: "18px" }}>✔</span>
+                  <span>
+                    <strong>Support:</strong> Constant.
+                  </span>
+                </div>
+              </h6>
 
               <div className="hero-author">
-                <Link
-                  href="/"
-                  className="theme-btn bg-color-2 "
-                 
-                >
+                <Link href="/" className="theme-btn bg-color-2 ">
                   Start Now <i className="fas fa-long-arrow-alt-right"></i>
                 </Link>
-                {/* <div
-                  className="author-content "
-                
-                  >
-                  <Image src={six} alt="author-img" />
-                  <div className="content">
-                    <div className="star">
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="fas fa-star"></i>
-                      <i className="far fa-star"></i>
-                    </div>
-                    <p className="text-white">450+ reviews</p>
-                  </div>
-                </div> */}
+               
               </div>
             </div>
           </div>
-          <div
-            className="col-lg-5 "
-           
-          >
+          <div className="col-lg-5 ">
             <div className="hero-image">
               <Image src={seven} alt="img" priority />
             </div>

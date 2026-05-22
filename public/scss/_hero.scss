@@ -159,34 +159,12 @@
     z-index: -1;
   }
 
-//   .hero-image {
-//     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 
-//    .hero-image img {
-//   width: 280px !important;
-//   height: auto;
-// }
-//   }
-
-// .hero-image {
-//   animation: up-down 2s ease-in-out infinite alternate-reverse both;
-//   border: 1px solid #000;
-//    margin-left: 50px;
-
-//   img {
-//     width: 680px;
-//     height: 280px;
-//     object-fit: contain;
-   
-    
-//   }
-// }
 
 
 .hero-image {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
-  // margin-right: -50px;
-
+  width:80px
 
   img {
     // width: 100%;       // responsive
@@ -474,6 +452,7 @@
       .hero-image {
         max-width: 510px;
         // width:900px;
+
 
         position: relative;
         animation: initial;

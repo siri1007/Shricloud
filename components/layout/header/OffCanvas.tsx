@@ -56,12 +56,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <Image
-                      src={shricloudlogo}
-                      alt="logo-img"
-                      priority
-                    
-                    />
+                    <Image src={shricloudlogo} alt="logo-img" priority />
                   </Link>
                 </div>
                 <div
@@ -195,7 +190,6 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                       <Link href="domain">Domain</Link>
                     </li>
 
-
                     <li>
                       <a
                         className={`drop ${isSubMenuButton("support")}`}
@@ -205,48 +199,42 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                       </a>
                       <ul className={`submenu ${isSubMenuOpen("support")}`}>
                         <li>
-                          <Link href="https://shricloud.com/kb/">Knowledge Base</Link>
+                          <Link href="https://shricloud.com/kb/">
+                            Knowledge Base
+                          </Link>
                         </li>
-
-
 
                         <li>
-                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=1">Technical</Link>
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=1">
+                            Technical
+                          </Link>
                         </li>
-
-
 
                         <li>
-                          <Link href="https://my.shricloud.com/index.php?/tickets/new/">Sales</Link>
-
-
-
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/">
+                            Sales
+                          </Link>
                         </li>
 
-
-                        
-                        
                         <li>
-                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=2">Migration</Link>
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=2">
+                            Migration
+                          </Link>
                         </li>
 
-
-                           
                         <li>
-                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=3">Billing</Link>
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=3">
+                            Billing
+                          </Link>
                         </li>
 
-
-                            
                         <li>
-                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=5">Affiliate</Link>
+                          <Link href="https://my.shricloud.com/index.php?/tickets/new/&dept_id=5">
+                            Affiliate
+                          </Link>
                         </li>
-
-                        
                       </ul>
                     </li>
-
-
 
                     <li>
                       <a
@@ -286,70 +274,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                   </ul>
                 </nav>
               </div>
-              <div className="offcanvas__contact">
-                <h4>Contact Info</h4>
-                <ul>
-                  <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon">
-                      <i className="fal fa-map-marker-alt"></i>
-                    </div>
-                    <div className="offcanvas__contact-text">
-                      <Link target="_blank" href="/">
-                        Hyderabad,India
-                      </Link>
-                    </div>
-                  </li>
-                  <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon mr-15">
-                      <i className="fal fa-envelope"></i>
-                    </div>
-                    <div className="offcanvas__contact-text">
-                      <Link href="mailto:info@shricloud.com">
-                        <span className="mailto:info@shricloud.com">
-                          info@shricloud.com
-                        </span>
-                      </Link>
-                    </div>
-                  </li>
-                  <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon mr-15">
-                      <i className="fal fa-clock"></i>
-                    </div>
-                    <div className="offcanvas__contact-text">
-                      <Link target="_blank" href="/">
-                        Mod-friday, 09am -05pm
-                      </Link>
-                    </div>
-                  </li>
-                  <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon mr-15">
-                      <i className="far fa-phone"></i>
-                    </div>
-                    <div className="offcanvas__contact-text">
-                      <Link href="tel:+11002345909">+11002345909</Link>
-                    </div>
-                  </li>
-                </ul>
-                <div className="header-button mt-4">
-                  <Link href="https://my.shricloud.com/index.php?/clientarea/" className="theme-btn text-center">
-                   Login <i className="fa-solid fa-arrow-right-long"></i>
-                  </Link>
-                </div>
-                <div className="social-icon d-flex align-items-center">
-                  <Link href="/">
-                    <i className="fab fa-facebook-f"></i>
-                  </Link>
-                  <Link href="/">
-                    <i className="fab fa-twitter"></i>
-                  </Link>
-                  <Link href="/">
-                    <i className="fab fa-youtube"></i>
-                  </Link>
-                  <Link href="/">
-                    <i className="fab fa-linkedin-in"></i>
-                  </Link>
-                </div>
-              </div>
+             
             </div>
           </div>
         </div>
