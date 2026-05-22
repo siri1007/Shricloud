@@ -1,104 +1,362 @@
 
-// --
+// // --
 
+
+// .wrapper {
+//   padding: 80px 40px;
+//   text-align: center;
+//   color: black;
+// }
+
+// .title {
+//   font-size: 48px;
+//   font-weight: 700;
+
+//   span {
+//     color: #384BFF;
+//   }
+// }
+
+
+
+// .subtitle {
+//   margin-top: 12px;
+//   color: #94a3b8;
+//   line-height: 1.6;
+// }
+
+// .grid {
+//   display: grid;
+//   grid-template-columns: repeat(4, 1fr);
+//   gap: 14px;
+//   // margin-top: 50px;
+//   // border: 1px solid #000;
+//   width:1200px;
+//   margin: 50px auto;
+// }
+
+// .card {
+//   border: 1px solid rgba(255, 255, 255, 0.08);
+//   border-radius: 16px;
+//   padding: 18px;
+//   position: relative;
+//   transition: all 0.3s ease;
+// }
+
+// .card:hover {
+//   border-color: #384BFF;
+//   transform: translateY(-6px);
+// }
+
+// .popular {
+//   border: 1px solid #384BFF;
+// }
+
+// .badge {
+//   position: absolute;
+//   top: 16px;
+//   right: 16px;
+//   background: #384BFF;
+//   font-size: 12px;
+//   padding: 4px 10px;
+//   border-radius: 6px;
+//   color: #fff;
+// }
+
+// .planName {
+//   font-size: 35px;
+//   margin-bottom: 20px;
+// }
+
+
+
+// .per {
+//   font-size: 14px;
+//   color: #94a3b8;
+// }
+
+// .button {
+//   margin: 20px 0;
+//   width: 100%;
+//   padding: 12px;
+//   border-radius: 8px;
+//   border: 1px solid #384BFF;
+//   background: transparent;
+//   color: black;
+//   cursor: pointer;
+//   transition: 0.3s;
+
+//   /* IMPORTANT FOR <a> TAG */
+//   display: inline-flex;
+//   align-items: center;
+//   justify-content: center;
+//   text-decoration: none;
+//   box-sizing: border-box;
+//   font-weight: 500;
+// }
+
+// .button:hover {
+//   background: #384BFF;
+//   color: #fff;
+// }
+
+// .features {
+//   list-style: none;
+//   padding: 0;
+//   margin-top: 20px;
+// }
+
+// .featureItem {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   margin-bottom: 14px;
+//   position: relative;
+// }
+
+// .left {
+//   display: flex;
+//   align-items: center;
+//   gap: 8px;
+// }
+
+// .check {
+//   color: #384BFF;
+//   font-size: 14px;
+// }
+
+// .infoWrapper {
+//   position: relative;
+// }
+
+// .info {
+//   width: 18px;
+//   height: 18px;
+//   background: rgba(255, 255, 255, 0.1);
+//   border-radius: 50%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 12px;
+//   cursor: pointer;
+// }
+
+// .tooltip {
+//   position: absolute;
+//   bottom: 28px;
+//   right: 0;
+//   background: #384BFF;
+//   padding: 8px 10px;
+//   border-radius: 6px;
+//   color: white;
+//   font-size: 12px;
+//   white-space: nowrap;
+//   z-index: 10;
+// }
+
+// /* Responsive */
+
+// @media (max-width: 1024px) {
+//   .grid {
+//     grid-template-columns: repeat(2, 1fr);
+//   }
+// }
+
+// @media (max-width: 600px) {
+//   .wrapper {
+//     padding: 60px 20px;
+//   }
+
+//   .title {
+//     font-size: 34px;
+//   }
+
+//   .grid {
+//     grid-template-columns: 1fr;
+//   }
+// }
+
+
+
+// .price {
+//   font-size: 26px; // decreased size
+//   font-weight: 700;
+//   display: flex;
+//   align-items: flex-start;
+//   justify-content: center;
+//   gap: 2px;
+//   line-height: 1;
+// }
+
+// .currency {
+//   font-size: 14px;
+//   position: relative;
+//   top: 2px; // moves ₹ slightly upward
+// }
+
+// .amount {
+//   font-size: 26px;
+// }
+
+// .per {
+//   font-size: 14px;
+//   color: #94a3b8;
+//   margin-left: 4px;
+//   align-self: flex-end;
+// }
+
+
+
+
+
+
+
+
+// --------------------------------------
+
+
+
+/* ========================= */
+/* BASE */
+/* ========================= */
 
 .wrapper {
-  padding: 80px 40px;
+  padding: 90px 20px;
   text-align: center;
   color: black;
+  overflow: hidden;
 }
 
 .title {
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 700;
+  line-height: 1.2;
+  color: #000;
 
   span {
-    color: #384BFF;
+    color: #384bff;
   }
 }
 
-
-
 .subtitle {
-  margin-top: 12px;
+  margin-top: 14px;
   color: #94a3b8;
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 16px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
-  // margin-top: 50px;
-  // border: 1px solid #000;
-  width:1200px;
-  margin: 50px auto;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 55px auto 0;
 }
 
 .card {
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 16px;
-  padding: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  padding: 24px 20px;
   position: relative;
   transition: all 0.3s ease;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
 }
 
 .card:hover {
-  border-color: #384BFF;
+  border-color: #384bff;
   transform: translateY(-6px);
 }
 
 .popular {
-  border: 1px solid #384BFF;
+  border: 1px solid #384bff;
 }
 
 .badge {
   position: absolute;
   top: 16px;
   right: 16px;
-  background: #384BFF;
-  font-size: 12px;
-  padding: 4px 10px;
+  background: #384bff;
+  font-size: 11px;
+  padding: 5px 10px;
   border-radius: 6px;
   color: #fff;
+  font-weight: 600;
 }
 
 .planName {
-  font-size: 35px;
-  margin-bottom: 20px;
+  font-size: 34px;
+  margin-bottom: 22px;
+  font-weight: 700;
+  color: #000;
 }
 
+/* ========================= */
+/* PRICE */
+/* ========================= */
 
+.price {
+  font-size: 26px;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.currency {
+  font-size: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.amount {
+  font-size: 32px;
+  font-weight: 700;
+}
 
 .per {
   font-size: 14px;
   color: #94a3b8;
+  margin-left: 4px;
+  align-self: flex-end;
 }
 
+/* ========================= */
+/* BUTTON */
+/* ========================= */
+
 .button {
-  margin: 20px 0;
+  margin: 22px 0;
   width: 100%;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #384BFF;
+  padding: 13px;
+  border-radius: 10px;
+  border: 1px solid #384bff;
   background: transparent;
   color: black;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.3s ease;
 
-  /* IMPORTANT FOR <a> TAG */
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   box-sizing: border-box;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .button:hover {
-  background: #384BFF;
+  background: #384bff;
   color: #fff;
 }
+
+/* ========================= */
+/* FEATURES */
+/* ========================= */
 
 .features {
   list-style: none;
@@ -110,29 +368,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   position: relative;
+  gap: 10px;
 }
 
 .left {
   display: flex;
   align-items: center;
   gap: 8px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .check {
-  color: #384BFF;
+  color: #384bff;
   font-size: 14px;
+  flex-shrink: 0;
 }
 
 .infoWrapper {
   position: relative;
+  flex-shrink: 0;
 }
 
 .info {
   width: 18px;
   height: 18px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(15, 23, 42, 0.08);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -145,7 +409,7 @@
   position: absolute;
   bottom: 28px;
   right: 0;
-  background: #384BFF;
+  background: #384bff;
   padding: 8px 10px;
   border-radius: 6px;
   color: white;
@@ -154,53 +418,147 @@
   z-index: 10;
 }
 
-/* Responsive */
+/* ========================= */
+/* LARGE TABLET */
+/* ========================= */
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
   }
 }
 
-@media (max-width: 600px) {
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media (max-width: 991px) {
   .wrapper {
-    padding: 60px 20px;
+    padding: 75px 24px;
   }
 
   .title {
-    font-size: 34px;
+    font-size: 44px;
+    line-height: 1.25;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 45px;
+  }
+
+  .card {
+    padding: 22px 18px;
+  }
+
+  .planName {
+    font-size: 30px;
+  }
+
+  .amount {
+    font-size: 30px;
+  }
+
+  .featureItem {
+    margin-bottom: 14px;
+  }
+
+  .left {
+    font-size: 14px;
+  }
+}
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 575px) {
+  .wrapper {
+    padding: 60px 16px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    line-height: 24px;
+
+    br {
+      display: none;
+    }
   }
 
   .grid {
     grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 35px;
   }
-}
 
+  .card {
+    padding: 22px 18px;
+    border-radius: 16px;
+  }
 
+  .badge {
+    top: 14px;
+    right: 14px;
+    font-size: 10px;
+  }
 
-.price {
-  font-size: 26px; // decreased size
-  font-weight: 700;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 2px;
-  line-height: 1;
-}
+  .planName {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
 
-.currency {
-  font-size: 14px;
-  position: relative;
-  top: 2px; // moves ₹ slightly upward
-}
+  .price {
+    margin-bottom: 8px;
+  }
 
-.amount {
-  font-size: 26px;
-}
+  .currency {
+    font-size: 13px;
+  }
 
-.per {
-  font-size: 14px;
-  color: #94a3b8;
-  margin-left: 4px;
-  align-self: flex-end;
+  .amount {
+    font-size: 28px;
+  }
+
+  .per {
+    font-size: 13px;
+  }
+
+  .button {
+    padding: 12px;
+    font-size: 14px;
+    margin: 18px 0;
+  }
+
+  .features {
+    margin-top: 18px;
+  }
+
+  .featureItem {
+    margin-bottom: 14px;
+    align-items: flex-start;
+  }
+
+  .left {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .tooltip {
+    white-space: normal;
+    width: 180px;
+    right: -10px;
+  }
 }

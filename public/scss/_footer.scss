@@ -13,6 +13,7 @@
 
   .single-footer-widget {
     margin-top: 30px;
+    margin-left: 10px;
 
     .widget-head {
       margin-bottom: 30px;
@@ -24,7 +25,7 @@
       h3 {
         font-weight: bold;
         color: $white;
-        font-size: 24px;
+        font-size: 20px;
         padding-bottom: 20px;
         border-bottom: 2px solid $white;
         display: inline-block;
@@ -290,5 +291,20 @@
     .scroll-icon {
       margin-top: -40px;
     }
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .mobile-half {
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .mobile-half .single-footer-widget {
+    padding-right: 10px;
   }
 }
