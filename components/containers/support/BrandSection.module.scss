@@ -1,0 +1,62 @@
+.brandSection {
+  padding: 60px 0;
+//   background: #0b0f19;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* ================= BRAND ITEM ================= */
+
+.brandItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+//   opacity: 0.8;
+  transition: 0.3s ease;
+
+  img {
+    max-width: 160px;
+    height: auto;
+    object-fit: contain;
+    // filter: grayscale(100%);
+    // transition: 0.3s ease;
+  }
+
+ 
+
+    
+  
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 992px) {
+  .brandSection {
+    padding: 50px 0;
+  }
+
+  .brandItem img {
+    max-width: 140px;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 576px) {
+  .brandSection {
+    padding: 40px 0;
+  }
+
+  .brandItem {
+    padding: 10px;
+  }
+
+  .brandItem img {
+    max-width: 120px;
+  }
+}

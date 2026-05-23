@@ -1,0 +1,142 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 90px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+/* ================= LEFT ================= */
+
+.left {
+  flex: 1;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+  img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.title {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 18px;
+    color: #fff;
+}
+
+.desc {
+  font-size: 16px;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.button {
+  background: #2b5bed;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* ================= RIGHT IMAGE ================= */
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .right {
+    order: -1; /* image first on tablet */
+  }
+
+  .image {
+    max-width: 600px;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 575px) {
+.banner {
+    padding:40px 0 0 ;
+  }
+
+  /* stack naturally: image first, then text */
+  .container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 30px;
+  }
+
+  /* IMAGE FIRST */
+  .right {
+    order: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    max-width: 95%;
+    transform: scale(1.5.09); /* slightly bigger image */
+  }
+
+  /* TEXT BELOW IMAGE */
+  .left {
+    order: 1;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+ 
+}

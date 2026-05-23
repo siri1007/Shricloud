@@ -26,17 +26,7 @@ export default function SupportSection() {
             no wait times, no tickets, just fast solutions.
           </p>
 
-          {/* <div className={styles.features}>
-            <div className={styles.feature}>
-              <i className="fa-regular fa-clock"></i>
-              <span>Avg. reply &lt; 2 min</span>
-            </div>
-
-            <div className={styles.feature}>
-              <i className="fa-regular fa-comments"></i>
-              <span>Live chat & tickets</span>
-            </div>
-          </div> */}
+       
         </div>
 
         {/* CENTER LINE */}
@@ -54,14 +44,7 @@ export default function SupportSection() {
   Get Started
 </a>
 
-          {/* <button className={styles.secondaryBtn}>
-            <i className="fa-solid fa-headphones"></i>
-            Contact Support
-          </button> */}
-
-          {/* <p className={styles.responseText}>
-            Typical response in under 2 minutes
-          </p> */}
+        
         </div>
       </div>
     </section>

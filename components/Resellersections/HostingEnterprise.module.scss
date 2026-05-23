@@ -1,28 +1,111 @@
+// .container {
+//   background: linear-gradient(120deg, #0b0f19, #0f172a);
+//   padding: 80px 0;
+//   color: #fff;
+// }
+
+// .inner {
+//   width: 1200px;
+//   margin: auto;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+// }
+
+// /* LEFT SIDE */
+// .left {
+//   position: relative;
+//   width: 50%;
+// }
+
+// .cube {
+//   width: 380px;
+//   height: auto;
+// }
+
+// .shield {
+//   position: absolute;
+//   bottom: -40px;
+//   right: 80px;
+//   width: 160px;
+// }
+
+// /* RIGHT SIDE */
+// .right {
+//   width: 50%;
+//   padding-left: 40px;
+// }
+
+// .right h1 {
+//   font-size: 38px;
+//   font-weight: 700;
+//   line-height: 1.2;
+//   margin-bottom: 30px;
+//   color:#fff;
+// }
+
+// .right ul {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// .right li {
+//   display: flex;
+//   align-items: flex-start;
+//   margin-bottom: 20px;
+//   font-size: 16px;
+//   line-height: 1.6;
+//   color: #cbd5e1;
+// }
+
+// /* GREEN TICK STYLE */
+// .tick {
+//   color: #22c55e;
+//   font-size: 18px;
+//   margin-right: 12px;
+//   margin-top: 3px;
+//   flex-shrink: 0;
+// }
+
+
+// -------------------
+
+
+
+
 .container {
   background: linear-gradient(120deg, #0b0f19, #0f172a);
-  padding: 80px 0;
+  padding: 90px 20px;
   color: #fff;
 }
 
 .inner {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 60px;
 }
 
-/* LEFT SIDE */
+/* ================= LEFT ================= */
+
 .left {
   position: relative;
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cube {
   width: 380px;
   height: auto;
+  max-width: 100%;
 }
 
+/* if you enable shield later */
 .shield {
   position: absolute;
   bottom: -40px;
@@ -30,10 +113,10 @@
   width: 160px;
 }
 
-/* RIGHT SIDE */
+/* ================= RIGHT ================= */
+
 .right {
   width: 50%;
-  padding-left: 40px;
 }
 
 .right h1 {
@@ -41,7 +124,7 @@
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 30px;
-  color:#fff;
+  color: #fff;
 }
 
 .right ul {
@@ -59,11 +142,72 @@
   color: #cbd5e1;
 }
 
-/* GREEN TICK STYLE */
+/* TICK */
 .tick {
   color: #22c55e;
   font-size: 18px;
   margin-right: 12px;
   margin-top: 3px;
   flex-shrink: 0;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 991px) {
+  .inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .right h1 {
+    font-size: 32px;
+  }
+
+  .right li {
+    justify-content: center;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 575px) {
+  .container {
+    padding: 60px 16px;
+  }
+
+  .inner {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* IMAGE FIRST */
+  .left {
+    order: -1;
+  }
+
+  .cube {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* TEXT BELOW */
+  .right {
+    order: 1;
+  }
+
+  .right h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .right li {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }

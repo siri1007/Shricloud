@@ -23,12 +23,7 @@ const faqs: FAQ[] = [
       "n8n comes preinstalled with Shricloud's \"Ubuntu 24.04 with n8n\" VPS template. Within a Docker environment, you can quickly and easily deploy your automation workflows. We also offer a template to set up n8n in queue mode for better scalability.\n\nTo guide you through accessing, configuring, and managing n8n in regular or queue mode, check out this step-by-step guide on the n8n VPS template.",
     icon: <FiServer />,
   },
-  // {
-  //   question: "How much does it cost to self-host n8n?",
-  //  answer:
-  // "Depending on the scale of your requirements, you can buy one of the following VPS hosting plans - self-hosted n8n included in all plans:\n\nKVM 1 – $6.49/month\nKVM 2 – $8.99/month\nKVM 4 – $12.99/month\nKVM 8 – $25.99/month\n\nWhen picking your plan, consider your needs carefully. For example, the KVM 2 package comes with two virtual CPU cores, 8 GB of RAM, and 100 GB of NVMe SSD storage, which is ideal for small-to-medium businesses and online stores. Start small and upgrade as and when you need additional resources.",
-  //   icon: <FiHelpCircle />,
-  // },
+  
   {
     question: "Is n8n VPS hosting secure?",
     answer:

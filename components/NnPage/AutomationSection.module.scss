@@ -1,6 +1,157 @@
+// .section {
+//   background: #06070D;
+//   padding: 80px 20px;
+//   color: #fff;
+// }
+
+// .container {
+//   max-width: 1200px;
+//   margin: auto;
+// }
+
+// .heading {
+//   text-align: center;
+//   font-size: 42px;
+//   margin-bottom: 50px;
+//   color:#fff;
+// }
+
+// .grid {
+//   display: grid;
+//   grid-template-columns: 2fr 1fr;
+//   grid-template-rows: repeat(2, 1fr);
+//   gap: 24px;
+// }
+
+// /* LARGE LEFT CARD */
+// .cardLarge {
+//   grid-row: span 2;
+//   background: linear-gradient(135deg, #111827, #1a1f35);
+//   border-radius: 20px;
+// //   padding: 30px;
+//   position: relative;
+//   overflow: hidden;
+//   border: 1px solid rgba(255, 255, 255, 0.08);
+
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+
+//   &:hover {
+//     transform: translateY(-6px);
+//     box-shadow: 0 20px 60px rgba(100, 100, 255, 0.2);
+//   }
+// }
+
+
+// .cardContent {
+//   max-width: 60%;
+  
+// }
+
+// .stack {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 10px;
+// }
+
+// .stackItem {
+//   background: rgba(255, 255, 255, 0.05);
+//   padding: 10px 14px;
+//   border-radius: 10px;
+//   font-size: 14px;
+// }
+
+// /* RIGHT CARDS */
+// .card {
+//   background: linear-gradient(135deg, #111827, #1a1f35);
+//   border-radius: 20px;
+//   padding: 24px;
+//   position: relative;
+//   overflow: hidden;
+//   border: 1px solid rgba(255, 255, 255, 0.08);
+
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+
+//   &:hover {
+//     transform: translateY(-5px);
+//     box-shadow: 0 15px 40px rgba(120, 120, 255, 0.15);
+//   }
+
+//   h3 {
+//     font-size: 20px;
+//     margin-bottom: 10px;
+//      color:#fff;
+//   }
+
+//   p {
+//     font-size: 14px;
+//     opacity: 0.7;
+//   }
+// }
+
+// /* TOGGLE */
+// .toggle {
+//   display: flex;
+//   align-items: center;
+//   gap: 10px;
+//   margin-top: 15px;
+// }
+
+// .switch {
+//   width: 40px;
+//   height: 20px;
+//   background: #22c55e;
+//   border-radius: 20px;
+// }
+
+// /* IMAGES */
+// .imageLarge {
+//   width: 100%;
+//   height: 100%;
+
+//   margin-top: 20px;
+//   position: relative; // change from absolute
+// }
+
+// .image {
+//   width: 100%;
+//   margin-top: 20px;
+//   opacity: 0.9;
+// }
+
+
+// .cardLarge {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+//   border-radius: 20px;
+// }
+
+// .cardContent {
+//   width: 100%;
+//   height: 100%;
+// }
+
+// .imageLarge {
+//     margin: 0;
+//   position: absolute;
+//   inset: 0; // top:0 left:0 right:0 bottom:0
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover; // 🔥 fills without distortion
+// }
+
+
+// ----------
+
+
 .section {
-  background: #06070D;
-  padding: 80px 20px;
+  background: #06070d;
+  padding: 90px 20px;
   color: #fff;
 }
 
@@ -11,10 +162,14 @@
 
 .heading {
   text-align: center;
-  font-size: 42px;
-  margin-bottom: 50px;
-  color:#fff;
+  font-size: 44px;
+  margin-bottom: 55px;
+  color: #fff;
 }
+
+/* ========================= */
+/* DESKTOP GRID */
+/* ========================= */
 
 .grid {
   display: grid;
@@ -23,124 +178,140 @@
   gap: 24px;
 }
 
+/* ========================= */
 /* LARGE LEFT CARD */
+/* ========================= */
+
 .cardLarge {
   grid-row: span 2;
   background: linear-gradient(135deg, #111827, #1a1f35);
   border-radius: 20px;
-//   padding: 30px;
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  &:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 60px rgba(100, 100, 255, 0.2);
-  }
+  transition: 0.3s ease;
+  min-height: 420px;
 }
 
+.cardLarge:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(100, 100, 255, 0.2);
+}
 
+/* IMAGE */
 .cardContent {
-  max-width: 60%;
-  
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-.stack {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.imageLarge {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.stackItem {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 10px 14px;
-  border-radius: 10px;
-  font-size: 14px;
-}
-
+/* ========================= */
 /* RIGHT CARDS */
+/* ========================= */
+
 .card {
   background: linear-gradient(135deg, #111827, #1a1f35);
   border-radius: 20px;
-  padding: 24px;
-  position: relative;
-  overflow: hidden;
+  padding: 26px;
   border: 1px solid rgba(255, 255, 255, 0.08);
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(120, 120, 255, 0.15);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(120, 120, 255, 0.15);
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 24px;
+}
+
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media (max-width: 991px) {
+  .section {
+    padding: 70px 18px;
   }
 
-  h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-     color:#fff;
+  .heading {
+    font-size: 38px;
   }
 
-  p {
-    font-size: 14px;
-    opacity: 0.7;
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  /* STACK ORDER */
+  .cardLarge {
+    min-height: 320px;
+  }
+
+  .card {
+    padding: 22px;
   }
 }
 
-/* TOGGLE */
-.toggle {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 15px;
-}
+/* ========================= */
+/* MOBILE */
+/* ========================= */
 
-.switch {
-  width: 40px;
-  height: 20px;
-  background: #22c55e;
-  border-radius: 20px;
-}
+@media (max-width: 575px) {
+  .section {
+    padding: 55px 16px;
+  }
 
-/* IMAGES */
-.imageLarge {
-  width: 100%;
-  height: 100%;
+  .heading {
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
 
-  margin-top: 20px;
-  position: relative; // change from absolute
-}
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
 
-.image {
-  width: 100%;
-  margin-top: 20px;
-  opacity: 0.9;
-}
+  /* BIG IMAGE CARD */
+  .cardLarge {
+    min-height: 260px;
+    border-radius: 16px;
+  }
 
+  .card {
+    padding: 18px;
+  }
 
-.cardLarge {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  border-radius: 20px;
-}
+  .card h3 {
+    font-size: 18px;
+  }
 
-.cardContent {
-  width: 100%;
-  height: 100%;
-}
-
-.imageLarge {
-    margin: 0;
-  position: absolute;
-  inset: 0; // top:0 left:0 right:0 bottom:0
-  width: 100%;
-  height: 100%;
-  object-fit: cover; // 🔥 fills without distortion
+  .card p {
+    font-size: 13px;
+    line-height: 22px;
+  }
 }

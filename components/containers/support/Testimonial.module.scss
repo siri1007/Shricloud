@@ -1,0 +1,125 @@
+.section {
+//   background: #070b14;
+  padding: 90px 20px;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+
+  span {
+    color: #4f7cff;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 38px;
+    margin-top: 10px;
+  }
+}
+
+/* ================= CARD ================= */
+
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 25px;
+  border-radius: 18px;
+  position: relative;
+  transition: 0.3s ease;
+  min-height: 280px;
+
+ 
+}
+
+/* SHAPE */
+.shape {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  img {
+    width: 40px;
+    opacity: 0.6;
+  }
+}
+
+/* STARS */
+.stars {
+  color: #fbbf24;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* TEXT */
+.text {
+  font-size: 15px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  h4 {
+    font-size: 16px;
+  }
+
+  span {
+    font-size: 13px;
+    color: #94a3b8;
+  }
+}
+
+/* AVATAR */
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 992px) {
+  .header h2 {
+    font-size: 30px;
+  }
+
+  .card {
+    min-height: 260px;
+  }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 576px) {
+  .section {
+    padding: 60px 15px;
+  }
+
+  .header h2 {
+    font-size: 24px;
+  }
+
+  .card {
+    padding: 18px;
+    min-height: auto;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}

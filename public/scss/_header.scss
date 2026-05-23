@@ -709,7 +709,8 @@
     }
 
     @include breakpoint(max-sm) {
-      padding: 130px 60px;
+      padding-top: 97px;
+      padding-right:123px;
     }
 
     h1 {
@@ -801,3 +802,25 @@
 
 
 
+
+
+
+.client-area-btn {
+  padding: 10px 15px;
+}
+
+.client-btn {
+  width: 100%;
+  padding: 12px;
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.client-btn:hover {
+  background: #0059c9;
+}

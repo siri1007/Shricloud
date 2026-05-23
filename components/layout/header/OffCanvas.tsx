@@ -76,78 +76,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
               <div className="mobile-menu fix mb-3">
                 <nav className="mean-nav d-block d-xl-none">
                   <ul>
-                    {/* <li>
-                      <a
-                        className={`drop ${isSubMenuButton("home")}`}
-                        onClick={() => handleSubmenu("home")}
-                      >
-                        Home
-                      </a>
-                      <ul className={`submenu ${isSubMenuOpen("home")}`}>
-                        <li>
-                          <Link href="/">Web Hosting</Link>
-                        </li>
-                        <li>
-                          <Link href="index-2">Hosting Services</Link>
-                        </li>
-                        <li>
-                          <Link href="index-3">Hosting Solutions</Link>
-                        </li>
-                        <li>
-                          <Link href="index-4">Hosting Agency</Link>
-                        </li>
-                      </ul>
-                    </li> */}
-
-                    {/* <li className="has-dropdown">
-                      <a
-                        className={`drop ${isSubMenuButton("pages")}`}
-                        onClick={() => handleSubmenu("pages")}
-                      >
-                        All services
-                      </a>
-                      <ul className={`submenu ${isSubMenuOpen("pages")}`}>
-                        <li>
-                        <Link href="Wordpress-cloud-Hosting">
-                                  Premium cloud
-                                </Link>
-                        </li>
-                        <li>
-                        <Link href="Elite-cloud"> Elite Cloud</Link>
-                        </li>
-                        <li>
-                      <Link href="reseller-hosting">
-                                  Reseller Cloud
-                                </Link>
-                        </li>
-                        <li>
-                          <Link href="wordpress-hosting">
-                                  WordPress Hosting
-                                </Link>
-                        </li>
-                        <li>
-                         <Link href="dedicated-hosting">
-                                 
-                                  Dedicated Hosting
-                                </Link>
-                        </li>
-                        <li>
-                     <Link href="vps-hosting"> Basic Hosting</Link>
-                        </li>
-                        <li>
-                        <Link href="cloud-hosting">Cloud-Hosting</Link>
-                        </li>
-                        <li>
-                          <Link href="team">Team</Link>
-                        </li>
-                        <li>
-                          <Link href="team-details">Team Details</Link>
-                        </li>
-                        <li>
-                          <Link href="error">Error Page</Link>
-                        </li>
-                      </ul>
-                    </li> */}
+                   
 
                     <li>
                       <a
@@ -273,6 +202,16 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                     </li>
                   </ul>
                 </nav>
+
+
+
+                <div className="client-area-btn mt-4">
+  <Link href="https://my.shricloud.com/index.php?/clientarea/">
+    <button className="client-btn">
+      Client Area
+    </button>
+  </Link>
+</div>
               </div>
              
             </div>

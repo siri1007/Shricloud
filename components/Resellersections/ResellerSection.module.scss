@@ -1,18 +1,26 @@
+// 
+
+
+// -----------------
+
+
+
 .section {
   background: linear-gradient(135deg, #020617, #071a2f);
-  padding: 100px 0;
+  padding: 100px 20px;
   color: #fff;
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   align-items: center;
   gap: 60px;
 }
 
-/* LEFT SIDE */
+/* ================= LEFT IMAGE ================= */
+
 .left {
   flex: 1;
 }
@@ -27,7 +35,14 @@
   align-items: center;
 }
 
-/* RIGHT SIDE */
+.imageBox img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ================= RIGHT CONTENT ================= */
+
 .right {
   flex: 1;
 }
@@ -37,10 +52,9 @@
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 30px;
-  color:#fff;
+  color: #fff;
 }
 
-/* LIST */
 .list {
   display: flex;
   flex-direction: column;
@@ -59,7 +73,7 @@
   line-height: 1.6;
 }
 
-/* GREEN TICK */
+/* TICK */
 .tick {
   width: 22px;
   height: 22px;
@@ -82,19 +96,53 @@
   transform: rotate(45deg);
 }
 
-/* FOOTER NOTE */
-.footerNote {
-  margin-top: 40px;
-  font-size: 14px;
-  color: #94a3b8;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+/* ================= TABLET ================= */
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .listItem {
+    justify-content: center;
+  }
 }
 
-.dot {
-  width: 8px;
-  height: 8px;
-  background: #2563eb;
-  border-radius: 50%;
+/* ================= MOBILE ================= */
+
+@media (max-width: 575px) {
+  .container {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  /* IMAGE FIRST */
+  .left {
+    order: -1;
+    width: 100%;
+  }
+
+  .imageBox {
+    padding: 20px;
+  }
+
+  /* TEXT BELOW */
+  .right {
+    order: 1;
+  }
+
+  .heading {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .listItem p {
+    font-size: 14px;
+  }
 }
