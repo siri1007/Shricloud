@@ -1,0 +1,98 @@
+.section {
+  padding: 80px 20px;
+  background: #ffffff;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #1d4ed8;
+  font-weight: 700;
+}
+
+/* TABLE */
+.tableWrapper {
+  width: 90%;
+  max-width: 900px;   /* 👈 reduced width */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #f9fafb;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+
+/* COLUMN */
+.column {
+  display: flex;
+  flex-direction: column;
+
+  h6 {
+    background: #1d4ed8;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+/* CELL */
+.cell {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+/* =========================
+   TABLET + MOBILE (SCROLL)
+========================= */
+@media (max-width: 991px) {
+  .tableWrapper {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .tableWrapper::-webkit-scrollbar {
+    display: none; /* Chrome */
+  }
+
+  .column {
+    min-width: 220px;
+    flex-shrink: 0;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .column {
+    min-width: 200px;
+  }
+
+  .cell {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
