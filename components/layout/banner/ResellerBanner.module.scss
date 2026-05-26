@@ -80,8 +80,8 @@
   outline: none;
   padding: 15px 32px;
   border-radius: 10px;
-  background: #384bff;
-  color: #fff;
+  background: #ffa31a;
+  color: black;
   font-size: 15px;
   font-weight: 600;
   transition: 0.3s ease;
@@ -233,6 +233,7 @@
   .contentColumn {
     order: 2;
     width: 100%;
+    margin-top: -40px;
   }
 
   .heroContent {
@@ -266,7 +267,7 @@
   }
 
   .ctaBtn {
-    width: 100%;
+    // width: 100%;
     padding: 14px 18px;
     font-size: 14px;
   }

@@ -88,7 +88,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                       <ul className={`submenu ${isSubMenuOpen("hosting")}`}>
                         <li>
                           <Link href="Wordpress-cloud-Hosting">
-                            Premium cloud
+                            Wordpress cloud
                           </Link>
                         </li>
 

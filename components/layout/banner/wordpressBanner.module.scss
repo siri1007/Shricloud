@@ -336,7 +336,7 @@
   }
 
   .bannerWrapper {
-    flex-direction: column; /* image stays on top */
+    flex-direction: column-reverse; /* image stays on top */
     align-items: center;
     text-align: center;
     gap: 30px;
@@ -423,6 +423,8 @@
 
   .subText {
     font-size: 13px;
+    margin-left: -24px;
+    
   }
 
   .features ul li {

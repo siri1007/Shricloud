@@ -51,13 +51,16 @@
 }
 
 .button {
-  background: #2b5bed;
-  color: #fff;
+  background: #ffa31a;
+  color: black;
   border: none;
   padding: 12px 22px;
   border-radius: 10px;
   cursor: pointer;
   font-weight: 600;
+  display: flex;
+  align-items:flex-start;
+  margin-left:40px;
 }
 
 /* ================= RIGHT IMAGE ================= */
@@ -107,7 +110,7 @@
 
   /* stack naturally: image first, then text */
   .container {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
     gap: 30px;
   }
@@ -128,6 +131,7 @@
   /* TEXT BELOW IMAGE */
   .left {
     order: 1;
+    margin-bottom: 30px;
   }
 
   .title {
