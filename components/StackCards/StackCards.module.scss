@@ -121,16 +121,70 @@
 }
 
 /* MOBILE (disable stacking for clarity) */
+// @media (max-width: 768px) {
+//   .card {
+//     position: relative;
+//     height: auto;
+//     top: 0 !important;
+//   }
+
+//   .inner {
+//     flex-direction: column;
+//     text-align: center;
+//     padding: 30px;
+//   }
+// }
+
+
+// ---------
+
+/* MOBILE */
 @media (max-width: 768px) {
+
+  .wrapper {
+  margin: 50px 0; /* 
+  adds extra space at the bottom for mobile scrolling */
+  }
+
   .card {
-    position: relative;
-    height: auto;
-    top: 0 !important;
+    position: sticky;
+    top: 20px;
+    height: auto; // full card visible
+    min-height: 100vh; // gives proper scroll space
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
   }
 
   .inner {
     flex-direction: column;
     text-align: center;
-    padding: 30px;
+    padding: 25px;
+    width: 92%;
+    gap: 25px;
+  }
+
+  .right {
+    width: 100%;
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  /* mobile stack spacing */
+  .card:nth-child(2) {
+    top: 20px;
+  }
+
+  .card:nth-child(3) {
+    top: 40px;
+  }
+
+  .card:nth-child(4) {
+    top: 60px;
   }
 }
