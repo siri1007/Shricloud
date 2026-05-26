@@ -1,192 +1,119 @@
 "use client";
 
 import { useState } from "react";
+import styles from "./WpFAQSection.module.scss";
+import { FiZap, FiHelpCircle, FiShield, FiRefreshCw, FiServer } from "react-icons/fi";
 
-const ResellerFaq = () => {
-  const [faq, setFaq] = useState(0);
-
-  return (
-    <section
-      className="faq-section fix section-padding"
-      style={{
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <div className="container">
-        <div
-          className="faq-wrapper"
-          style={{
-            maxWidth: "800px",
-            margin: "0 auto",
-            textAlign: "center",
-          }}
-        >
-          <div className="faq-content">
-            <div className="section-title">
-              <h1>FAQ&apos;s</h1>
-              <h4>Everything You Need to Know About ShriCloud</h4>
-            </div>
-
-            <div className="faq-accordion mt-4">
-              <div className="accordion" id="accordion">
-
-                {/* ITEM 1 */}
-                <div className="accordion-item">
-                  <h5 className="accordion-header">
-                    <button
-                      className={`accordion-button ${faq === 0 ? "" : "collapsed"}`}
-                      onClick={() => setFaq(faq === 0 ? -1 : 0)}
-                    >
-                      Who is reseller hosting with ShriCloud best suited for?
-                    </button>
-                  </h5>
-                  <div className={`accordion-collapse collapse ${faq === 0 ? "show" : ""}`}>
-                    <div className="accordion-body">
-                      ShriCloud reseller hosting is ideal for freelancers, agencies, and entrepreneurs who want to offer hosting services without managing servers.
-                    </div>
-                  </div>
-                </div>
-
-                {/* ITEM 2 */}
-                <div className="accordion-item">
-                  <h5 className="accordion-header">
-                    <button
-                      className={`accordion-button ${faq === 1 ? "" : "collapsed"}`}
-                      onClick={() => setFaq(faq === 1 ? -1 : 1)}
-                    >
-                      What do I get with a ShriCloud reseller plan?
-                    </button>
-                  </h5>
-                  <div className={`accordion-collapse collapse ${faq === 1 ? "show" : ""}`}>
-                    <div className="accordion-body">
-                      You get hosting resources, control panels, and tools to manage multiple clients under your own brand.
-                    </div>
-                  </div>
-                </div>
-
-                {/* ITEM 3 */}
-                <div className="accordion-item">
-                  <h5 className="accordion-header">
-                    <button
-                      className={`accordion-button ${faq === 2 ? "" : "collapsed"}`}
-                      onClick={() => setFaq(faq === 2 ? -1 : 2)}
-                    >
-                      Will my customers see ShriCloud branding?
-                    </button>
-                  </h5>
-                  <div className={`accordion-collapse collapse ${faq === 2 ? "show" : ""}`}>
-                    <div className="accordion-body">
-                      No, ShriCloud offers white-label hosting, so your customers only see your brand.
-                    </div>
-                  </div>
-                </div>
-
-                {/* ITEM 4 */}
-                <div className="accordion-item">
-                  <h5 className="accordion-header">
-                    <button
-                      className={`accordion-button ${faq === 3 ? "" : "collapsed"}`}
-                      onClick={() => setFaq(faq === 3 ? -1 : 3)}
-                    >
-                      Can I manage multiple client websites easily?
-                    </button>
-                  </h5>
-                  <div className={`accordion-collapse collapse ${faq === 3 ? "show" : ""}`}>
-                    <div className="accordion-body">
-                      Yes, ShriCloud provides an intuitive dashboard to manage multiple websites and accounts efficiently.
-                    </div>
-                  </div>
-                </div>
-
-                {/* ITEM 5 */}
-                <div className="accordion-item">
-                  <h5 className="accordion-header">
-                    <button
-                      className={`accordion-button ${faq === 4 ? "" : "collapsed"}`}
-                      onClick={() => setFaq(faq === 4 ? -1 : 4)}
-                    >
-                      What happens if my clients experience high traffic?
-                    </button>
-                  </h5>
-                  <div className={`accordion-collapse collapse ${faq === 4 ? "show" : ""}`}>
-                    <div className="accordion-body">
-                      You can easily upgrade your plan to handle increased traffic and ensure smooth performance.
-                    </div>
-                  </div>
-                </div>
-
-                {/* ITEM 6 */}
-                <div className="accordion-item">
-                  <h5 className="accordion-header">
-                    <button
-                      className={`accordion-button ${faq === 5 ? "" : "collapsed"}`}
-                      onClick={() => setFaq(faq === 5 ? -1 : 5)}
-                    >
-                      Can I create my own pricing plans?
-                    </button>
-                  </h5>
-                  <div className={`accordion-collapse collapse ${faq === 5 ? "show" : ""}`}>
-                    <div className="accordion-body">
-                      Yes, you have full control to set your own pricing and create custom hosting packages.
-                    </div>
-                  </div>
-                </div>
-
-                {/* ITEM 7 */}
-                <div className="accordion-item">
-                  <h5 className="accordion-header">
-                    <button
-                      className={`accordion-button ${faq === 6 ? "" : "collapsed"}`}
-                      onClick={() => setFaq(faq === 6 ? -1 : 6)}
-                    >
-                      Is ShriCloud reliable for long-term growth?
-                    </button>
-                  </h5>
-                  <div className={`accordion-collapse collapse ${faq === 6 ? "show" : ""}`}>
-                    <div className="accordion-body">
-                      Yes, ShriCloud ensures high uptime, performance, and scalability for growing businesses.
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <style jsx>{`
-        .accordion-button {
-          font-weight: 600;
-          text-align: left;
-        }
-
-        .accordion-item {
-          margin-bottom: 10px;
-          border-radius: 8px;
-          overflow: hidden;
-        }
-
-        .accordion-body {
-          text-align: left;
-          font-size: 14px;
-          color: #555;
-        }
-
-        .section-title h1 {
-          font-size: 32px;
-          font-weight: 700;
-        }
-
-        .section-title h4 {
-          margin-top: 10px;
-          color: #6b7280;
-        }
-      `}</style>
-    </section>
-  );
+type FAQ = {
+  question: string;
+  answer: string;
+  icon: JSX.Element;
 };
 
-export default ResellerFaq;
+
+const faqs: FAQ[] = [
+  {
+    question: "What is reseller hosting, and how does Shricloud make it easy to get started?",
+    answer:
+      "Reseller hosting lets you buy hosting resources in bulk and sell them to your own clients under your brand — essentially running your own hosting business without needing to build any infrastructure from scratch.With Shricloud, you can create customizable hosting plans and set your own pricing easily.It’s a simple way for freelancers, agencies, and entrepreneurs to start a hosting business without managing infrastructure.Their support team also helps you throughout the process, making it beginner-friendly and scalable",
+    icon: <FiZap />,
+  },
+  {
+    question: "How do I get started with reseller hosting through Shricloud?",
+    answer:
+      "Getting started is simpler than you might think. Begin by understanding your target audience — who are you selling to, and what do they need? Once you have a clear picture, choose a reseller plan from SiteCountry that fits your goals and budget. From there, Shricloud backs you with marketing tools and insights to help you attract your first clients and grow steadily from day one.",
+    icon: <FiHelpCircle />,
+  },
+  {
+    question: " Can I put my own brand on the hosting service I resell through Shricloud?",
+    answer:
+      "Absolutely. Shricloud's reseller plans come with white-labeled control panels, meaning your clients only see your brand — your logo, your business name, your identity. You can create custom hosting packages and present a fully branded experience, making it easy to build a professional hosting business that feels entirely your own.",
+    icon: <FiShield />,
+  },
+
+  {
+    question: "How much does website speed matter for my reseller hosting business?",
+    answer:
+      "It matters more than most people realize. Slow websites frustrate users and hurt your clients' search rankings — which reflects directly on your service. Shricloud equips your reseller business with high-performance servers and built-in speed optimization, so your clients get fast, reliable websites and you get a reputation worth growing.",
+    icon: <FiServer />,
+  },
+  {
+    question: "Can I upgrade or change my reseller plan as my business scales?",
+    answer:
+      "Yes, and it's designed to be hassle-free. As your client base grows, you can upgrade your plan anytime — or scale down if needed. Shricloud's team handles the transition smoothly so there's little to no disruption to your existing clients. Your hosting setup grows with your business, not against it.",
+    icon: <FiHelpCircle />,
+  },
+ 
+];
+
+
+
+export default function FaqSection() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const toggleFAQ = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  return (
+    <section className={styles.faqSection}>
+      <div className={styles.container}>
+        <h2 className={styles.heading}>Frequently asked questions</h2>
+        <p className={styles.subheading}>
+          Prioritize your site's safety, speed, and security
+        </p>
+
+        {/* FULL WIDTH */}
+        <div
+          className={`${styles.card} ${styles.full}`}
+          onClick={() => toggleFAQ(0)}
+        >
+          <div className={styles.cardTop}>
+            <div className={styles.left}>
+              <div className={styles.icon}>{faqs[0].icon}</div>
+              <h3>{faqs[0].question}</h3>
+            </div>
+
+            <span className={styles.arrow}>
+              {openIndex === 0 ? "−" : "+"}
+            </span>
+          </div>
+
+          {openIndex === 0 && (
+            <p className={styles.answer}>{faqs[0].answer}</p>
+          )}
+        </div>
+
+        {/* GRID */}
+        <div className={styles.grid}>
+          {faqs.slice(1).map((faq, index) => {
+            const actualIndex = index + 1;
+
+            return (
+              <div
+                key={index}
+                className={styles.card}
+                onClick={() => toggleFAQ(actualIndex)}
+              >
+                <div className={styles.cardTop}>
+                  <div className={styles.left}>
+                    <div className={styles.icon}>{faq.icon}</div>
+                    <h3>{faq.question}</h3>
+                  </div>
+
+                  <span className={styles.arrow}>
+                    {openIndex === actualIndex ? "−" : "+"}
+                  </span>
+                </div>
+
+                {openIndex === actualIndex && (
+                  <p className={styles.answer}>{faq.answer}</p>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}

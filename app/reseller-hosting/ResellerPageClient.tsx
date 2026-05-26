@@ -15,6 +15,7 @@ import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
 import ResellerHostingplan from "@/components/Resellersections/ResellerSection";
 import HostingEnterprise from "@/components/Resellersections/HostingEnterprise";
+import ResellerFaq from "@/components/containers/faq/Resellerfaq";
 
 const page = () => {
 
@@ -36,11 +37,13 @@ const page = () => {
       {/* <PricingHome  ref={pricingRef}/> */}
 
           <ResellerHostingplan />
+          
 
       <HostingChooseThree />
       {/* <FaqSection /> */}
      
       <HostingEnterprise />
+      <ResellerFaq />
       <Testimonial />
       <Brand />
       <Footer />
