@@ -58,9 +58,9 @@
   border-radius: 10px;
   cursor: pointer;
   font-weight: 600;
-  display: flex;
-  align-items:flex-start;
-  margin-left:40px;
+  // display: flex;
+  // align-items:flex-start;
+  // margin-left:40px;
 }
 
 /* ================= RIGHT IMAGE ================= */
@@ -135,12 +135,23 @@
   }
 
   .title {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .desc {
     font-size: 14px;
+    padding:0 12px;
   }
+
+
+  
+.button {
+  
+  
+  display: flex;
+  align-items:flex-start;
+  margin-left:40px;
+}
 
  
 }

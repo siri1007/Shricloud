@@ -155,13 +155,13 @@ const N8nBanner = () => {
                 </ul>
               </div>
 
-              <Link
+              {/* <Link
                 href="pricing"
                 className={`theme-btn bg-color-2 ${styles.ctaBtn}`}
-              >
+                >
                 view plan{" "}
                 <i className="fas fa-long-arrow-alt-right"></i>
-              </Link>
+              </Link> */}
             </div>
           </div>
 
