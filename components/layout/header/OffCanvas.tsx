@@ -188,7 +188,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                         </li>
 
                         <li>
-                          <Link href="/afi">Affiliate Policy</Link>
+                          <Link href="/affiliate-policy">Affiliate Policy</Link>
                         </li>
 
                         <li>
