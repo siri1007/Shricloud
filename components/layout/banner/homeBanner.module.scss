@@ -1,0 +1,468 @@
+.bannerSection {
+  position: relative;
+  padding: 170px 0 100px;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.backgroundShape {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.bannerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+/* CONTENT */
+
+.contentContainer {
+  flex: 1;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 10px 18px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+
+  img {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.heading {
+  font-size: 38px;
+  line-height: 1.2;
+//   font-weight: 800;
+  color: #fff;
+}
+
+.secondLine {
+  display: block;
+  margin-top: 12px;
+}
+
+
+
+.description {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #fff;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.features {
+//   display: flex;
+//   flex-wrap: wrap;
+  gap: 20px;
+margin:30px 0;
+}
+
+.featureItem {
+    margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #FFA31A;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.ctaButton {
+  border: none;
+  outline: none;
+  background: #FFA31A;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+
+}
+
+/* IMAGE */
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+  .bannerWrapper {
+    gap: 30px;
+  }
+
+  .heading {
+    font-size: 42px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .heroImage {
+    max-width: 420px;
+  }
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 767px) {
+
+  .bannerSection {
+    padding: 60px 0;
+  }
+
+  .bannerWrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* IMAGE FIRST */
+  .imageContainer {
+    order: 1;
+  }
+
+  .contentContainer {
+    order: 2;
+  }
+
+  .heading {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .description {
+    font-size: 15px;
+    margin: 0 auto 25px;
+  }
+
+  .features {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .featureItem {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .ctaButton {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .heroImage {
+    max-width: 320px;
+  }
+}
+
+
+
+
+
+
+.saleBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 10px 18px;
+  border-radius: 50px;
+
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  margin-bottom: 30px;
+
+  overflow: hidden;
+}
+
+/* SALE TAG */
+
+.saleTag {
+  background: linear-gradient(135deg, #ffb703, #ff7b00);
+
+  color: white;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+
+  padding: 6px 14px;
+  border-radius: 30px;
+
+  text-transform: uppercase;
+
+  box-shadow: 0 4px 14px rgba(255, 183, 3, 0.4);
+}
+
+/* TEXT ANIMATION */
+
+.saleTextWrapper {
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  min-width: 200px;
+}
+
+.saleText {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+
+  opacity: 0;
+
+  animation: rotateText 15s infinite;
+}
+
+/* 1st text */
+.saleText:nth-child(1) {
+  animation-delay: 0s;
+}
+
+/* 2nd text */
+.saleText:nth-child(2) {
+  animation-delay: 5s;
+}
+
+/* 3rd text */
+.saleText:nth-child(3) {
+  animation-delay: 10s;
+}
+
+@keyframes rotateText {
+
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  5% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  30% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  35% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
+
+.secondLine {
+  display: block;
+  margin-top: 14px;
+
+// background: linear-gradient(
+//   90deg,
+//   #a855f7,
+//   #ec4899,
+//   #6366f1
+// );
+
+
+background: linear-gradient(
+  90deg,
+#c084fc,
+  #3b82f6,
+  #6366f1
+);
+
+
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-size: 200% auto;
+
+  animation: gradientMove 5s linear infinite;
+}
+
+/* Smooth moving gradient */
+
+@keyframes gradientMove {
+
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+/* TABLET */
+
+@media (max-width: 991px) {
+
+  .heading {
+    font-size: 48px;
+  }
+}
+
+/* MOBILE */
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+  .bannerSection {
+    padding: 60px 0;
+  }
+
+  .bannerWrapper {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  /* IMAGE FIRST */
+  .imageContainer {
+    order: 1;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contentContainer {
+    order: 2;
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .secondLine {
+    margin-top: 10px;
+  }
+
+  .description {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  /* FEATURES */
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+
+    width: 100%;
+
+    margin: 28px 0;
+  }
+
+  .featureItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 14px;
+
+    width: 100%;
+
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .check {
+    min-width: 24px;
+    min-height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ctaButton {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .heroImage {
+    max-width: 320px;
+    margin-top: 30px;
+  }
+
+  .saleBadge {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
