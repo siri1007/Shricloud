@@ -14,20 +14,20 @@ import styles from "./N8nPricing.module.scss";
 const plans = [
   {
     title: "N8N Launch",
-    price: "₹399 INR",
+    price: "₹399",
     ram: "4GB",
     vcpu: "2",
   },
   {
     title: "N8N Flow",
-    price: "₹599 INR",
+    price: "₹599",
     ram: "8GB",
     vcpu: "4",
     highlight: true,
   },
   {
     title: "N8N Scale",
-    price: "₹899 INR",
+    price: "₹899",
     ram: "16GB",
     vcpu: "8",
   },
