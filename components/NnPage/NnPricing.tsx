@@ -51,7 +51,7 @@ const Pricing = () => {
 
                 <div className={styles.price}>
                   {plan.price}
-                  <span> / Per Month</span>
+                  <span> /  Month</span>
                 </div>
 
                 {/* Custom Curve */}
