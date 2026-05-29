@@ -1,8 +1,4 @@
-
-
-
 // // --------------------
-
 
 // "use client";
 // import Link from "next/link";
@@ -13,13 +9,9 @@
 
 // import styles from "./wordpressBanner.module.scss";
 
-
-
-
 // type WordpressBannerProps = {
 //   scrollToPricing: () => void;
 // };
-
 
 // const Banner = ( { scrollToPricing }: WordpressBannerProps) => {
 //   return (
@@ -71,12 +63,9 @@
 //                 </div>
 //               </div>
 
-            
-
 // <button onClick={scrollToPricing} className={styles.ctaBtn}>
 //   View Plans →
 // </button>
-
 
 //             </div>
 //           </div>
@@ -94,11 +83,7 @@
 
 // export default Banner;
 
-
-
 // -------------------
-
-
 
 "use client";
 
@@ -115,113 +100,91 @@ type HomeBannerProps = {
 
 const HomeBanner = ({ scrollToPricing }: HomeBannerProps) => {
   return (
-   <section
-  className={styles.bannerSection}
-  style={{
-    backgroundImage: "url(/img/hero/hero-bg-1.jpg)",
-  }}
->
-      
+    <section
+      className={styles.bannerSection}
+      style={{
+        backgroundImage: "url(/img/hero/hero-bg-1.jpg)",
+      }}
+    >
       <div className={styles.backgroundShape}>
         <Image src={circleShape} alt="shape" />
       </div>
 
       <div className="container">
-    
-<div className={styles.bannerWrapper}>
+        <div className={styles.bannerWrapper}>
+          {/* LEFT CONTENT */}
+          <div className={styles.contentContainer}>
+            <div className={styles.saleBadge}>
+              <span className={styles.saleTag}>SALE</span>
 
-  {/* LEFT CONTENT */}
-  <div className={styles.contentContainer}>
+              <div className={styles.saleTextWrapper}>
+                <span className={styles.saleText}>Get up to 60% OFF</span>
 
-   
-<div className={styles.saleBadge}>
+                <span className={styles.saleText}>For a limited time.</span>
+               
 
-  <span className={styles.saleTag}>
-    SALE
-  </span>
+                <span className={styles.saleText}>
+                  Get premium hosting today.
+                </span>
+              </div>
+            </div>
 
-  <div className={styles.saleTextWrapper}>
-    <span className={styles.saleText}>
-      For a limited time.
-    </span>
-
-    <span className={styles.saleText}>
-      Free domain with hosting.
-    </span>
-
-    <span className={styles.saleText}>
-      Get premium hosting today.
-    </span>
-  </div>
-
-</div>
-
-
-
-   
-{/* <h1 className={styles.heading}>
+            {/* <h1 className={styles.heading}>
   Everything You Need to
   <span className={styles.secondLine}>
     Build Your Own Website
   </span>
 </h1> */}
 
+            <h1 className={styles.heading}>
+              Everything You Need to
+              <span className={styles.secondLine}>Build Your Own Website</span>
+            </h1>
 
-<h1 className={styles.heading}>
-  Everything You Need to
-  <span className={styles.secondLine}>
-    Build Your Own Website
-  </span>
-</h1>
-
-
-
-{/* 
+            {/* 
     <p className={styles.description}>
       Fast, secure, and affordable hosting solutions with free domain,
       seamless migration, and  support.
     </p> */}
 
-    <div className={styles.features}>
+            <div className={styles.features}>
+              <div className={styles.featureItem}>
+                <span className={styles.check}>✔</span>
+                <span>
+                  <p>Free Domain</p>
+                </span>
+              </div>
 
-      <div className={styles.featureItem}>
-        <span className={styles.check}>✔</span>
-        <span><strong>Free Domain</strong></span>
-      </div>
+              <div className={styles.featureItem}>
+                <span className={styles.check}>✔</span>
+                <span>
+                  <p>Easy Migration</p>
+                </span>
+              </div>
 
-      <div className={styles.featureItem}>
-        <span className={styles.check}>✔</span>
-        <span><strong>Easy Migration</strong></span>
-      </div>
+              <div className={styles.featureItem}>
+                <span className={styles.check}>✔</span>
+                <span>
+                  <p>24/7 Support</p>
+                </span>
+              </div>
+            </div>
 
-      <div className={styles.featureItem}>
-        <span className={styles.check}>✔</span>
-        <span><strong>24/7 Support</strong></span>
-      </div>
+            <button onClick={scrollToPricing} className={styles.ctaButton}>
+              View Plans →
+            </button>
+          </div>
 
-    </div>
-
-    <button
-      onClick={scrollToPricing}
-      className={styles.ctaButton}
-    >
-      View Plans →
-    </button>
-
-  </div>
-
-  {/* RIGHT IMAGE */}
-  <div className={styles.imageContainer}>
-    <Image
-      src={heroImage}
-      alt="Website Hosting"
-      priority
-      className={styles.heroImage}
-    />
-  </div>
-
-</div>
-
+          {/* RIGHT IMAGE */}
+          <div className={styles.imageContainer}>
+            <Image
+              src={heroImage}
+              alt="Website Hosting"
+              priority
+              className={styles.heroImage}
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
