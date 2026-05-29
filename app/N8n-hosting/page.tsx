@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import  N8nPageClient from "./N8nPageClient";
 
 export const metadata: Metadata = {
-  title: "Self-Hosted n8n VPS Plans | Fast, Secure & Unlimited Workflows",
+  title: "Self-Hosted n8n  | Fast, Secure & Unlimited Workflows",
 
   description:
     "Host n8n on your own VPS with full root access  Unlimited workflows",

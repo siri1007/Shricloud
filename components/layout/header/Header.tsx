@@ -980,15 +980,15 @@ const Header = () => {
                       <i className="fas fa-bars"></i>
                     </div>
                   </div>
-                  <div className="header-button">
-                    <Link
-                      href="https://my.shricloud.com/index.php?/clientarea/"
-                      className="theme-btn"
-                    >
-                      Client Area
-                      <i className="fa-solid fa-arrow-right-long"></i>
-                    </Link>
-                  </div>
+                 <div className="client-access-btn">
+  <Link
+    href="https://my.shricloud.com/index.php?/clientarea/"
+    className="client-access-link"
+  >
+    Client Area
+   
+  </Link>
+</div>
                 </div>
               </div>
             </div>
